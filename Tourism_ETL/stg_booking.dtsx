@@ -1,0 +1,1238 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/24/2026 9:05:34 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-6JR8DCN"
+  DTS:CreatorName="DESKTOP-6JR8DCN\MSIPC"
+  DTS:DTSID="{76D0DAA7-8FC6-4188-BAE6-451F0DDA4DD5}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1016.0"
+  DTS:LocaleID="1036"
+  DTS:ObjectName="stg_booking"
+  DTS:PackageType="5"
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{A39EAE84-9A0D-40B3-92FD-68A79E38E08A}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FF_Bookings]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{96DB8052-1396-4E70-810A-6B01DBE7D88D}"
+      DTS:ObjectName="FF_Bookings">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\MSIPC\Desktop\dataset\sources\bookings.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Booking_ID"
+              DTS:DTSID="{DD32E435-9E89-4478-96E9-EB3060C968C7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Customer_ID"
+              DTS:DTSID="{06855ACC-6B00-43A5-812D-DE80B14F9776}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hotel_ID"
+              DTS:DTSID="{976D5BB0-ACF8-4720-8413-F9D8089C636F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Flight_ID"
+              DTS:DTSID="{D2C9D3BD-EAA8-47F7-AAED-FD88F8390829}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Offer_ID"
+              DTS:DTSID="{9E61716C-7536-413A-8D16-9A9BEF14EAE9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Booking_Date"
+              DTS:DTSID="{B28EE5E4-20EE-45F1-8979-4BEFF7C08CAD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Travel_Start_Date"
+              DTS:DTSID="{3A93D02F-6114-4110-8A0E-CB48DC167136}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Travel_End_Date"
+              DTS:DTSID="{5CA0B6AD-8B46-4E4E-8C9D-B221441E0AB2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Travelers_Count"
+              DTS:DTSID="{D820D1BC-30FE-419A-BEF5-6859D178F901}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hotel_Nights"
+              DTS:DTSID="{49B17CC2-1A70-479D-9674-E78D37F92428}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Booking_Status"
+              DTS:DTSID="{74611817-07F0-4AE8-91BA-C7944BC2CCE2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Payment_Method"
+              DTS:DTSID="{BE0AB6EA-D5E8-4E53-A210-98362D0A8280}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Total_Amount_EUR"
+              DTS:DTSID="{F04C66EF-2FD6-440B-AD6D-ACD5F456CFDF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Discount_EUR"
+              DTS:DTSID="{35552F42-E05B-4434-A708-009741AD10A1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Channel"
+              DTS:DTSID="{30F23584-DB50-4E0C-B89E-CA1A0F33CE21}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Charger Booking"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{895317A4-C8FA-48F1-993C-8951952732D2}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Charger Booking"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Charger Booking\Colonne dérivée"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
+              name="Colonne dérivée"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Charger Booking\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  description="Entrée de la transformation de colonnes dérivées"
+                  name="Entrée de colonne dérivée">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                  description="Sortie par défaut de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  name="Sortie de colonne dérivée"
+                  synchronousInputId="Package\Charger Booking\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      length="12"
+                      lineageId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      name="Source_File"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">"bookings.csv"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"bookings.csv"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      name="Load_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                  description="Sortie d'erreur de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de colonne dérivée"
+                  synchronousInputId="Package\Charger Booking\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Charger Booking\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[stg].[bookings]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Charger Booking\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{17C283B3-0699-46ED-A4A3-71A8C1326C18}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[OLEDB_TourismDW]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Booking_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Booking_ID"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Booking_ID]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_ID]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Customer_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Customer_ID"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Customer_ID]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Customer_ID]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Hotel_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Hotel_ID"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_ID]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_ID]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Flight_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Flight_ID"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Flight_ID]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Flight_ID]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Offer_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Offer_ID"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Offer_ID]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Offer_ID]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Booking_Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Booking_Date"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Booking_Date]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_Date]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Travel_Start_Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Travel_Start_Date"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Start_Date]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Start_Date]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Travel_End_Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Travel_End_Date"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_End_Date]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_End_Date]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Travelers_Count]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Travelers_Count"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travelers_Count]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travelers_Count]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Hotel_Nights]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Hotel_Nights"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_Nights]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Nights]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Booking_Status]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Booking_Status"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Booking_Status]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_Status]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Payment_Method]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Payment_Method"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Payment_Method]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Payment_Method]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Total_Amount_EUR]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Total_Amount_EUR"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Total_Amount_EUR]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Total_Amount_EUR]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Discount_EUR]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Discount_EUR"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Discount_EUR]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Discount_EUR]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Channel]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Channel"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Channel]"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Channel]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Source_File]"
+                      cachedDataType="wstr"
+                      cachedLength="12"
+                      cachedName="Source_File"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      lineageId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]" />
+                    <inputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Load_Date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Load_Date"
+                      externalMetadataColumnId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      lineageId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Booking_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Booking_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Customer_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Flight_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Flight_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Offer_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Offer_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Booking_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Booking_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Start_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Travel_Start_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_End_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Travel_End_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travelers_Count]"
+                      dataType="wstr"
+                      length="255"
+                      name="Travelers_Count" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_Nights]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_Nights" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Booking_Status]"
+                      dataType="wstr"
+                      length="255"
+                      name="Booking_Status" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Payment_Method]"
+                      dataType="wstr"
+                      length="255"
+                      name="Payment_Method" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Total_Amount_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Total_Amount_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Discount_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Discount_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Channel]"
+                      dataType="wstr"
+                      length="255"
+                      name="Channel" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      dataType="wstr"
+                      length="100"
+                      name="Source_File" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      name="Load_Date" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Charger Booking\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Charger Booking\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Charger Booking\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Charger Booking\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Charger Booking\Source du fichier plat"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Source du fichier plat"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Charger Booking\Source du fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[FF_Bookings]"
+                  connectionManagerRefId="Package.ConnectionManagers[FF_Bookings]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Booking_ID]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_ID]"
+                      name="Booking_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Customer_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Customer_ID]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Customer_ID]"
+                      name="Customer_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_ID]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_ID]"
+                      name="Hotel_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Flight_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Flight_ID]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Flight_ID]"
+                      name="Flight_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Offer_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Offer_ID]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Offer_ID]"
+                      name="Offer_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Booking_Date]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_Date]"
+                      name="Booking_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Start_Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Start_Date]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Start_Date]"
+                      name="Travel_Start_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_End_Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_End_Date]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_End_Date]"
+                      name="Travel_End_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travelers_Count]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travelers_Count]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travelers_Count]"
+                      name="Travelers_Count"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Nights]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_Nights]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Nights]"
+                      name="Hotel_Nights"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_Status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Booking_Status]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Booking_Status]"
+                      name="Booking_Status"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Payment_Method]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Payment_Method]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Payment_Method]"
+                      name="Payment_Method"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Total_Amount_EUR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Total_Amount_EUR]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Total_Amount_EUR]"
+                      name="Total_Amount_EUR"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Discount_EUR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Discount_EUR]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Discount_EUR]"
+                      name="Discount_EUR"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Channel]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Channel]"
+                      length="255"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Channel]"
+                      name="Channel"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Booking_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Booking_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Customer_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Customer_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Flight_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Flight_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Offer_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Offer_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Booking_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Booking_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Start_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Travel_Start_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_End_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Travel_End_Date" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travelers_Count]"
+                      dataType="wstr"
+                      length="255"
+                      name="Travelers_Count" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_Nights]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_Nights" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Booking_Status]"
+                      dataType="wstr"
+                      length="255"
+                      name="Booking_Status" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Payment_Method]"
+                      dataType="wstr"
+                      length="255"
+                      name="Payment_Method" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Total_Amount_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Total_Amount_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Discount_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Discount_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Channel]"
+                      dataType="wstr"
+                      length="255"
+                      name="Channel" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Charger Booking.Paths[Sortie de colonne dérivée]"
+              endId="Package\Charger Booking\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de colonne dérivée"
+              startId="Package\Charger Booking\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+            <path
+              refId="Package\Charger Booking.Paths[Sortie de source de fichier plat]"
+              endId="Package\Charger Booking\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+              name="Sortie de source de fichier plat"
+              startId="Package\Charger Booking\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\vider stgBooking"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tâche d'exécution de requêtes SQL"
+      DTS:DTSID="{84AF4E27-7BCC-4169-B21C-8E41825BB14A}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="vider stgBooking"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{17C283B3-0699-46ED-A4A3-71A8C1326C18}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE stg.Bookings;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte]"
+      DTS:CreationName=""
+      DTS:DTSID="{C38F5BD7-A6B2-48CF-9F44-BD6F70DFF807}"
+      DTS:From="Package\vider stgBooking"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte"
+      DTS:To="Package\Charger Booking" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="156,41.6"
+          Id="Package\Charger Booking"
+          TopLeft="193.571428983491,198.058823355806" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\vider stgBooking"
+          TopLeft="158.571428908986,39.7647058474976" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="236.971428908986,81.3647058474976">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="34.6000000745058,116.694117508308"
+              Start="0,0"
+              End="34.6000000745058,109.194117508308">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.3470587541539" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,54.3470587541539"
+                    Point2="0,58.3470587541539"
+                    Point3="4,58.3470587541539" />
+                  <mssgle:LineSegment
+                    End="30.6000000745058,58.3470587541539" />
+                  <mssgle:CubicBezierSegment
+                    Point1="30.6000000745058,58.3470587541539"
+                    Point2="34.6000000745058,58.3470587541539"
+                    Point3="34.6000000745058,62.3470587541539" />
+                  <mssgle:LineSegment
+                    End="34.6000000745058,109.194117508308" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Charger Booking">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="178.4,41.6"
+          Id="Package\Charger Booking\Source du fichier plat"
+          TopLeft="45.0000000957932,125.411764595954" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\Charger Booking\Colonne dérivée"
+          TopLeft="382.857143672145,146.058823401386" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Charger Booking\Destination OLE DB"
+          TopLeft="634.285715635942,147.588235164751" />
+        <EdgeLayout
+          Id="Package\Charger Booking.Paths[Sortie de source de fichier plat]"
+          TopLeft="223.400000095793,146.211764595954">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="159.457143576352,20.6470588054315"
+              Start="0,0"
+              End="151.957143576352,20.6470588054315">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="75.728571788176,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="75.728571788176,0"
+                    Point2="79.728571788176,0"
+                    Point3="79.728571788176,4" />
+                  <mssgle:LineSegment
+                    End="79.728571788176,16.6470588054315" />
+                  <mssgle:CubicBezierSegment
+                    Point1="79.728571788176,16.6470588054315"
+                    Point2="79.728571788176,20.6470588054315"
+                    Point3="83.728571788176,20.6470588054315" />
+                  <mssgle:LineSegment
+                    End="151.957143576352,20.6470588054315" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Charger Booking.Paths[Sortie de colonne dérivée]"
+          TopLeft="537.257143672145,167.623529283068">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="97.028571963797,0"
+              Start="0,0"
+              End="89.528571963797,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="89.528571963797,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Charger Booking\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

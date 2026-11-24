@@ -1,26 +1,26 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="11/24/2026 12:12:33 PM"
+  DTS:CreationDate="11/24/2026 8:57:44 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-6JR8DCN"
   DTS:CreatorName="DESKTOP-6JR8DCN\MSIPC"
-  DTS:DTSID="{C1985C1B-E17C-4495-9C93-196A7911139A}"
+  DTS:DTSID="{993E91B3-7E9B-4D56-89F3-94770057EBAC}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="17.0.1016.0"
   DTS:LocaleID="1036"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="stg_customers"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{219CE2D4-1BBD-4BB2-83B1-D86163CB1ED7}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{50119941-58D2-4E11-8A59-6871BC6D9A44}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[FF_Destinations]"
+      DTS:refId="Package.ConnectionManagers[FF_Customers]"
       DTS:CreationName="FLATFILE"
-      DTS:DTSID="{CA1D193E-3B3A-4998-AA4E-421849EE1EDE}"
-      DTS:ObjectName="FF_Destinations">
+      DTS:DTSID="{971ADA5E-483C-4BAB-A056-A46D059DEB4A}"
+      DTS:ObjectName="FF_Customers">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -30,106 +30,88 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\MSIPC\Desktop\dataset\destinations.csv">
+          DTS:ConnectionString="C:\Users\MSIPC\Desktop\dataset\sources\customers.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Destination_ID"
-              DTS:DTSID="{F303E875-C5D4-45DF-B9C9-0E51F79688CC}"
+              DTS:ObjectName="Customer_ID"
+              DTS:DTSID="{9AC0A918-DD8F-4639-8F4E-FB190543B12A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Destination_Name"
-              DTS:DTSID="{3C875F5F-B72A-4894-82CD-B5F9BB883698}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{FF650DE0-299D-4703-A5B3-D1E08D7B80DC}"
+              DTS:DTSID="{881D9B18-3D2D-4DED-80BF-E2594B9BDC81}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Continent"
-              DTS:DTSID="{8313006D-6FDB-4374-A2F1-CF0A6A0F803D}"
+              DTS:ObjectName="Age"
+              DTS:DTSID="{107CD50A-70EB-48AA-AFA2-2FFFA72A355C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Climate"
-              DTS:DTSID="{AFB24D27-5A41-4C40-8627-8F56B844C2F0}"
+              DTS:ObjectName="Travel_Budget_EUR"
+              DTS:DTSID="{B45EB829-7503-42C0-8FCB-A170A7BAF2BE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Travel_Style"
-              DTS:DTSID="{E7BC0CD3-9BD5-465A-AFCB-32A70C01375B}"
+              DTS:ObjectName="Preferred_Climate"
+              DTS:DTSID="{4ADAEB96-7B82-4C97-8596-7063F0062062}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Latitude"
-              DTS:DTSID="{A73FAC54-DED4-4863-BD15-BBE77D71C26D}"
+              DTS:ObjectName="Travel_Type"
+              DTS:DTSID="{9262E561-C3BC-4C17-ADB5-04179274248C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Longitude"
-              DTS:DTSID="{7476E6A0-D692-4960-ADEA-89596D76B57C}"
+              DTS:ObjectName="Preferred_Style"
+              DTS:DTSID="{606EF959-D572-4DD4-9B6E-070779F0C74B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Best_Season"
-              DTS:DTSID="{B7580A5C-7A54-4A8A-BCA0-205744D933EF}"
+              DTS:ObjectName="Preferred_Star_Rating"
+              DTS:DTSID="{2BBEFCC8-3F57-4F85-86A4-EE241A9EAD7D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
+              DTS:ColumnDelimiter="_x007C_"
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Avg_Daily_Budget_EUR"
-              DTS:DTSID="{0A6A4DD5-85F6-4924-ADAB-FABB9B491A18}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Safety_Index"
-              DTS:DTSID="{A1948F53-2B5D-4BEF-B167-FB09379BBBA7}"
+              DTS:ObjectName="Trip_Duration_Days"
+              DTS:DTSID="{F90F96A3-A1F0-4758-A799-B658134E8FA1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -137,8 +119,8 @@
               DTS:MaximumWidth="255"
               DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="Popularity_Index"
-              DTS:DTSID="{8710AB71-5A1D-4BF9-9B70-642D4D48B244}"
+              DTS:ObjectName="Newsletter_Opt_In"
+              DTS:DTSID="{F067F8FF-1402-4960-AA66-5496FA95417C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -148,20 +130,21 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\charger destination"
+      DTS:refId="Package\Charger Custommers"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tâche de flux de données"
-      DTS:DTSID="{5EC67A68-3B19-46B7-9D7F-5FE83036B12D}"
+      DTS:DTSID="{21EC846F-DBFA-43D3-B1E4-9071B837116C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="charger destination">
+      DTS:ObjectName="Charger Custommers"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
         <pipeline
           version="1">
           <components>
             <component
-              refId="Package\charger destination\Colonne dérivée"
+              refId="Package\Charger Custommers\Colonne dérivée"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
               description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
@@ -169,7 +152,7 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\charger destination\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  refId="Package\Charger Custommers\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
                   description="Entrée de la transformation de colonnes dérivées"
                   name="Entrée de colonne dérivée">
                   <externalMetadataColumns />
@@ -177,19 +160,19 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                  refId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
                   description="Sortie par défaut de la transformation de colonnes dérivées"
                   exclusionGroup="1"
                   name="Sortie de colonne dérivée"
-                  synchronousInputId="Package\charger destination\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  synchronousInputId="Package\Charger Custommers\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      refId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
                       dataType="wstr"
                       errorOrTruncationOperation="Calcul"
                       errorRowDisposition="FailComponent"
-                      length="16"
-                      lineageId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      length="13"
+                      lineageId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
                       name="Source_File"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -197,21 +180,21 @@
                           containsID="true"
                           dataType="System.String"
                           description="Expression de colonne dérivée"
-                          name="Expression">"destinations.csv"</property>
+                          name="Expression">"customers.csv"</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Expression claire de colonne dérivée"
                           expressionType="Notify"
-                          name="FriendlyExpression">"destinations.csv"</property>
+                          name="FriendlyExpression">"customers.csv"</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      refId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Calcul"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      lineageId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
                       name="Load_Date"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -232,23 +215,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\charger destination\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                  refId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
                   description="Sortie d'erreur de la transformation de colonnes dérivées"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de colonne dérivée"
-                  synchronousInputId="Package\charger destination\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  synchronousInputId="Package\Charger Custommers\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\charger destination\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      refId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\charger destination\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      lineageId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\charger destination\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      refId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\charger destination\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      lineageId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -257,7 +240,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\charger destination\Destination OLE DB"
+              refId="Package\Charger Custommers\Destination OLE DB"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
               description="Destination OLE DB"
@@ -272,7 +255,7 @@
                 <property
                   dataType="System.String"
                   description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
-                  name="OpenRowset">[stg].[destinations]</property>
+                  name="OpenRowset">[stg].[customers]</property>
                 <property
                   dataType="System.String"
                   description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
@@ -314,7 +297,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\charger destination\Destination OLE DB.Connections[OleDbConnection]"
+                  refId="Package\Charger Custommers\Destination OLE DB.Connections[OleDbConnection]"
                   connectionManagerID="{17C283B3-0699-46ED-A4A3-71A8C1326C18}:external"
                   connectionManagerRefId="Project.ConnectionManagers[OLEDB_TourismDW]"
                   description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
@@ -322,179 +305,155 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
                   errorOrTruncationOperation="Insérer"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrée de destination OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_ID]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Customer_ID]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Destination_ID"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]" />
+                      cachedName="Customer_ID"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Customer_ID]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Customer_ID]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_Name]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Destination_Name"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Name]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Name]" />
-                    <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Country]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Country]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Country"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]" />
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Continent]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Age]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Continent"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Continent]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Continent]" />
+                      cachedName="Age"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Age]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Age]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Climate]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Travel_Budget_EUR]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Climate"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Climate]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Climate]" />
+                      cachedName="Travel_Budget_EUR"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Budget_EUR]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Budget_EUR]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Travel_Style]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Preferred_Climate]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Travel_Style"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Style]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Style]" />
+                      cachedName="Preferred_Climate"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Preferred_Climate]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Climate]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Latitude]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Travel_Type]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Latitude"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Latitude]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Latitude]" />
+                      cachedName="Travel_Type"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Type]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Type]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Longitude]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Preferred_Style]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Longitude"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Longitude]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Longitude]" />
+                      cachedName="Preferred_Style"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Preferred_Style]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Style]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Best_Season]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Preferred_Star_Rating]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Best_Season"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Best_Season]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Best_Season]" />
+                      cachedName="Preferred_Star_Rating"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Preferred_Star_Rating]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Star_Rating]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Avg_Daily_Budget_EUR]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Trip_Duration_Days]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Avg_Daily_Budget_EUR"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Avg_Daily_Budget_EUR]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Avg_Daily_Budget_EUR]" />
+                      cachedName="Trip_Duration_Days"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Trip_Duration_Days]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Trip_Duration_Days]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Safety_Index]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Newsletter_Opt_In]"
                       cachedDataType="wstr"
                       cachedLength="255"
-                      cachedName="Safety_Index"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Safety_Index]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Safety_Index]" />
+                      cachedName="Newsletter_Opt_In"
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Newsletter_Opt_In]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Newsletter_Opt_In]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Popularity_Index]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Source_File]"
                       cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Popularity_Index"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Popularity_Index]"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Popularity_Index]" />
-                    <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Source_File]"
-                      cachedDataType="wstr"
-                      cachedLength="16"
+                      cachedLength="13"
                       cachedName="Source_File"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
-                      lineageId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]" />
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      lineageId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]" />
                     <inputColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Load_Date]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Load_Date]"
                       cachedDataType="dbTimeStamp"
                       cachedName="Load_Date"
-                      externalMetadataColumnId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
-                      lineageId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]" />
+                      externalMetadataColumnId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      lineageId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Customer_ID]"
                       dataType="wstr"
                       length="255"
-                      name="Destination_ID" />
+                      name="Customer_ID" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Name]"
-                      dataType="wstr"
-                      length="255"
-                      name="Destination_Name" />
-                    <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
                       dataType="wstr"
                       length="255"
                       name="Country" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Continent]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Age]"
                       dataType="wstr"
                       length="255"
-                      name="Continent" />
+                      name="Age" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Climate]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Budget_EUR]"
                       dataType="wstr"
                       length="255"
-                      name="Climate" />
+                      name="Travel_Budget_EUR" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Style]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Preferred_Climate]"
                       dataType="wstr"
                       length="255"
-                      name="Travel_Style" />
+                      name="Preferred_Climate" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Latitude]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Travel_Type]"
                       dataType="wstr"
                       length="255"
-                      name="Latitude" />
+                      name="Travel_Type" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Longitude]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Preferred_Style]"
                       dataType="wstr"
                       length="255"
-                      name="Longitude" />
+                      name="Preferred_Style" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Best_Season]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Preferred_Star_Rating]"
                       dataType="wstr"
                       length="255"
-                      name="Best_Season" />
+                      name="Preferred_Star_Rating" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Avg_Daily_Budget_EUR]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Trip_Duration_Days]"
                       dataType="wstr"
                       length="255"
-                      name="Avg_Daily_Budget_EUR" />
+                      name="Trip_Duration_Days" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Safety_Index]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Newsletter_Opt_In]"
                       dataType="wstr"
                       length="255"
-                      name="Safety_Index" />
+                      name="Newsletter_Opt_In" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Popularity_Index]"
-                      dataType="wstr"
-                      length="255"
-                      name="Popularity_Index" />
-                    <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
                       dataType="wstr"
                       length="100"
                       name="Source_File" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
                       dataType="dbTimeStamp"
                       name="Load_Date" />
                   </externalMetadataColumns>
@@ -502,22 +461,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\charger destination\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  refId="Package\Charger Custommers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Sortie d'erreur de destination OLE DB"
-                  synchronousInputId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  synchronousInputId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\charger destination\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\charger destination\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Charger Custommers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\charger destination\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Charger Custommers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\charger destination\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Charger Custommers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -526,7 +485,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\charger destination\Source du fichier plat"
+              refId="Package\Charger Custommers\Source du fichier plat"
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
               description="Source du fichier plat"
@@ -546,25 +505,25 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\charger destination\Source du fichier plat.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[FF_Destinations]"
-                  connectionManagerRefId="Package.ConnectionManagers[FF_Destinations]"
+                  refId="Package\Charger Custommers\Source du fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[FF_Customers]"
+                  connectionManagerRefId="Package.ConnectionManagers[FF_Customers]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
                 <output
-                  refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
+                  refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
                   name="Sortie de source de fichier plat">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Customer_ID]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_ID]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Customer_ID]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]"
-                      name="Destination_ID"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Customer_ID]"
+                      name="Customer_ID"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -578,34 +537,13 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Name]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_Name]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Country]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Name]"
-                      name="Destination_Name"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Country]"
-                      length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]"
                       name="Country"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -620,14 +558,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Continent]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Age]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Continent]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Age]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Continent]"
-                      name="Continent"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Age]"
+                      name="Age"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -641,14 +579,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Climate]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Budget_EUR]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Climate]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Budget_EUR]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Climate]"
-                      name="Climate"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Budget_EUR]"
+                      name="Travel_Budget_EUR"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -662,14 +600,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Style]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Climate]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Style]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Preferred_Climate]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Style]"
-                      name="Travel_Style"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Climate]"
+                      name="Preferred_Climate"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -683,14 +621,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Latitude]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Type]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Latitude]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Type]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Latitude]"
-                      name="Latitude"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Travel_Type]"
+                      name="Travel_Type"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -704,14 +642,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Longitude]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Style]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Longitude]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Preferred_Style]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Longitude]"
-                      name="Longitude"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Style]"
+                      name="Preferred_Style"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -725,14 +663,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Best_Season]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Star_Rating]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Best_Season]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Preferred_Star_Rating]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Best_Season]"
-                      name="Best_Season"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Preferred_Star_Rating]"
+                      name="Preferred_Star_Rating"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -746,14 +684,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Avg_Daily_Budget_EUR]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Trip_Duration_Days]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Avg_Daily_Budget_EUR]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Trip_Duration_Days]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Avg_Daily_Budget_EUR]"
-                      name="Avg_Daily_Budget_EUR"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Trip_Duration_Days]"
+                      name="Trip_Duration_Days"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -767,35 +705,14 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Safety_Index]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Newsletter_Opt_In]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Safety_Index]"
+                      externalMetadataColumnId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Newsletter_Opt_In]"
                       length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Safety_Index]"
-                      name="Safety_Index"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indique si les données sont au format binaire."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Popularity_Index]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Popularity_Index]"
-                      length="255"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Popularity_Index]"
-                      name="Popularity_Index"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Newsletter_Opt_In]"
+                      name="Newsletter_Opt_In"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -812,89 +729,79 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_ID]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Customer_ID]"
                       dataType="wstr"
                       length="255"
-                      name="Destination_ID" />
+                      name="Customer_ID" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_Name]"
-                      dataType="wstr"
-                      length="255"
-                      name="Destination_Name" />
-                    <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Country]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Country]"
                       dataType="wstr"
                       length="255"
                       name="Country" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Continent]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Age]"
                       dataType="wstr"
                       length="255"
-                      name="Continent" />
+                      name="Age" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Climate]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Budget_EUR]"
                       dataType="wstr"
                       length="255"
-                      name="Climate" />
+                      name="Travel_Budget_EUR" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Style]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Preferred_Climate]"
                       dataType="wstr"
                       length="255"
-                      name="Travel_Style" />
+                      name="Preferred_Climate" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Latitude]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Travel_Type]"
                       dataType="wstr"
                       length="255"
-                      name="Latitude" />
+                      name="Travel_Type" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Longitude]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Preferred_Style]"
                       dataType="wstr"
                       length="255"
-                      name="Longitude" />
+                      name="Preferred_Style" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Best_Season]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Preferred_Star_Rating]"
                       dataType="wstr"
                       length="255"
-                      name="Best_Season" />
+                      name="Preferred_Star_Rating" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Avg_Daily_Budget_EUR]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Trip_Duration_Days]"
                       dataType="wstr"
                       length="255"
-                      name="Avg_Daily_Budget_EUR" />
+                      name="Trip_Duration_Days" />
                     <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Safety_Index]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Newsletter_Opt_In]"
                       dataType="wstr"
                       length="255"
-                      name="Safety_Index" />
-                    <externalMetadataColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Popularity_Index]"
-                      dataType="wstr"
-                      length="255"
-                      name="Popularity_Index" />
+                      name="Newsletter_Opt_In" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\charger destination\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
+                  refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
                   isErrorOut="true"
                   name="Sortie d'erreur de source de fichier plat">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
                       codePage="65001"
                       dataType="text"
                       description="Colonne de sortie d'erreur de source de fichier plat"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
                       name="Colonne de sortie d'erreur de source de fichier plat" />
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\charger destination\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      refId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\charger destination\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      lineageId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -905,34 +812,34 @@
           </components>
           <paths>
             <path
-              refId="Package\charger destination.Paths[Sortie de colonne dérivée]"
-              endId="Package\charger destination\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              refId="Package\Charger Custommers.Paths[Sortie de colonne dérivée]"
+              endId="Package\Charger Custommers\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
               name="Sortie de colonne dérivée"
-              startId="Package\charger destination\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+              startId="Package\Charger Custommers\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
             <path
-              refId="Package\charger destination.Paths[Sortie de source de fichier plat]"
-              endId="Package\charger destination\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+              refId="Package\Charger Custommers.Paths[Sortie de source de fichier plat]"
+              endId="Package\Charger Custommers\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
               name="Sortie de source de fichier plat"
-              startId="Package\charger destination\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
+              startId="Package\Charger Custommers\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Vider stgDestinations"
+      DTS:refId="Package\vide stgCustommers"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tâche d'exécution de requêtes SQL"
-      DTS:DTSID="{19E46041-947C-4111-9A19-B8C31ACACD58}"
+      DTS:DTSID="{F683010C-3EBC-44E5-A9C4-96A44751C671}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Vider stgDestinations"
+      DTS:ObjectName="vide stgCustommers"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{17C283B3-0699-46ED-A4A3-71A8C1326C18}"
-          SQLTask:SqlStatementSource="TRUNCATE TABLE stg.Destinations;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="TRUNCATE TABLE stg.Customers;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -940,11 +847,11 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Contrainte]"
       DTS:CreationName=""
-      DTS:DTSID="{BBE8970E-FDEB-4308-9496-F794432ACCB0}"
-      DTS:From="Package\Vider stgDestinations"
+      DTS:DTSID="{7FA0CD36-6C8B-4CEE-B2C7-8A8CDBAB0801}"
+      DTS:From="Package\vide stgCustommers"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Contrainte"
-      DTS:To="Package\charger destination" />
+      DTS:To="Package\Charger Custommers" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
@@ -960,38 +867,38 @@
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="177.6,41.6"
-          Id="Package\Vider stgDestinations"
-          TopLeft="231.928571910578,98.7941175652829" />
+          Id="Package\Charger Custommers"
+          TopLeft="166.428571782854,201.882352764219" />
         <NodeLayout
-          Size="168.8,41.6"
-          Id="Package\charger destination"
-          TopLeft="223.357143257041,179.264705756338" />
+          Size="173.6,41.6"
+          Id="Package\vide stgCustommers"
+          TopLeft="142.142857445442,42.0588234925456" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte]"
-          TopLeft="320.728571910578,140.394117565283">
+          TopLeft="228.942857445442,83.6588234925456">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-12.971428653537,38.8705881910547"
+              EndConnector="26.2857143374122,118.223529271673"
               Start="0,0"
-              End="-12.971428653537,31.3705881910547">
+              End="26.2857143374122,110.723529271673">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.4352940955274" />
+                    End="0,55.1117646358366" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,15.4352940955274"
-                    Point2="0,19.4352940955274"
-                    Point3="-4,19.4352940955274" />
+                    Point1="0,55.1117646358366"
+                    Point2="0,59.1117646358366"
+                    Point3="4,59.1117646358366" />
                   <mssgle:LineSegment
-                    End="-8.97142865353698,19.4352940955274" />
+                    End="22.2857143374122,59.1117646358366" />
                   <mssgle:CubicBezierSegment
-                    Point1="-8.97142865353698,19.4352940955274"
-                    Point2="-12.971428653537,19.4352940955274"
-                    Point3="-12.971428653537,23.4352940955274" />
+                    Point1="22.2857143374122,59.1117646358366"
+                    Point2="26.2857143374122,59.1117646358366"
+                    Point3="26.2857143374122,63.1117646358366" />
                   <mssgle:LineSegment
-                    End="-12.971428653537,31.3705881910547" />
+                    End="26.2857143374122,110.723529271673" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1004,44 +911,36 @@
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\charger destination">
+    design-time-name="Package\Charger Custommers">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="178.4,41.6"
-          Id="Package\charger destination\Source du fichier plat"
-          TopLeft="312.999995335937,138.999997928739" />
+          Id="Package\Charger Custommers\Source du fichier plat"
+          TopLeft="56.4285715486931,101.705882263792" />
         <NodeLayout
           Size="154.4,41.6"
-          Id="Package\charger destination\Colonne dérivée"
-          TopLeft="587.999991238117,164.999997541308" />
+          Id="Package\Charger Custommers\Colonne dérivée"
+          TopLeft="325.714286407646,116.235294015762" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Charger Custommers\Destination OLE DB"
+          TopLeft="644.28571565723,119.294117542493" />
         <EdgeLayout
-          Id="Package\charger destination.Paths[Sortie de source de fichier plat]"
-          TopLeft="491.399995335937,159.799997928739">
+          Id="Package\Charger Custommers.Paths[Sortie de colonne dérivée]"
+          TopLeft="480.114286407646,138.564705779128">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="96.5999959021806,25.9999996125698"
+              EndConnector="164.171429249584,0"
               Start="0,0"
-              End="89.0999959021806,25.9999996125698">
+              End="156.671429249584,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="44.2999979510903,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="44.2999979510903,0"
-                    Point2="48.2999979510903,0"
-                    Point3="48.2999979510903,4" />
-                  <mssgle:LineSegment
-                    End="48.2999979510903,21.9999996125698" />
-                  <mssgle:CubicBezierSegment
-                    Point1="48.2999979510903,21.9999996125698"
-                    Point2="48.2999979510903,25.9999996125698"
-                    Point3="52.2999979510903,25.9999996125698" />
-                  <mssgle:LineSegment
-                    End="89.0999959021806,25.9999996125698" />
+                    End="156.671429249584,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1050,36 +949,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\charger destination\Destination OLE DB"
-          TopLeft="888.999986752868,190.999997153878" />
         <EdgeLayout
-          Id="Package\charger destination.Paths[Sortie de colonne dérivée]"
-          TopLeft="742.399991238117,185.799997541308">
+          Id="Package\Charger Custommers.Paths[Sortie de source de fichier plat]"
+          TopLeft="234.828571548693,122.505882263792">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="146.599995514751,25.9999996125698"
+              EndConnector="90.8857148589529,14.5294117519703"
               Start="0,0"
-              End="139.099995514751,25.9999996125698">
+              End="83.3857148589529,14.5294117519703">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="69.2999977573754,0" />
+                    End="41.4428574294764,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="69.2999977573754,0"
-                    Point2="73.2999977573754,0"
-                    Point3="73.2999977573754,4" />
+                    Point1="41.4428574294764,0"
+                    Point2="45.4428574294764,0"
+                    Point3="45.4428574294764,4" />
                   <mssgle:LineSegment
-                    End="73.2999977573754,21.9999996125698" />
+                    End="45.4428574294764,10.5294117519703" />
                   <mssgle:CubicBezierSegment
-                    Point1="73.2999977573754,21.9999996125698"
-                    Point2="73.2999977573754,25.9999996125698"
-                    Point3="77.2999977573754,25.9999996125698" />
+                    Point1="45.4428574294764,10.5294117519703"
+                    Point2="45.4428574294764,14.5294117519703"
+                    Point3="49.4428574294764,14.5294117519703" />
                   <mssgle:LineSegment
-                    End="139.099995514751,25.9999996125698" />
+                    End="83.3857148589529,14.5294117519703" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1092,7 +987,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\charger destination\Destination OLE DB">
+    design-time-name="Package\Charger Custommers\Destination OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

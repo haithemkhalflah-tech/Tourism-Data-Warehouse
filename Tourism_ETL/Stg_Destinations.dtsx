@@ -11,8 +11,8 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="10"
-  DTS:VersionGUID="{67E62071-4DE9-4C14-B1B2-57618FFB3E0A}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{7E21CBE1-2232-4461-AAB6-9A84BC2F06B3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\MSIPC\Desktop\dataset\destinations.csv">
+          DTS:ConnectionString="C:\Users\MSIPC\Desktop\dataset\sources\destinations.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Destination_ID"
-              DTS:DTSID="{F303E875-C5D4-45DF-B9C9-0E51F79688CC}"
+              DTS:DTSID="{6700A602-67EB-4980-9813-E01EE0CB8C36}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Destination_Name"
-              DTS:DTSID="{3C875F5F-B72A-4894-82CD-B5F9BB883698}"
+              DTS:DTSID="{8FB90427-BC1C-4A6A-870B-0A6F87F9E095}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{FF650DE0-299D-4703-A5B3-D1E08D7B80DC}"
+              DTS:DTSID="{FC68DA25-3B34-4FAB-B7AA-41D64ED586E4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Continent"
-              DTS:DTSID="{8313006D-6FDB-4374-A2F1-CF0A6A0F803D}"
+              DTS:DTSID="{285A86D7-2D22-4BFA-B20E-9143256D5A7C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Climate"
-              DTS:DTSID="{AFB24D27-5A41-4C40-8627-8F56B844C2F0}"
+              DTS:DTSID="{3917C00B-4B6B-4CF4-A11B-A279455F62A8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Travel_Style"
-              DTS:DTSID="{E7BC0CD3-9BD5-465A-AFCB-32A70C01375B}"
+              DTS:DTSID="{EBF48DC4-1E9A-41D1-BE24-532E33DEBDAC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Latitude"
-              DTS:DTSID="{A73FAC54-DED4-4863-BD15-BBE77D71C26D}"
+              DTS:DTSID="{F01678CF-DAC7-4609-885F-CD30ACBE2767}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Longitude"
-              DTS:DTSID="{7476E6A0-D692-4960-ADEA-89596D76B57C}"
+              DTS:DTSID="{D30E8DF7-AE35-48F4-86B0-854B6DB197C8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -111,7 +111,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Best_Season"
-              DTS:DTSID="{B7580A5C-7A54-4A8A-BCA0-205744D933EF}"
+              DTS:DTSID="{2603333D-B824-4E0C-9FB5-76AFC5BD961C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -120,7 +120,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Avg_Daily_Budget_EUR"
-              DTS:DTSID="{0A6A4DD5-85F6-4924-ADAB-FABB9B491A18}"
+              DTS:DTSID="{08ADA8B8-AB97-4FF4-9D66-B8DFD1A9B3B2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -129,7 +129,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Safety_Index"
-              DTS:DTSID="{A1948F53-2B5D-4BEF-B167-FB09379BBBA7}"
+              DTS:DTSID="{C8646B66-10EC-4E66-917F-3D4A0F9C9D2F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,7 +138,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Popularity_Index"
-              DTS:DTSID="{8710AB71-5A1D-4BF9-9B70-642D4D48B244}"
+              DTS:DTSID="{FC211F5A-ED41-4E5B-B83B-B72C7BE3B4B4}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -959,13 +959,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="177.6,41.6"
-          Id="Package\Vider stgDestinations"
-          TopLeft="231.928571910578,98.7941175652829" />
-        <NodeLayout
           Size="168.8,41.6"
           Id="Package\charger destination"
           TopLeft="223.357143257041,179.264705756338" />
+        <NodeLayout
+          Size="177.6,41.6"
+          Id="Package\Vider stgDestinations"
+          TopLeft="231.928571910578,98.7941175652829" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Contrainte]"
           TopLeft="320.728571910578,140.394117565283">
@@ -1011,37 +1011,41 @@
         <NodeLayout
           Size="178.4,41.6"
           Id="Package\charger destination\Source du fichier plat"
-          TopLeft="312.999995335937,138.999997928739" />
+          TopLeft="645.738091282344,45.3235274226147" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\charger destination\Colonne dérivée"
-          TopLeft="587.999991238117,164.999997541308" />
+          TopLeft="648.714277081647,231.91176218854" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\charger destination\Destination OLE DB"
+          TopLeft="640.785700510199,458.647055742804" />
         <EdgeLayout
           Id="Package\charger destination.Paths[Sortie de source de fichier plat]"
-          TopLeft="491.399995335937,159.799997928739">
+          TopLeft="734.938091282344,86.9235274226147">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="96.5999959021806,25.9999996125698"
+              EndConnector="-9.02381420069696,144.988234765925"
               Start="0,0"
-              End="89.0999959021806,25.9999996125698">
+              End="-9.02381420069696,137.488234765925">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="44.2999979510903,0" />
+                    End="0,68.4941173829624" />
                   <mssgle:CubicBezierSegment
-                    Point1="44.2999979510903,0"
-                    Point2="48.2999979510903,0"
-                    Point3="48.2999979510903,4" />
+                    Point1="0,68.4941173829624"
+                    Point2="0,72.4941173829624"
+                    Point3="-4,72.4941173829624" />
                   <mssgle:LineSegment
-                    End="48.2999979510903,21.9999996125698" />
+                    End="-5.02381420069696,72.4941173829624" />
                   <mssgle:CubicBezierSegment
-                    Point1="48.2999979510903,21.9999996125698"
-                    Point2="48.2999979510903,25.9999996125698"
-                    Point3="52.2999979510903,25.9999996125698" />
+                    Point1="-5.02381420069696,72.4941173829624"
+                    Point2="-9.02381420069696,72.4941173829624"
+                    Point3="-9.02381420069696,76.4941173829624" />
                   <mssgle:LineSegment
-                    End="89.0999959021806,25.9999996125698" />
+                    End="-9.02381420069696,137.488234765925" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1050,36 +1054,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\charger destination\Destination OLE DB"
-          TopLeft="888.999986752868,190.999997153878" />
         <EdgeLayout
           Id="Package\charger destination.Paths[Sortie de colonne dérivée]"
-          TopLeft="742.399991238117,185.799997541308">
+          TopLeft="725.949988795923,273.51176218854">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="146.599995514751,25.9999996125698"
+              EndConnector="0,185.135293554265"
               Start="0,0"
-              End="139.099995514751,25.9999996125698">
+              End="0,177.635293554265">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="69.2999977573754,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="69.2999977573754,0"
-                    Point2="73.2999977573754,0"
-                    Point3="73.2999977573754,4" />
-                  <mssgle:LineSegment
-                    End="73.2999977573754,21.9999996125698" />
-                  <mssgle:CubicBezierSegment
-                    Point1="73.2999977573754,21.9999996125698"
-                    Point2="73.2999977573754,25.9999996125698"
-                    Point3="77.2999977573754,25.9999996125698" />
-                  <mssgle:LineSegment
-                    End="139.099995514751,25.9999996125698" />
+                    End="0,177.635293554265" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1092,7 +1080,7 @@
           Text="n"
           ParentId="Package\charger destination"
           FontInfo="{assembly:Null}"
-          Size="35.2,60"
+          Size="35.2,40"
           Id="359d0f95-f8b8-4d53-8ca7-c2646f3dfae4"
           TopLeft="1740.99997405708,5.5" />
       </GraphLayout>

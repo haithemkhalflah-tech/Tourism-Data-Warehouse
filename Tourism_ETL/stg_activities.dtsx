@@ -1,0 +1,830 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/24/2026 9:57:59 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-6JR8DCN"
+  DTS:CreatorName="DESKTOP-6JR8DCN\MSIPC"
+  DTS:DTSID="{270684F2-BD30-4F82-B0F8-D73AF884C322}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1016.0"
+  DTS:LocaleID="1036"
+  DTS:ObjectName="Package2"
+  DTS:PackageType="5"
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{0400C68B-8469-457E-ACA5-995A0ACC4A19}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gestionnaire de connexions Excel 5]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{49168798-72B6-489A-86FD-7112531E0A84}"
+      DTS:ObjectName="Gestionnaire de connexions Excel 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\MSIPC\Desktop\dataset\sources\activities.xlsx;Extended Properties=&quot;Excel 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\charger activities"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{858C13CB-92D3-458D-B9C6-121DBC335EB2}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="charger activities"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\charger activities\Colonne dérivée"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
+              name="Colonne dérivée"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\charger activities\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  description="Entrée de la transformation de colonnes dérivées"
+                  name="Entrée de colonne dérivée">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                  description="Sortie par défaut de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  name="Sortie de colonne dérivée"
+                  synchronousInputId="Package\charger activities\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      length="17"
+                      lineageId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      name="Source_File"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">"activities.Exelle"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"activities.Exelle"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      name="Load_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\charger activities\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                  description="Sortie d'erreur de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de colonne dérivée"
+                  synchronousInputId="Package\charger activities\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger activities\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger activities\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger activities\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger activities\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\charger activities\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[stg].[activities]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\charger activities\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{17C283B3-0699-46ED-A4A3-71A8C1326C18}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[OLEDB_TourismDW]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Activity_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Activity_ID"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Activity_ID]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_ID]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Activity_Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Activity_Name"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Activity_Name]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_Name]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Destination_ID"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Destination_ID]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Destination_Name"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Name]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Destination_Name]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Activity_Type]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Activity_Type"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Activity_Type]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_Type]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Duration_Hours]"
+                      cachedDataType="r8"
+                      cachedName="Duration_Hours"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Duration_hours]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Duration_Hours]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Price_Per_Person_EUR]"
+                      cachedDataType="r8"
+                      cachedName="Price_Per_Person_EUR"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Price_Per_Person_EUR]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Price_Per_Person_EUR]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Suitable_For_Family]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Suitable_For_Family"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Suitable_For_Family]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Suitable_For_Family]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Seasonality]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Seasonality"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Seasonality]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Seasonality]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Source_File]"
+                      cachedDataType="wstr"
+                      cachedLength="17"
+                      cachedName="Source_File"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      lineageId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]" />
+                    <inputColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Load_Date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Load_Date"
+                      externalMetadataColumnId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      lineageId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Activity_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Activity_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Activity_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Activity_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Activity_Type]"
+                      dataType="wstr"
+                      length="255"
+                      name="Activity_Type" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Duration_hours]"
+                      dataType="wstr"
+                      length="255"
+                      name="Duration_hours" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Price_Per_Person_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Price_Per_Person_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Suitable_For_Family]"
+                      dataType="wstr"
+                      length="255"
+                      name="Suitable_For_Family" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Seasonality]"
+                      dataType="wstr"
+                      length="255"
+                      name="Seasonality" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      dataType="wstr"
+                      length="100"
+                      name="Source_File" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      name="Load_Date" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\charger activities\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger activities\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger activities\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger activities\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger activities\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\charger activities\Source Excel"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Source Excel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source Excel"
+              name="Source Excel"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">Sheet1$</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable contenant la commande SQL à exécuter."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Mappage des paramètres de la commande SQL en variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\charger activities\Source Excel.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Gestionnaire de connexions Excel 5]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gestionnaire de connexions Excel 5]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel]"
+                  name="Sortie de source Excel">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Activity_ID]"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_ID]"
+                      name="Activity_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Activity_Name]"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_Name]"
+                      name="Activity_Name"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Destination_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Destination_ID]"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Destination_ID]"
+                      name="Destination_ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Destination_Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Destination_Name]"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Destination_Name]"
+                      name="Destination_Name"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Activity_Type]"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Activity_Type]"
+                      name="Activity_Type"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Duration_Hours]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Duration_Hours]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Duration_Hours]"
+                      name="Duration_Hours"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Price_Per_Person_EUR]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Price_Per_Person_EUR]"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Price_Per_Person_EUR]"
+                      name="Price_Per_Person_EUR"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Suitable_For_Family]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Suitable_For_Family]"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Suitable_For_Family]"
+                      name="Suitable_For_Family"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Seasonality]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Seasonality]"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].Columns[Seasonality]"
+                      name="Seasonality"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Activity_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Activity_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Activity_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Activity_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Destination_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Activity_Type]"
+                      dataType="wstr"
+                      length="255"
+                      name="Activity_Type" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Duration_Hours]"
+                      dataType="r8"
+                      name="Duration_Hours" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Price_Per_Person_EUR]"
+                      dataType="r8"
+                      name="Price_Per_Person_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Suitable_For_Family]"
+                      dataType="wstr"
+                      length="255"
+                      name="Suitable_For_Family" />
+                    <externalMetadataColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel].ExternalColumns[Seasonality]"
+                      dataType="wstr"
+                      length="255"
+                      name="Seasonality" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source Excel">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Activity_ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Activity_ID]"
+                      name="Activity_ID" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Activity_Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Activity_Name]"
+                      name="Activity_Name" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Destination_ID]"
+                      name="Destination_ID" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Destination_Name]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Destination_Name]"
+                      name="Destination_Name" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Activity_Type]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Activity_Type]"
+                      name="Activity_Type" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Duration_Hours]"
+                      dataType="r8"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Duration_Hours]"
+                      name="Duration_Hours" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Price_Per_Person_EUR]"
+                      dataType="r8"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Price_Per_Person_EUR]"
+                      name="Price_Per_Person_EUR" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Suitable_For_Family]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Suitable_For_Family]"
+                      name="Suitable_For_Family" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Seasonality]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[Seasonality]"
+                      name="Seasonality" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger activities\Source Excel.Outputs[Sortie d'erreur de source Excel].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\charger activities.Paths[Sortie de colonne dérivée]"
+              endId="Package\charger activities\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de colonne dérivée"
+              startId="Package\charger activities\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+            <path
+              refId="Package\charger activities.Paths[Sortie de source Excel]"
+              endId="Package\charger activities\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+              name="Sortie de source Excel"
+              startId="Package\charger activities\Source Excel.Outputs[Sortie de source Excel]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\vider stg_activities"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tâche d'exécution de requêtes SQL"
+      DTS:DTSID="{94C81FA4-17FA-47B7-BC03-BCDE7101C917}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="vider stg_activities"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{17C283B3-0699-46ED-A4A3-71A8C1326C18}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE stg.Activities;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte]"
+      DTS:CreationName=""
+      DTS:DTSID="{86759479-BDAD-4B13-AAA9-EC776980B505}"
+      DTS:From="Package\vider stg_activities"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte"
+      DTS:To="Package\charger activities" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="158.4,41.6"
+          Id="Package\charger activities"
+          TopLeft="527.857143980812,177.411764550374" />
+        <NodeLayout
+          Size="165.6,41.6"
+          Id="Package\vider stg_activities"
+          TopLeft="87.1428573283615,175.117646905326" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="252.742857328361,197.06470572785">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="275.114286652451,0"
+              Start="0,0"
+              End="267.614286652451,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="267.614286652451,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\charger activities">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\charger activities\Source Excel"
+          TopLeft="65.000000138368,113.941176370714" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\charger activities\Colonne dérivée"
+          TopLeft="312.142857807327,123.117646950906" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\charger activities\Destination OLE DB"
+          TopLeft="589.285715540149,123.882352832589" />
+        <EdgeLayout
+          Id="Package\charger activities.Paths[Sortie de source Excel]"
+          TopLeft="203.400000138368,134.741176370714">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="108.742857668959,9.17647058019179"
+              Start="0,0"
+              End="101.242857668959,9.17647058019179">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="50.3714288344797,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="50.3714288344797,0"
+                    Point2="54.3714288344797,0"
+                    Point3="54.3714288344797,4" />
+                  <mssgle:LineSegment
+                    End="54.3714288344797,5.17647058019179" />
+                  <mssgle:CubicBezierSegment
+                    Point1="54.3714288344797,5.17647058019179"
+                    Point2="54.3714288344797,9.17647058019179"
+                    Point3="58.3714288344797,9.17647058019179" />
+                  <mssgle:LineSegment
+                    End="101.242857668959,9.17647058019179" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\charger activities.Paths[Sortie de colonne dérivée]"
+          TopLeft="466.542857807327,144.299999891747">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="122.742857732821,0"
+              Start="0,0"
+              End="115.242857732821,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="115.242857732821,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\charger activities\Source Excel">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\charger activities\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

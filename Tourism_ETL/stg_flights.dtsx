@@ -1,0 +1,1261 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/24/2026 8:43:39 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-6JR8DCN"
+  DTS:CreatorName="DESKTOP-6JR8DCN\MSIPC"
+  DTS:DTSID="{CF5FB471-0453-4596-83C9-C65811DF1A2C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1016.0"
+  DTS:LocaleID="1036"
+  DTS:ObjectName="stg_flights"
+  DTS:PackageType="5"
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{A02337AD-55F1-498E-9C91-94164386F267}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[FF_Flights]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{614E3C6F-9F4D-4C46-8F5C-436F32931311}"
+      DTS:ObjectName="FF_Flights">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\MSIPC\Desktop\dataset\sources\flights.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Flight_ID"
+              DTS:DTSID="{198FF31F-8864-4A9F-8216-0BE032DE43C6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Airline_ID"
+              DTS:DTSID="{CE97965E-9A5C-448D-BAB5-46B3F8BAF56B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Airline_Name"
+              DTS:DTSID="{D8719519-A60D-401D-A508-D353CCAF4ADB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Origin_Destination_ID"
+              DTS:DTSID="{0F851260-7D2C-450A-82D7-CA8643E62017}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Origin_City"
+              DTS:DTSID="{4B396E14-4887-4C04-9440-975DD76C54FC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Origin_Country"
+              DTS:DTSID="{92A692D1-5BE5-4729-A3D8-708BF7CA248E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Destination_ID"
+              DTS:DTSID="{288B840F-7E64-47C4-80BE-89E1E6BC4E76}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Destination_City"
+              DTS:DTSID="{88CF88FB-ED25-42A6-A538-419CB2FBC907}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Destination_Country"
+              DTS:DTSID="{34859FC4-E3A8-431B-9376-FAEFE785DC1D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Departure_Date"
+              DTS:DTSID="{F2DD2D0A-C006-4F9A-B2E2-67F0F7FCE903}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Return_Date"
+              DTS:DTSID="{5D489BBA-A74E-41F0-A158-F263656D9A4B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Duration_Minutes"
+              DTS:DTSID="{1AF99F21-CBD1-4C8D-A245-6656C1072A94}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Stops"
+              DTS:DTSID="{B15E79ED-A747-45F9-AD47-2A30AEBA06CE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Price_EUR"
+              DTS:DTSID="{B6170D3A-E188-4F67-A920-9B35A9A4E325}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Cabin_Class"
+              DTS:DTSID="{A741A822-7B9E-4A0E-BC96-62BA46662E37}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Seats_Available"
+              DTS:DTSID="{7D9FBF6B-D115-4C86-B540-0F9182489F3F}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\charger flights"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{E36A6463-3C6F-4C3A-9201-FB18FE219D4F}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="charger flights"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\charger flights\Colonne dérivée"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
+              name="Colonne dérivée"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\charger flights\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  description="Entrée de la transformation de colonnes dérivées"
+                  name="Entrée de colonne dérivée">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                  description="Sortie par défaut de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  name="Sortie de colonne dérivée"
+                  synchronousInputId="Package\charger flights\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      length="11"
+                      lineageId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      name="Source_File"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">"flights.csv"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"flights.csv"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      name="Load_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\charger flights\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                  description="Sortie d'erreur de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de colonne dérivée"
+                  synchronousInputId="Package\charger flights\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger flights\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger flights\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger flights\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger flights\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\charger flights\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[stg].[flights]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\charger flights\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{17C283B3-0699-46ED-A4A3-71A8C1326C18}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[OLEDB_TourismDW]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Flight_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Flight_ID"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Flight_ID]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Flight_ID]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Airline_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Airline_ID"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Airline_ID]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Airline_ID]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Airline_Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Airline_Name"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Airline_Name]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Airline_Name]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Origin_Destination_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Origin_Destination_ID"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin_Destination_ID]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_Destination_ID]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Origin_City]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Origin_City"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin_City]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_City]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Origin_Country]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Origin_Country"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin_Country]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_Country]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Destination_ID"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_City]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Destination_City"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_City]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_City]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_Country]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Destination_Country"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Country]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Country]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Departure_Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Departure_Date"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Departure_Date]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Departure_Date]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Return_Date]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Return_Date"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Return_Date]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Return_Date]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Duration_Minutes]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Duration_Minutes"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Duration_Minutes]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Duration_Minutes]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Stops]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Stops"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Stops]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Stops]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Price_EUR]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Price_EUR"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Price_EUR]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Price_EUR]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Cabin_Class]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Cabin_Class"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Cabin_Class]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Cabin_Class]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Seats_Available]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Seats_Available"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Seats_Available]"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Seats_Available]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Source_File]"
+                      cachedDataType="wstr"
+                      cachedLength="11"
+                      cachedName="Source_File"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      lineageId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]" />
+                    <inputColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Load_Date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Load_Date"
+                      externalMetadataColumnId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      lineageId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Flight_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Flight_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Airline_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Airline_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Airline_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Airline_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin_Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Origin_Destination_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin_City]"
+                      dataType="wstr"
+                      length="255"
+                      name="Origin_City" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Origin_Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Origin_Country" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_City]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_City" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_Country" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Departure_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Departure_Date" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Return_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Return_Date" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Duration_Minutes]"
+                      dataType="wstr"
+                      length="255"
+                      name="Duration_Minutes" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Stops]"
+                      dataType="wstr"
+                      length="255"
+                      name="Stops" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Price_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Price_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Cabin_Class]"
+                      dataType="wstr"
+                      length="255"
+                      name="Cabin_Class" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Seats_Available]"
+                      dataType="wstr"
+                      length="255"
+                      name="Seats_Available" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      dataType="wstr"
+                      length="100"
+                      name="Source_File" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      name="Load_Date" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\charger flights\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger flights\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger flights\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger flights\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger flights\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\charger flights\Source du fichier plat"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Source du fichier plat"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\charger flights\Source du fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[FF_Flights]"
+                  connectionManagerRefId="Package.ConnectionManagers[FF_Flights]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Flight_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Flight_ID]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Flight_ID]"
+                      name="Flight_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Airline_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Airline_ID]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Airline_ID]"
+                      name="Airline_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Airline_Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Airline_Name]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Airline_Name]"
+                      name="Airline_Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_Destination_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Origin_Destination_ID]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_Destination_ID]"
+                      name="Origin_Destination_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Origin_City]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_City]"
+                      name="Origin_City"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Origin_Country]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Origin_Country]"
+                      name="Origin_Country"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_ID]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]"
+                      name="Destination_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_City]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_City]"
+                      name="Destination_City"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_Country]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Country]"
+                      name="Destination_Country"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Departure_Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Departure_Date]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Departure_Date]"
+                      name="Departure_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Return_Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Return_Date]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Return_Date]"
+                      name="Return_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Duration_Minutes]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Duration_Minutes]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Duration_Minutes]"
+                      name="Duration_Minutes"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Stops]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Stops]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Stops]"
+                      name="Stops"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Price_EUR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Price_EUR]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Price_EUR]"
+                      name="Price_EUR"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Cabin_Class]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Cabin_Class]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Cabin_Class]"
+                      name="Cabin_Class"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Seats_Available]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Seats_Available]"
+                      length="255"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Seats_Available]"
+                      name="Seats_Available"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Flight_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Flight_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Airline_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Airline_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Airline_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Airline_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Origin_Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Origin_Destination_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Origin_City]"
+                      dataType="wstr"
+                      length="255"
+                      name="Origin_City" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Origin_Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Origin_Country" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_City]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_City" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_Country" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Departure_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Departure_Date" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Return_Date]"
+                      dataType="wstr"
+                      length="255"
+                      name="Return_Date" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Duration_Minutes]"
+                      dataType="wstr"
+                      length="255"
+                      name="Duration_Minutes" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Stops]"
+                      dataType="wstr"
+                      length="255"
+                      name="Stops" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Price_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Price_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Cabin_Class]"
+                      dataType="wstr"
+                      length="255"
+                      name="Cabin_Class" />
+                    <externalMetadataColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Seats_Available]"
+                      dataType="wstr"
+                      length="255"
+                      name="Seats_Available" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\charger flights\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger flights\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger flights\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\charger flights.Paths[Sortie de colonne dérivée]"
+              endId="Package\charger flights\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de colonne dérivée"
+              startId="Package\charger flights\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+            <path
+              refId="Package\charger flights.Paths[Sortie de source de fichier plat]"
+              endId="Package\charger flights\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+              name="Sortie de source de fichier plat"
+              startId="Package\charger flights\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Vider stgFlights"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tâche d'exécution de requêtes SQL"
+      DTS:DTSID="{C267C358-F50C-4E0F-8EDE-521913AFD5E0}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Vider stgFlights"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{17C283B3-0699-46ED-A4A3-71A8C1326C18}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE stg.Flights;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte]"
+      DTS:CreationName=""
+      DTS:DTSID="{5CACF623-91E4-46A9-89EE-DB4FC2BBBB2D}"
+      DTS:From="Package\Vider stgFlights"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte"
+      DTS:To="Package\charger flights" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="145.6,41.6"
+          Id="Package\charger flights"
+          TopLeft="209.285714731229,202.647058645901" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\Vider stgFlights"
+          TopLeft="207.14285758381,79.5294116949953" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="282.214286157519,121.129411694995">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,81.5176469509061"
+              Start="0,0"
+              End="0,74.0176469509061">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,74.0176469509061" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\charger flights">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="178.4,41.6"
+          Id="Package\charger flights\Source du fichier plat"
+          TopLeft="30.7142857796684,103.235294027157" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\charger flights\Colonne dérivée"
+          TopLeft="318.571429249584,103.235294027157" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\charger flights\Destination OLE DB"
+          TopLeft="586.428572676924,104.764705790523" />
+        <EdgeLayout
+          Id="Package\charger flights.Paths[Sortie de source de fichier plat]"
+          TopLeft="209.114285779668,124.035294027157">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="109.457143469915,0"
+              Start="0,0"
+              End="101.957143469915,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="101.957143469915,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\charger flights.Paths[Sortie de colonne dérivée]"
+          TopLeft="472.971429249584,124.79999990884">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="113.45714342734,0"
+              Start="0,0"
+              End="105.95714342734,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="105.95714342734,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\charger flights\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

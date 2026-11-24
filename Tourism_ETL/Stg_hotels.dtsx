@@ -11,28 +11,1083 @@
   DTS:LocaleID="1036"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{EF7C50AC-8E3F-4024-97A2-1F2B6C0F0FAE}">
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{412CE05F-9BE4-4C45-BE92-94E6FD0F2225}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ff_hotels]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{DB70BFBB-FDFE-4218-9183-689EDC3D44DE}"
+      DTS:ObjectName="ff_hotels">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1036"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\MSIPC\Desktop\dataset\sources\hotels.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hotel_ID"
+              DTS:DTSID="{47D79F87-9DE2-4C62-B927-2F50EE7B3B90}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hotel_Name"
+              DTS:DTSID="{97076909-A45D-4500-A5DD-7C9AE8A61271}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Destination_ID"
+              DTS:DTSID="{334081A0-4E2D-4C4C-A909-3F87C6B79B7A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Destination_Name"
+              DTS:DTSID="{F0F338DA-07A7-4437-84E5-5B586FB0CB68}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Country"
+              DTS:DTSID="{DD9AFDEF-39DC-4CB7-988D-CB584C8BC9C0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hotel_Type"
+              DTS:DTSID="{59ABFF3E-C26C-4652-88CF-A837D82379A2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Stars"
+              DTS:DTSID="{D1B5035F-93F6-4FF9-A46B-9D3620467653}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Price_Per_Night_EUR"
+              DTS:DTSID="{6C9F0A90-1B0B-4225-B51E-41BBB4EB0758}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Guest_Rating"
+              DTS:DTSID="{75E46F38-3F58-4BEE-A553-044D4024AD98}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Review_Count"
+              DTS:DTSID="{A8F23BFD-143A-4BB2-ACF6-5B86005229B6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Breakfast_Included"
+              DTS:DTSID="{5413DD22-D44B-4385-AA69-2DE035795A14}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pool"
+              DTS:DTSID="{B83DDB38-EE58-477A-8FD1-1835FDAEA517}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Free_Cancellation"
+              DTS:DTSID="{74B5D173-6E29-476A-8D60-F3FA04899924}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x003B_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Capacity"
+              DTS:DTSID="{ADDD9715-2ABA-4AF5-9161-A6DB1B0DF58E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="City"
+              DTS:DTSID="{ADF1F7B3-B806-4614-B24C-36D56743DB05}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Tâche d'exécution de requêtes SQL"
+      DTS:refId="Package\charger Hotels"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{85D5899E-321A-44B8-B92C-A4323C70D310}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="charger Hotels"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\charger Hotels\Colonne dérivée"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
+              name="Colonne dérivée"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\charger Hotels\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  description="Entrée de la transformation de colonnes dérivées"
+                  name="Entrée de colonne dérivée">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                  description="Sortie par défaut de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  name="Sortie de colonne dérivée"
+                  synchronousInputId="Package\charger Hotels\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      length="16"
+                      lineageId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]"
+                      name="Source_File"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">"destinations.csv"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"destinations.csv"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]"
+                      name="Load_Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                  description="Sortie d'erreur de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de colonne dérivée"
+                  synchronousInputId="Package\charger Hotels\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\charger Hotels\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[stg].[hotels]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\charger Hotels\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{17C283B3-0699-46ED-A4A3-71A8C1326C18}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[OLEDB_TourismDW]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Hotel_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Hotel_ID"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_ID]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_ID]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Hotel_Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Hotel_Name"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_Name]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Name]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_ID]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Destination_ID"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Destination_Name]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Destination_Name"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Name]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Name]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Hotel_Type]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Hotel_Type"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_Type]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Type]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Stars]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Stars"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Stars]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Stars]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Price_Per_Night_EUR]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Price_Per_Night_EUR"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Price_Per_Night_EUR]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Price_Per_Night_EUR]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Guest_Rating]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Guest_Rating"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Guest_Rating]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Guest_Rating]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Review_Count]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Review_Count"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Review_Count]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Review_Count]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Breakfast_Included]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Breakfast_Included"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Breakfast_Included]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Breakfast_Included]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Pool]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Pool"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Pool]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Pool]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Free_Cancellation]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Free_Cancellation"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Free_Cancellation]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Free_Cancellation]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Capacity]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Capacity"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Capacity]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Capacity]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="City"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[City]"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[City]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Source_File]"
+                      cachedDataType="wstr"
+                      cachedLength="16"
+                      cachedName="Source_File"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      lineageId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Source_File]" />
+                    <inputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Load_Date]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="Load_Date"
+                      externalMetadataColumnId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      lineageId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée].Columns[Load_Date]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Hotel_Type]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_Type" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Stars]"
+                      dataType="wstr"
+                      length="255"
+                      name="Stars" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Price_Per_Night_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Price_Per_Night_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Guest_Rating]"
+                      dataType="wstr"
+                      length="255"
+                      name="Guest_Rating" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Review_Count]"
+                      dataType="wstr"
+                      length="255"
+                      name="Review_Count" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Breakfast_Included]"
+                      dataType="wstr"
+                      length="255"
+                      name="Breakfast_Included" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Pool]"
+                      dataType="wstr"
+                      length="255"
+                      name="Pool" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Free_Cancellation]"
+                      dataType="wstr"
+                      length="255"
+                      name="Free_Cancellation" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Capacity]"
+                      dataType="wstr"
+                      length="255"
+                      name="Capacity" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="255"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Source_File]"
+                      dataType="wstr"
+                      length="100"
+                      name="Source_File" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Load_Date]"
+                      dataType="dbTimeStamp"
+                      name="Load_Date" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_ID" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\charger Hotels\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger Hotels\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger Hotels\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger Hotels\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\charger Hotels\Source du fichier plat"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="1036"
+              name="Source du fichier plat"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\charger Hotels\Source du fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ff_hotels]"
+                  connectionManagerRefId="Package.ConnectionManagers[ff_hotels]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_ID]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_ID]"
+                      name="Hotel_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_Name]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Name]"
+                      name="Hotel_Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_ID]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_ID]"
+                      name="Destination_ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_Name]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Destination_Name]"
+                      name="Destination_Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Country]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_Type]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Hotel_Type]"
+                      name="Hotel_Type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Stars]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Stars]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Stars]"
+                      name="Stars"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Price_Per_Night_EUR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Price_Per_Night_EUR]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Price_Per_Night_EUR]"
+                      name="Price_Per_Night_EUR"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Guest_Rating]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Guest_Rating]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Guest_Rating]"
+                      name="Guest_Rating"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Review_Count]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Review_Count]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Review_Count]"
+                      name="Review_Count"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Breakfast_Included]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Breakfast_Included]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Breakfast_Included]"
+                      name="Breakfast_Included"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Pool]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Pool]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Pool]"
+                      name="Pool"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Free_Cancellation]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Free_Cancellation]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Free_Cancellation]"
+                      name="Free_Cancellation"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Capacity]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Capacity]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Capacity]"
+                      name="Capacity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[City]"
+                      length="255"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_ID" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Destination_Name]"
+                      dataType="wstr"
+                      length="255"
+                      name="Destination_Name" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="255"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Hotel_Type]"
+                      dataType="wstr"
+                      length="255"
+                      name="Hotel_Type" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Stars]"
+                      dataType="wstr"
+                      length="255"
+                      name="Stars" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Price_Per_Night_EUR]"
+                      dataType="wstr"
+                      length="255"
+                      name="Price_Per_Night_EUR" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Guest_Rating]"
+                      dataType="wstr"
+                      length="255"
+                      name="Guest_Rating" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Review_Count]"
+                      dataType="wstr"
+                      length="255"
+                      name="Review_Count" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Breakfast_Included]"
+                      dataType="wstr"
+                      length="255"
+                      name="Breakfast_Included" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Pool]"
+                      dataType="wstr"
+                      length="255"
+                      name="Pool" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Free_Cancellation]"
+                      dataType="wstr"
+                      length="255"
+                      name="Free_Cancellation" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Capacity]"
+                      dataType="wstr"
+                      length="255"
+                      name="Capacity" />
+                    <externalMetadataColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="255"
+                      name="City" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="65001"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\charger Hotels.Paths[Sortie de colonne dérivée]"
+              endId="Package\charger Hotels\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de colonne dérivée"
+              startId="Package\charger Hotels\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+            <path
+              refId="Package\charger Hotels.Paths[Sortie de source de fichier plat]"
+              endId="Package\charger Hotels\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+              name="Sortie de source de fichier plat"
+              startId="Package\charger Hotels\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\vider stgHotels"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tâche d'exécution de requêtes SQL"
       DTS:DTSID="{9CC3CAD4-2CE8-4824-A6C8-754FFFC88FC6}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tâche d'exécution de requêtes SQL"
+      DTS:ObjectName="vider stgHotels"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
-        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{17C283B3-0699-46ED-A4A3-71A8C1326C18}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE stg.hotels;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte]"
+      DTS:CreationName=""
+      DTS:DTSID="{E06B5F8A-F9B0-4261-BAC3-020710508A07}"
+      DTS:From="Package\vider stgHotels"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte"
+      DTS:To="Package\charger Hotels" />
+  </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
 <!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
@@ -44,13 +1099,140 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="244.8,41.6"
-          Id="Package\Tâche d'exécution de requêtes SQL"
-          TopLeft="194.285714699298,45.8823529009588" />
+          Size="146.4,41.6"
+          Id="Package\charger Hotels"
+          TopLeft="114.285714528999,98.6470587370614" />
+        <NodeLayout
+          Size="148.8,41.6"
+          Id="Package\vider stgHotels"
+          TopLeft="25.7142857690251,17.5882352787009" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="100.114285769025,59.1882352787009">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="87.3714287599734,39.4588234583606"
+              Start="0,0"
+              End="87.3714287599734,31.9588234583606">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.7294117291803" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.7294117291803"
+                    Point2="0,19.7294117291803"
+                    Point3="4,19.7294117291803" />
+                  <mssgle:LineSegment
+                    End="83.3714287599734,19.7294117291803" />
+                  <mssgle:CubicBezierSegment
+                    Point1="83.3714287599734,19.7294117291803"
+                    Point2="87.3714287599734,19.7294117291803"
+                    Point3="87.3714287599734,23.7294117291803" />
+                  <mssgle:LineSegment
+                    End="87.3714287599734,31.9588234583606" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\charger Hotels">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="178.4,41.6"
+          Id="Package\charger Hotels\Source du fichier plat"
+          TopLeft="60.0000001277242,45.1176470192762" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\charger Hotels\Colonne dérivée"
+          TopLeft="362.142857913764,52.7647058361026" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\charger Hotels\Destination OLE DB"
+          TopLeft="608.571429866917,146.823529283068" />
+        <EdgeLayout
+          Id="Package\charger Hotels.Paths[Sortie de source de fichier plat]"
+          TopLeft="238.400000127724,69.7411764276894">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="123.74285778604,0"
+              Start="0,0"
+              End="116.24285778604,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="116.24285778604,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\charger Hotels.Paths[Sortie de colonne dérivée]"
+          TopLeft="439.342857913764,94.3647058361026">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="254.428571953154,52.4588234469655"
+              Start="0,0"
+              End="254.428571953154,44.9588234469655">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.2294117234828" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.2294117234828"
+                    Point2="0,26.2294117234828"
+                    Point3="4,26.2294117234828" />
+                  <mssgle:LineSegment
+                    End="250.428571953154,26.2294117234828" />
+                  <mssgle:CubicBezierSegment
+                    Point1="250.428571953154,26.2294117234828"
+                    Point2="254.428571953154,26.2294117234828"
+                    Point3="254.428571953154,30.2294117234828" />
+                  <mssgle:LineSegment
+                    End="254.428571953154,44.9588234469655" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\charger Hotels\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
