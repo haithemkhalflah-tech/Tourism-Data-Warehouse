@@ -1,0 +1,82 @@
+Destination_ID,Destination_Name,Country,Continent,Climate,Travel_Style,Latitude,Longitude,Best_Season,Avg_Daily_Budget_EUR,Safety_Index,Popularity_Index
+D001,Tunis,Tunisia,Africa,Mediterranean,Culture,35.8256,10.63699,Apr-Oct,147,63.9,49.9
+D002,Sousse,Tunisia,Africa,Mediterranean,Beach,35.8256,10.63699,Apr-Oct,224,79.4,72.0
+D003,Djerba,Tunisia,Africa,Mediterranean,Beach,33.8076,10.8451,Apr-Oct,137,56.3,69.1
+D004,Marrakech,Morocco,Africa,Arid,Culture,31.6295,-7.9811,Oct-Apr,59,91.2,81.5
+D005,Cairo,Egypt,Africa,Arid,Culture,30.0444,31.2357,Oct-Apr,151,74.3,56.2
+D006,Istanbul,Turkey,Europe,Mediterranean,Culture,41.0082,28.9784,Apr-Oct,116,72.0,54.6
+D007,Antalya,Turkey,Europe,Mediterranean,Beach,36.8969,30.7133,Apr-Oct,233,94.8,50.1
+D008,Athens,Greece,Europe,Mediterranean,Culture,37.9838,23.7275,Apr-Oct,65,86.3,53.1
+D009,Rome,Italy,Europe,Mediterranean,Culture,41.9028,12.4964,Apr-Oct,147,69.0,73.5
+D010,Paris,France,Europe,Temperate,Culture,48.8566,2.3522,May-Sep,166,79.5,64.2
+D011,Barcelona,Spain,Europe,Mediterranean,Beach,41.3874,2.1686,Apr-Oct,255,77.4,43.9
+D012,Lisbon,Portugal,Europe,Mediterranean,Culture,38.7223,-9.1393,Apr-Oct,259,96.3,55.2
+D013,London,United Kingdom,Europe,Temperate,Culture,51.5072,-0.1276,May-Sep,119,91.3,54.8
+D014,Amsterdam,Netherlands,Europe,Temperate,Culture,52.3676,4.9041,May-Sep,247,87.1,81.8
+D015,Prague,Czechia,Europe,Continental,Culture,50.0755,14.4378,May-Sep,132,78.2,82.7
+D016,Vienna,Austria,Europe,Continental,Culture,48.2082,16.3738,May-Sep,161,80.2,48.9
+D017,Berlin,Germany,Europe,Temperate,Culture,52.52,13.405,May-Sep,144,96.5,99.9
+D018,Zurich,Switzerland,Europe,Alpine,Nature,47.3769,8.5417,Jun-Sep,148,81.1,56.0
+D019,Dubai,United Arab Emirates,Asia,Arid,Luxury,25.2048,55.2708,Oct-Apr,196,66.9,98.6
+D020,Doha,Qatar,Asia,Arid,Luxury,25.2854,51.531,Oct-Apr,175,67.7,64.7
+D021,Bangkok,Thailand,Asia,Tropical,Culture,13.7563,100.5018,Nov-Apr,194,62.1,42.0
+D022,Phuket,Thailand,Asia,Tropical,Beach,7.8804,98.3923,Nov-Apr,97,55.7,60.7
+D023,Bali,Indonesia,Asia,Tropical,Nature,-8.4095,115.1889,Nov-Apr,46,73.2,78.1
+D024,Tokyo,Japan,Asia,Temperate,Culture,35.6762,139.6503,May-Sep,132,72.0,80.8
+D025,Seoul,South Korea,Asia,Temperate,Culture,37.5665,126.978,May-Sep,202,67.6,71.9
+D026,Singapore,Singapore,Asia,Tropical,Luxury,1.3521,103.8198,Nov-Apr,82,55.6,66.9
+D027,New York,United States,North America,Continental,Culture,40.7128,-74.006,May-Sep,174,63.6,73.2
+D028,Miami,United States,North America,Tropical,Beach,25.7617,-80.1918,Nov-Apr,236,85.6,75.6
+D029,Los Angeles,United States,North America,Mediterranean,Culture,34.0522,-118.2437,Apr-Oct,232,89.0,44.9
+D030,Toronto,Canada,North America,Continental,Culture,43.6532,-79.3832,May-Sep,65,81.1,62.2
+D031,Vancouver,Canada,North America,Oceanic,Nature,49.2827,-123.1207,May-Sep,205,94.8,54.5
+D032,Mexico City,Mexico,North America,Temperate,Culture,19.4326,-99.1332,May-Sep,248,83.0,88.2
+D033,Cancun,Mexico,North America,Tropical,Beach,21.1619,-86.8515,Nov-Apr,102,94.3,68.2
+D034,Rio de Janeiro,Brazil,South America,Tropical,Beach,-22.9068,-43.1729,Nov-Apr,66,91.6,99.0
+D035,Buenos Aires,Argentina,South America,Temperate,Culture,-34.6037,-58.3816,May-Sep,133,74.3,63.9
+D036,Cape Town,South Africa,Africa,Mediterranean,Nature,-33.9249,18.4241,Apr-Oct,93,59.1,89.0
+D037,Nairobi,Kenya,Africa,Tropical,Nature,-1.2921,36.8219,Nov-Apr,103,70.9,87.9
+D038,Sydney,Australia,Oceania,Oceanic,Beach,-33.8688,151.2093,May-Sep,214,83.8,49.0
+D039,Melbourne,Australia,Oceania,Oceanic,Culture,-37.8136,144.9631,May-Sep,232,83.6,70.5
+D040,Auckland,New Zealand,Oceania,Oceanic,Nature,-36.8509,174.7645,May-Sep,252,80.4,81.7
+D041,Fes,Morocco,Africa,Mediterranean,Culture,34.0331,-5.0003,Apr-Oct,59,66.8,91.5
+D042,Hammamet,Tunisia,Africa,Mediterranean,Beach,36.4,10.6167,Apr-Oct,234,79.1,59.6
+D043,Monastir,Tunisia,Africa,Mediterranean,Beach,35.7643,10.8113,Apr-Oct,234,71.5,53.2
+D044,Granada,Spain,Europe,Mediterranean,Culture,37.1773,-3.5986,Apr-Oct,219,96.8,82.7
+D045,Nice,France,Europe,Mediterranean,Beach,43.7102,7.262,Apr-Oct,234,91.5,88.6
+D046,Florence,Italy,Europe,Mediterranean,Culture,43.7696,11.2558,Apr-Oct,95,86.0,60.9
+D047,Budapest,Hungary,Europe,Continental,Culture,47.4979,19.0402,May-Sep,152,65.1,45.8
+D048,Krakow,Poland,Europe,Continental,Culture,50.0647,19.945,May-Sep,99,66.0,96.4
+D049,Reykjavik,Iceland,Europe,Oceanic,Nature,64.1466,-21.9426,May-Sep,108,56.7,63.9
+D050,Stockholm,Sweden,Europe,Continental,Nature,59.3293,18.0686,May-Sep,175,85.6,71.1
+D051,Copenhagen,Denmark,Europe,Oceanic,Culture,55.6761,12.5683,May-Sep,95,59.8,90.3
+D052,Oslo,Norway,Europe,Oceanic,Nature,59.9139,10.7522,May-Sep,179,73.9,80.5
+D053,Brussels,Belgium,Europe,Temperate,Culture,50.8503,4.3517,May-Sep,65,63.7,84.1
+D054,Munich,Germany,Europe,Continental,Culture,48.1351,11.582,May-Sep,117,93.5,52.5
+D055,Edinburgh,United Kingdom,Europe,Oceanic,Culture,55.9533,-3.1883,May-Sep,211,75.4,72.5
+D056,Gran Canaria,Spain,Europe,Subtropical,Beach,28.1235,-15.4363,Mar-Nov,62,79.2,81.7
+D057,Malta,Malta,Europe,Mediterranean,Beach,35.8992,14.5141,Apr-Oct,176,84.9,53.7
+D058,Larnaca,Cyprus,Europe,Mediterranean,Beach,34.9229,33.6233,Apr-Oct,133,61.0,50.5
+D059,Muscat,Oman,Asia,Arid,Nature,23.588,58.3829,Oct-Apr,104,81.0,98.9
+D060,Amman,Jordan,Asia,Arid,Culture,31.9454,35.9284,Oct-Apr,58,78.2,71.0
+D061,Tel Aviv,Israel,Asia,Mediterranean,Beach,32.0853,34.7818,Apr-Oct,53,63.7,55.6
+D062,Delhi,India,Asia,Continental,Culture,28.6139,77.209,May-Sep,134,95.5,99.8
+D063,Mumbai,India,Asia,Tropical,Culture,19.076,72.8777,Nov-Apr,97,80.8,97.9
+D064,Hanoi,Vietnam,Asia,Tropical,Culture,21.0278,105.8342,Nov-Apr,174,84.9,73.5
+D065,Ho Chi Minh City,Vietnam,Asia,Tropical,Culture,10.8231,106.6297,Nov-Apr,128,92.9,93.0
+D066,Kuala Lumpur,Malaysia,Asia,Tropical,Culture,3.139,101.6869,Nov-Apr,136,81.8,51.3
+D067,Manila,Philippines,Asia,Tropical,Beach,14.5995,120.9842,Nov-Apr,155,67.7,56.7
+D068,Hong Kong,China,Asia,Subtropical,Culture,22.3193,114.1694,Mar-Nov,232,59.5,82.0
+D069,Beijing,China,Asia,Continental,Culture,39.9042,116.4074,May-Sep,243,74.6,90.8
+D070,Osaka,Japan,Asia,Temperate,Culture,34.6937,135.5023,May-Sep,216,64.4,91.4
+D071,Fukuoka,Japan,Asia,Temperate,Culture,33.5904,130.4017,May-Sep,52,72.9,64.3
+D072,Perth,Australia,Oceania,Mediterranean,Beach,-31.9505,115.8605,Apr-Oct,219,93.0,93.3
+D073,Queenstown,New Zealand,Oceania,Alpine,Nature,-45.0312,168.6626,Jun-Sep,79,68.9,91.1
+D074,Santiago,Chile,South America,Mediterranean,Nature,-33.4489,-70.6693,Apr-Oct,250,60.2,96.1
+D075,Lima,Peru,South America,Arid,Culture,-12.0464,-77.0428,Oct-Apr,125,70.3,87.1
+D076,Cusco,Peru,South America,Alpine,Nature,-13.532,-71.9675,Jun-Sep,208,94.0,80.1
+D077,Phnom Penh,Cambodia,Asia,Tropical,Culture,11.5564,104.9282,Nov-Apr,94,66.7,74.8
+D078,Siem Reap,Cambodia,Asia,Tropical,Culture,13.3671,103.8448,Nov-Apr,148,82.9,62.3
+D079,Zanzibar,Tanzania,Africa,Tropical,Beach,-6.1659,39.2026,Nov-Apr,176,55.0,96.4
+D080,Mauritius,Mauritius,Africa,Tropical,Beach,-20.1609,57.5012,Nov-Apr,46,70.2,98.4
+D081,Seychelles,Seychelles,Africa,Tropical,Beach,-4.6796,55.492,Nov-Apr,178,68.1,57.0

@@ -1,0 +1,1201 @@
+Customer_ID|Country|Age|Travel_Budget_EUR|Preferred_Climate|Travel_Type|Preferred_Style|Preferred_Star_Rating|Trip_Duration_Days|Newsletter_Opt_In
+C00001|France|59|1200|Any|Solo|Nature|5|5|No
+C00002|France|39|800|Mediterranean|Family|Any|3|9|Yes
+C00003|Canada|38|1200|Arid|Couple|Beach|3|13|No
+C00004|Germany|44|1500|Any|Solo|Nature|3|12|No
+C00005|Turkey|74|1200|Any|Couple|Any|3|8|Yes
+C00006|Belgium|48|1000|Arid|Couple|Luxury|3|8|Yes
+C00007|Italy|23|3500|Any|Business|Any|3|12|No
+C00008|Tunisia|44|1500|Any|Friends|Nature|5|11|Yes
+C00009|Italy|57|3500|Temperate|Friends|Beach|3|10|Yes
+C00010|Tunisia|51|2000||Couple|Beach|4|14|Yes
+C00011|United Kingdom|29|3500|Temperate|Family|Any|2|6|Yes
+C00012|Italy|62|800|Temperate|Family|Nature|5|7|Yes
+C00013|Spain|74|1000|Arid|Couple|Culture|4|2|No
+C00014|Spain|70|2000|Tropical|Family|Luxury|2|7|No
+C00015|United States|24|1200|Mediterranean|Family|Luxury|5|3|Yes
+C00016|Germany|27|1500|Mediterranean|Friends|Nature|4|7|Yes
+C00017|Tunisia|62|800|Mediterranean|Solo|Culture|5|10|Yes
+C00018|Tunisia|34|1000|Mediterranean|Couple|Beach|4|9|Yes
+C00019|Morocco|43|2000|Mediterranean|Family|Adventure|4|10|Yes
+C00020|Switzerland|38|2000|Temperate|Couple|Adventure|5|14|Yes
+C00021|GERMANY|45|800|Tropical|Family|Nature|4|11|Yes
+C00022|Canada|75|2500|Any|Business|Culture|2|9|Yes
+C00023|United States|63|1200|Mediterranean|Couple|Culture|5|4|Yes
+C00024|Canada|19|800|Mediterranean|Couple|Luxury|4|9|Yes
+C00025|Canada|71|2000|Alpine|Couple|Beach|4|7|Yes
+C00026|Canada|60|500|Temperate|Family|Any|2|14|No
+C00027|Turkey|18|1000|Mediterranean|Solo|Culture|4|7|Yes
+C00028|Germany|68|800|Any|Friends|Any|5|7|No
+C00029|Canada|70|2500|Any|Solo|Adventure|3|4|Yes
+C00030|Spain|53|2000|Tropical|Family|Any|4|11|Yes
+C00031|Switzerland|68|1200|Tropical|Solo|Beach|4|2|No
+C00032|Switzerland|43|3500|Any|Solo|Beach|5|13|Yes
+C00033|France|46|2000|Temperate|Friends|Any|4|5|Yes
+C00034|United Kingdom|38|1200|Temperate|Couple|Nature|4|11|Yes
+C00035|Tunisia|28|800|Any|Couple|Culture|5|13|Yes
+C00036|Morocco|57|1200|Tropical|Solo|Nature|4|7|No
+C00037|Tunisia|28|1500|Tropical|Solo|Any|3|12|Yes
+C00038|United Kingdom|53|1500|Mediterranean|Couple|Culture|2|13|Yes
+C00039|Morocco|66|1500|Any|Couple|Luxury|4|11|Yes
+C00040|Turkey|56|2500|Temperate|Couple|Nature|3|3|Yes
+C00041|Germany|57|2500|Arid|Friends|Nature|3|8|No
+C00042|Italy|52|500|Mediterranean|Couple|Any|5|8|No
+C00043|Germany|71|2500|Mediterranean|Business|Adventure|3|12|Yes
+C00044|Tunisia|51|3500|Temperate|Couple|Any|4|5|Yes
+C00045|Tunisia|72|800|Alpine|Business|Nature|3|5|No
+C00046|Morocco|64|2000|Temperate|Friends|Culture|5|2|Yes
+C00047|Morocco|41|2000|Mediterranean|Couple|Adventure|4|14|Yes
+C00048|Turkey|71|500|Any|Friends|Any|2|3|Yes
+C00049|United Kingdom|39|2500|Mediterranean|Family|Any|4|10|Yes
+C00050|Canada|22|3500|Any|Friends|Nature|3|11|No
+C00051|Germany|73|1200|Mediterranean|Solo|Nature|5|9|No
+C00052|Morocco|50|500|Arid|Family|Luxury|5|9|Yes
+C00053|Belgium|75|3500|Mediterranean|Solo|Any|4|10|Yes
+C00054|United Kingdom|53|1200|Any|Business|Nature|4|8|Yes
+C00055|Spain|64|3500|Temperate|Family|Beach|4|14|Yes
+C00056|Turkey|37|1200|Mediterranean|Solo|Adventure|4|10|Yes
+C00057|TUNISIA|36|1000|Tropical|Friends|Beach|4|11|No
+C00058|United Kingdom|52|3500|Mediterranean|Friends|Adventure|3|13|Yes
+C00059|Germany|69|2000|Mediterranean|Couple|Any|4|3|Yes
+C00060|Morocco|60|1500|Any|Family|Luxury|3|7|Yes
+C00061|Tunisia|34|2500|Tropical|Family|Nature|4|4|Yes
+C00062|Italy|62|1200|Any|Solo|Nature|2|12|Yes
+C00063|Turkey|60|1000|Arid|Couple|Nature|4|7|No
+C00064|United Kingdom|51|3500|Arid|Business|Any|3|4|Yes
+C00065|United States|26|2000|Mediterranean|Family|Adventure|3|9|No
+C00066|Tunisia|43|1500|Mediterranean|Solo|Nature|4|12|Yes
+C00067|Germany|19|1200|Any|Family|Beach|5|14|Yes
+C00068|France|70|3500|Any|Family|Nature|5|5|Yes
+C00069|Belgium|26|3500|Mediterranean|Couple|Any|3|13|Yes
+C00070|Netherlands|26|1200|Mediterranean|Couple|Luxury|3|11|Yes
+C00071|Canada|57|500|Temperate|Solo|Beach|5|7|Yes
+C00072|Netherlands|34|500|Any|Friends|Nature|4|10|No
+C00073|Germany|18|2000|Mediterranean|Solo|Nature|3|3|No
+C00074|Spain|42|1500|Tropical|Business|Culture|5|3|Yes
+C00075|Spain|60|1200|Any|Friends|Adventure|5|8|Yes
+C00076|France|57|2000|Mediterranean|Solo|Beach|5|3|Yes
+C00077|Canada|59|2000|Mediterranean|Friends|Culture|5|3|Yes
+C00078|United States|42|800|Temperate|Solo|Luxury|5|5|Yes
+C00079|France|56|3500|Any|Family|Adventure|2|10|No
+C00080|Switzerland|52|2500|Mediterranean|Friends|Beach|3|9|Yes
+C00081|Netherlands|20|3500|Temperate|Family|Nature|4|3|Yes
+C00082|France|67|500|Tropical|Solo|Beach|4|9|Yes
+C00083|Netherlands|54|1500|Temperate|Solo|Nature|4|5|Yes
+C00084|Tunisia|61|3500|Temperate|Family|Adventure|4|3|Yes
+C00085|Spain|61|1200|Temperate|Family|Nature|4|12|Yes
+C00086|TUNISIA|68|2000|Tropical|Friends|Luxury|4|11|Yes
+C00087|Belgium|47|1200|Temperate|Solo|Any|2|8|Yes
+C00088|Switzerland|55|800|Temperate|Family|Nature|3|7|Yes
+C00089|Canada|51|1500|Temperate|Solo|Luxury|4|11|No
+C00090|United States|29|2000|Any|Solo|Any|4|6|Yes
+C00091|Turkey|36|1200|Mediterranean|Couple|Adventure|3|12|Yes
+C00092|Netherlands|54|500|Any|Business|Adventure|4|2|No
+C00093|United States|61|2500|Any|Solo|Beach|4|3|Yes
+C00094|Netherlands|66|800|Tropical|Couple|Luxury|4|9|Yes
+C00095|Germany|34|1500|Temperate|Friends|Luxury|2|2|Yes
+C00096|France|27|800|Tropical|Friends|Culture|4|4|Yes
+C00097|Belgium|74|500|Mediterranean|Family|Culture|3|3|Yes
+C00098|Spain|72|1500|Tropical|Family|Any|5|6|No
+C00099|Turkey|66|800|Mediterranean|Family|Any|3|5|No
+C00100|MOROCCO|64|1000|Mediterranean|Solo|Culture|4|14|Yes
+C00101|Netherlands|29|500|Any|Solo|Any|2|8|Yes
+C00102|United States|33|500|Tropical|Solo|Nature|4|6|Yes
+C00103|Belgium|41|500|Any|Business|Culture|4|9|Yes
+C00104|Italy|36|1000|Temperate|Friends|Luxury|3|5|Yes
+C00105|Turkey|25|1000|Any|Family|Nature|4|13|Yes
+C00106|Italy|48|1200|Temperate|Couple|Any|3|7|No
+C00107|Tunisia|38|2000|Mediterranean|Couple|Adventure|4|5|Yes
+C00108|Spain|34|2500|Arid|Couple|Beach|4|3|Yes
+C00109|Morocco|40|800|Mediterranean|Solo|Culture|4|2|Yes
+C00110|Germany|54|1200|Tropical|Friends|Adventure|5|2|No
+C00111|United States|71|800|Any|Couple|Any|4|9|No
+C00112|Morocco|33|2500|Mediterranean|Solo|Luxury|4|5|Yes
+C00113|France|23|2000|Tropical|Friends|Beach|2|6|Yes
+C00114|France|25|1000|Alpine|Couple|Adventure|4|12|No
+C00115|United States|42|2000|Any|Family|Beach|5|9|Yes
+C00116|Canada|35|1000|Arid|Couple|Culture|3|13|No
+C00117|Germany|42|2500|Mediterranean|Family|Any|5|8|Yes
+C00118|Belgium|29|2000|Arid|Business|Luxury|3|14|Yes
+C00119|Netherlands|32|1200|Tropical|Family|Any|5|9|Yes
+C00120|Turkey|43|1500|Alpine|Couple|Beach|3|14|No
+C00121|Canada|58|1200|Any|Couple|Adventure|5|9|Yes
+C00122|Netherlands|62|800|Alpine|Business|Culture|4|7|No
+C00123|Netherlands|43|1200|Any|Family|Culture|3|11|Yes
+C00124|Canada|64|2500|Mediterranean|Family|Any|3|3|Yes
+C00125|Tunisia|49|500|Alpine|Family|Adventure|4|7|Yes
+C00126|ITALY|27|800|Any|Family|Adventure|5|2|Yes
+C00127|Netherlands|33|2000|Mediterranean|Family|Beach|3|2|Yes
+C00128|Canada|24|800|Any|Solo|Any|3|12|Yes
+C00129|Canada|34|1500|Mediterranean|Family|Any|4|4|No
+C00130|Switzerland|40|1000|Arid|Family|Nature|4|4|Yes
+C00131|Morocco|43|2000|Any|Friends|Any|4|12|No
+C00132|United Kingdom|38|3500|Arid|Couple|Culture|4|14|Yes
+C00133|Tunisia|39|800|Mediterranean|Couple|Beach|3|6|No
+C00134|Spain|75|2000|Temperate|Couple|Adventure|5|2|Yes
+C00135|United Kingdom|24|2000|Temperate|Business|Any|4|11|Yes
+C00136|Morocco|31|2000|Any|Family|Beach|3|7|Yes
+C00137|Morocco|32|1000||Friends|Any|4|8|Yes
+C00138|Morocco|70|3500|Tropical|Friends|Adventure|4|11|No
+C00139|United Kingdom|24|2500|Alpine|Family|Luxury|4|13|Yes
+C00140|United States|26|1200|Tropical|Business|Adventure|4|14|Yes
+C00141|Italy|68|2000|Arid|Couple|Adventure|3|12|No
+C00142|Canada|65|500|Arid|Family|Adventure|4|4|Yes
+C00143|Turkey|25|2500|Any|Friends|Any|5|5|No
+C00144|Italy|67|1500|Temperate|Solo|Nature|3|11|Yes
+C00145|Germany|40|1000|Temperate|Solo|Adventure|4|12|No
+C00146|United States|46|800|Mediterranean|Family|Culture|5|11|Yes
+C00147|Spain|35|1000|Mediterranean|Couple|Culture|5|13|Yes
+C00148|Italy|48|800|Mediterranean|Friends|Beach|4|11|Yes
+C00149|Turkey|47|1000|Mediterranean|Couple|Nature|4|11|No
+C00150|France|69|800|Arid|Couple|Beach|4|11|Yes
+C00151|Morocco|56|2000|Alpine|Family|Culture|5|4|Yes
+C00152|Netherlands|52|1200|Temperate|Family|Culture|5|2|Yes
+C00153|Germany|35|800|Any|Friends|Luxury|3|9|No
+C00154|Tunisia|59|3500|Any|Couple|Adventure|4|14|No
+C00155|Spain|56|800|Any|Business|Culture|4|11|No
+C00156|Germany|34|500|Arid|Couple|Any|5|11|Yes
+C00157|Morocco|31|800|Temperate|Friends|Any|4|3|Yes
+C00158|Netherlands|48|500|Tropical|Couple|Beach|4|2|Yes
+C00159|United States|41|1500|Mediterranean|Couple|Beach|5|9|No
+C00160|Netherlands|52|2000|Tropical|Family|Adventure|2|8|Yes
+C00161|United Kingdom|61|500|Any|Couple|Adventure|3|8|Yes
+C00162|Netherlands|62|1200|Any|Solo|Luxury|4|5|No
+C00163|United Kingdom|51|2500|Mediterranean|Business|Nature|4|12|Yes
+C00164|United States|20|2000|Temperate|Solo|Beach|2|10|Yes
+C00165|Belgium|54|500|Any|Family|Adventure|3|7|Yes
+C00166|Morocco|60|2000|Mediterranean|Family|Beach|4|3|Yes
+C00167|United Kingdom|57|3500|Tropical|Family|Adventure|5|2|No
+C00168|Tunisia|43|2000|Any|Solo|Culture|4|2|Yes
+C00169|Netherlands|72|2000|Tropical|Friends|Beach|4|10|Yes
+C00170|Netherlands|40|1500|Mediterranean|Business|Culture|3|5|Yes
+C00171|Tunisia|61|1200|Temperate|Family|Beach|5|6|Yes
+C00172|France|56|1000|Any|Couple|Nature|5|4|Yes
+C00173|Canada|32|1000|Temperate|Couple|Luxury|4|5|Yes
+C00174|Belgium|73|500|Mediterranean|Solo|Any|3|13|Yes
+C00175|Spain|66|2000|Tropical|Solo|Any|3|9|Yes
+C00176|Turkey|21|500|Tropical|Solo|Any|2|14|Yes
+C00177|United Kingdom|46|1500|Temperate|Solo|Culture|4|5|Yes
+C00178|Tunisia|39|1500|Alpine|Family|Adventure|5|10|No
+C00179|Turkey|42|800|Mediterranean|Friends|Any|5|10|No
+C00180|United States|30|3500|Any|Family|Nature|4|7|No
+C00181|United Kingdom|35|1500|Mediterranean|Solo|Any|5|3|Yes
+C00182|Canada|50|800|Tropical|Couple|Beach|5|13|Yes
+C00183|Turkey|33|1200|Mediterranean|Couple|Culture|3|11|Yes
+C00184|United States|62|500|Tropical|Friends|Beach|4|12|Yes
+C00185|Germany|59|2500|Temperate|Friends|Beach|5|8|Yes
+C00186|Morocco|61|1200|Temperate|Friends|Beach|4|10|Yes
+C00187|NETHERLANDS|19|1500|Mediterranean|Couple|Luxury|5|7|No
+C00188|Germany|72|1200|Arid|Friends|Luxury|5|4|Yes
+C00189|United Kingdom|52|1200|Mediterranean|Couple|Adventure|4|8|Yes
+C00190|Canada|59|3500|Alpine|Friends|Culture|5|6|No
+C00191|Belgium|51|3500|Any|Couple|Nature|4|2|Yes
+C00192|Turkey|47|3500|Tropical|Business|Nature|4|4|No
+C00193|Morocco|72|1200|Temperate|Business|Nature|4|6|No
+C00194|United Kingdom|30|1500|Tropical|Friends|Beach|2|8|No
+C00195|Tunisia|30|2500|Mediterranean|Couple|Luxury|4|4|Yes
+C00196|Italy|35|2000|Tropical|Family|Culture|4|7|No
+C00197|United Kingdom|49|1200|Any|Friends|Beach|3|6|Yes
+C00198|Morocco|49|800|Temperate|Family|Luxury|2|14|Yes
+C00199|Netherlands|52|1500|Mediterranean|Friends|Luxury|3|2|Yes
+C00200|Netherlands|56|1200|Any|Couple|Any|4|11|Yes
+C00201|United Kingdom|63|2500|Temperate|Couple|Any|5|7|Yes
+C00202|United States|69|2000|Any|Friends|Culture|5|9|Yes
+C00203|Italy|46|3500|Temperate|Solo|Culture|4|14|No
+C00204|Tunisia|66|1500|Temperate|Solo|Culture|5|14|No
+C00205|United Kingdom|46|1000|Mediterranean|Solo|Beach|4|2|No
+C00206|United States|70|2000|Mediterranean|Couple|Adventure|4|3|Yes
+C00207|Netherlands|61|800|Any|Friends|Culture|4|5|No
+C00208|Netherlands|74|1200|Mediterranean|Couple|Any|3|13|Yes
+C00209|Canada|33|2500|Any|Business|Adventure|5|3|No
+C00210|United Kingdom|73|1000|Temperate|Friends|Beach|4|12|No
+C00211|Italy|61|2500|Mediterranean|Couple|Adventure|4|10|Yes
+C00212|France|64|1000|Mediterranean|Friends|Nature|4|11|No
+C00213|Italy|74|1500|Mediterranean|Solo|Adventure|4|9|Yes
+C00214|Netherlands|27|1000|Any|Couple|Culture|3|9|Yes
+C00215|Netherlands|47|800|Tropical|Business|Beach|4|5|Yes
+C00216|Germany|42|800|Tropical|Family|Culture|2|6|Yes
+C00217|Netherlands|56|500|Tropical|Couple|Any|4|5|No
+C00218|Tunisia|37|800|Mediterranean|Couple|Nature|4|14|Yes
+C00219|Spain|22|2000|Temperate|Couple|Any|4|10|Yes
+C00220|United Kingdom|18|1000|Mediterranean|Solo|Culture|4|14|Yes
+C00221|Turkey|47|800|Any|Friends|Culture|4|3|No
+C00222|Italy|66|1500|Tropical|Solo|Culture|4|14|No
+C00223|Spain|20|2500|Tropical|Solo|Luxury|4|12|No
+C00224|United States|62|3500|Temperate|Family|Nature|5|9|No
+C00225|France|31|2500|Tropical|Couple|Culture|4|3|Yes
+C00226|TUNISIA|73|500|Any|Family|Culture|5|2|Yes
+C00227|Morocco|47|2500|Temperate|Couple|Any|3|11|Yes
+C00228|Switzerland|67|1000|Mediterranean|Solo|Any|4|4|Yes
+C00229|Italy|21|500|Temperate|Family|Culture|5|10|No
+C00230|Spain|35|1000|Mediterranean|Couple|Beach|4|13|Yes
+C00231|Morocco|54|1500|Mediterranean|Family|Luxury|3|4|No
+C00232|France|42|500|Any|Business|Any|4|10|Yes
+C00233|Germany|65|1200|Alpine|Business|Beach|3|8|Yes
+C00234|Morocco|18|2000|Any|Solo|Luxury|3|14|Yes
+C00235|Tunisia|70|2000|Temperate|Friends|Culture|5|11|No
+C00236|Tunisia|63|1000|Temperate|Friends|Nature|4|2|No
+C00237|TURKEY|32|2500|Mediterranean|Solo|Adventure|3|11|No
+C00238|Germany|26|3500|Mediterranean|Family|Adventure|5|6|Yes
+C00239|Switzerland|32|3500|Any|Friends|Culture|5|10|No
+C00240|United Kingdom|66|1200|Tropical|Solo|Any|4|13|Yes
+C00241|Morocco|74|500|Any|Solo|Beach|3|4|Yes
+C00242|Germany|41|1200|Arid|Friends|Nature|5|10|No
+C00243|Tunisia|21|1200|Mediterranean|Couple|Luxury|4|6|Yes
+C00244|Tunisia|29|2500|Temperate|Solo|Culture|4|10|No
+C00245|Spain|75|3500|Arid|Business|Nature|5|11|Yes
+C00246|Netherlands|54|500||Couple|Nature|4|7|Yes
+C00247|Switzerland|54|1500|Any|Solo|Any|3|10|No
+C00248|Morocco|60|2500|Temperate|Couple|Luxury|4|8|Yes
+C00249|Turkey|23|1200|Mediterranean|Solo|Nature|4|8|No
+C00250|Turkey|56|1200|Temperate|Friends|Any|5|9|Yes
+C00251|Morocco|73|1500|Any|Family|Beach|4|8|Yes
+C00252|France|63|1200|Mediterranean|Solo|Any|2|13|Yes
+C00253|Turkey|41|1200|Any|Family|Beach|4|10|Yes
+C00254|Germany|28|1200|Mediterranean|Solo|Beach|4|12|Yes
+C00255|France|30|2000|Any|Couple|Nature|4|10|Yes
+C00256|Germany|51|2500|Alpine|Friends|Any|4|7|No
+C00257|United States|42|800|Tropical|Family|Beach|4|8|Yes
+C00258|Tunisia|24|2500|Tropical|Solo|Luxury|5|3|Yes
+C00259|Netherlands|69|1500|Any|Couple|Nature|2|10|Yes
+C00260|Spain|21|1200|Temperate|Friends|Any|4|13|Yes
+C00261|Turkey|25|2500|Alpine|Friends|Any|5|14|No
+C00262|Netherlands|37|2000|Mediterranean|Business|Adventure|4|2|No
+C00263|Netherlands|46|3500|Any|Friends|Any|4|2|Yes
+C00264|Netherlands|71|1500|Alpine|Friends|Nature|5|4|No
+C00265|France|70|1000|Any|Family|Luxury|3|13|Yes
+C00266|Germany|68|2500|Mediterranean|Couple|Any|2|7|Yes
+C00267|Belgium|62|1000|Temperate|Couple|Adventure|4|6|No
+C00268|United States|63|1200|Temperate|Friends|Nature|2|3|Yes
+C00269|Italy|27|2000|Tropical|Friends|Beach|5|10|No
+C00270|Netherlands|60|2000|Tropical|Family|Culture|3|14|No
+C00271|United Kingdom|51|2500|Mediterranean|Friends|Culture|5|11|Yes
+C00272|France|74|1500|Alpine|Solo|Beach|5|5|No
+C00273|Turkey|43|1500|Temperate|Solo|Any|3|5|No
+C00274|Switzerland|58|2000|Mediterranean|Family|Culture|4|6|Yes
+C00275|Turkey|66|1500|Arid|Family|Culture|2|9|Yes
+C00276|Spain|75|2000|Temperate|Solo|Beach|4|11|Yes
+C00277|Italy|20|2500|Mediterranean|Solo|Any|2|5|No
+C00278|Belgium|73|800|Any|Family|Any|5|6|No
+C00279|United Kingdom|23|2000|Any|Solo|Beach|5|13|Yes
+C00280|Turkey|22|1000|Temperate|Friends|Any|3|5|Yes
+C00281|Belgium|22|1500|Mediterranean|Friends|Any|3|7|Yes
+C00282|Italy|71|2000|Alpine|Friends|Nature|5|13|Yes
+C00283|Netherlands|64|2000|Temperate|Couple|Nature|3|4|Yes
+C00284|United Kingdom|40|2500|Tropical|Couple|Beach|5|9|Yes
+C00285|Belgium|66|1500|Temperate|Friends|Luxury|4|7|Yes
+C00286|Spain|26|800|Temperate|Couple|Culture|4|11|Yes
+C00287|Germany|52|2500|Temperate|Family|Nature|5|6|Yes
+C00288|Tunisia|37|800|Tropical|Couple|Culture|4|14|Yes
+C00289|Germany|75|3500|Temperate|Couple|Adventure|5|3|No
+C00290|Italy|66|2500|Any|Couple|Beach|5|11|Yes
+C00291|France|59|1500|Tropical|Couple|Luxury|3|11|Yes
+C00292|Tunisia|52|500|Alpine|Couple|Adventure|2|8|Yes
+C00293|United States|67|1500|Any|Family|Adventure|5|3|Yes
+C00294|Spain|35|1500|Tropical|Solo|Any|5|2|Yes
+C00295|United States|34|800|Tropical|Solo|Adventure|2|8|Yes
+C00296|United Kingdom|41|800|Temperate|Solo|Beach|5|6|Yes
+C00297|Morocco|20|1500|Temperate|Family|Nature|4|2|No
+C00298|Tunisia|49|1500|Any|Couple|Beach|3|5|No
+C00299|United States|52|1500|Temperate|Solo|Nature|5|13|No
+C00300|Turkey|55|800|Any|Solo|Adventure|3|14|No
+C00301|United States|30|1500|Mediterranean|Couple|Adventure|5|5|No
+C00302|Belgium|73|1500|Mediterranean|Couple|Luxury|3|11|Yes
+C00303|Germany|64|3500|Arid|Friends|Nature|4|8|Yes
+C00304|BELGIUM|42|1200|Tropical|Couple|Adventure|3|10|Yes
+C00305|Tunisia|26|500|Mediterranean|Couple|Any|4|3|Yes
+C00306|Tunisia|21|1000|Tropical|Solo|Culture|4|13|No
+C00307|Italy|31|500|Mediterranean|Solo|Luxury|3|2|Yes
+C00308|Belgium|54|1200|Mediterranean|Couple|Beach|4|3|Yes
+C00309|Canada|51|1000|Any|Couple|Luxury|4|8|Yes
+C00310|Turkey|28|2500|Mediterranean|Friends|Culture|2|14|Yes
+C00311|Switzerland|58|1500|Alpine|Couple|Nature|5|11|No
+C00312|Germany|73|1200|Alpine|Family|Beach|4|7|No
+C00313|Tunisia|20|3500|Any|Couple|Beach|4|5|Yes
+C00314|Italy|45|2500|Mediterranean|Friends|Nature|4|2|No
+C00315|Morocco|46|1500|Any|Family|Luxury|4|14|Yes
+C00316|Turkey|26|800|Temperate|Business|Adventure|3|2|No
+C00317|Belgium|20|2000|Arid|Solo|Luxury|4|6|Yes
+C00318|Germany|42|1200|Arid|Business|Culture|4|2|Yes
+C00319|Morocco|51|800|Any|Business|Any|4|13|Yes
+C00320|Belgium|29|1200|Tropical|Couple|Adventure|5|8|No
+C00321|United States|59|3500|Alpine|Family|Luxury|4|14|No
+C00322|Morocco|26|1200|Temperate|Family|Any|3|12|Yes
+C00323|Italy|32|800|Any|Family|Any|3|2|Yes
+C00324|Germany|57|3500|Any|Friends|Nature|3|2|No
+C00325|Netherlands|42|1000|Mediterranean|Couple|Culture|3|3|Yes
+C00326|United Kingdom|22|500|Any|Couple|Culture|4|14|Yes
+C00327|United Kingdom|28|1500|Mediterranean|Couple|Culture|3|12|Yes
+C00328|Germany|51|1200|Mediterranean|Friends|Adventure|3|13|Yes
+C00329|Morocco|41|1500|Mediterranean|Family|Beach|2|11|No
+C00330|Belgium|32|2000|Tropical|Family|Adventure|2|4|No
+C00331|Italy|55|800|Arid|Family|Luxury|3|14|Yes
+C00332|Switzerland|25|1500|Mediterranean|Friends|Any|3|12|Yes
+C00333|United Kingdom|22|800|Mediterranean|Solo|Any|4|2|No
+C00334|Italy|65|1500|Any|Couple|Beach|4|10|Yes
+C00335|United Kingdom|43|500|Any|Family|Luxury|3|11|No
+C00336|United States|35|500|Any|Couple|Beach|4|9|Yes
+C00337|Belgium|23|3500|Any|Family|Any|4|6|Yes
+C00338|United States|54|500|Arid|Business|Adventure|3|14|No
+C00339|Turkey|65|3500|Mediterranean|Friends|Culture|2|12|No
+C00340|United Kingdom|30|500|Tropical|Couple|Any|4|3|Yes
+C00341|Netherlands|45|500|Alpine|Friends|Nature|4|6|No
+C00342|Netherlands|22|500|Tropical|Family|Culture|3|7|Yes
+C00343|United States|30|800|Arid|Friends|Any|3|2|Yes
+C00344|Netherlands|34|1200|Mediterranean|Friends|Adventure|5|12|No
+C00345|United Kingdom|67|3500|Tropical|Couple|Beach|3|5|No
+C00346|Germany|57|1500|Temperate|Friends|Culture|3|10|Yes
+C00347|United States|62|500|Arid|Couple|Adventure|5|3|Yes
+C00348|Turkey|49|800|Temperate|Couple|Luxury|5|6|Yes
+C00349|Switzerland|46|800|Arid|Family|Nature|4|2|Yes
+C00350|Switzerland|68|800|Mediterranean|Couple|Culture|4|5|Yes
+C00351|France|75|3500|Mediterranean|Friends|Beach|3|5|No
+C00352|Morocco|20|1200|Any|Business|Luxury|2|7|Yes
+C00353|BELGIUM|73|3500|Arid|Solo|Adventure|4|11|No
+C00354|Netherlands|57|1500|Mediterranean|Friends|Nature|3|10|Yes
+C00355|Netherlands|51|1200|Any|Friends|Beach|4|4|Yes
+C00356|MOROCCO|57|1000|Mediterranean|Family|Adventure|5|10|Yes
+C00357|Tunisia|44|2500|Temperate|Couple|Adventure|5|7|Yes
+C00358|Turkey|30|800|Mediterranean|Family|Culture|3|8|Yes
+C00359|Canada|62|3500|Alpine|Solo|Culture|4|13|No
+C00360|United States|50|1000|Arid|Business|Beach|4|11|Yes
+C00361|Turkey|23|2000|Mediterranean|Family|Any|5|3|No
+C00362|Spain|41|3500|Any|Friends|Any|3|12|Yes
+C00363|Netherlands|36|500|Tropical|Solo|Adventure|2|11|No
+C00364|Belgium|33|2500|Tropical|Solo|Culture|3|7|Yes
+C00365|France|57|500|Mediterranean|Couple|Nature|4|7|No
+C00366|Switzerland|45|1200|Mediterranean|Couple|Nature|4|3|Yes
+C00367|Netherlands|50|2500|Mediterranean|Family|Adventure|5|3|No
+C00368|France|65|3500|Temperate|Family|Culture|4|3|No
+C00369|United Kingdom|58|1500|Any|Family|Beach|3|11|Yes
+C00370|Turkey|30|1000|Temperate|Solo|Beach|4|13|Yes
+C00371|United Kingdom|60|1500|Mediterranean|Family|Beach|3|2|Yes
+C00372|Canada|62|3500|Mediterranean|Friends|Nature|5|6|No
+C00373|Germany|42|1200|Mediterranean|Couple|Culture|5|9|Yes
+C00374|Spain|70|500|Tropical|Solo|Culture|5|3|Yes
+C00375|Turkey|59|2500|Alpine|Couple|Nature|5|14|Yes
+C00376|Tunisia|53|1500|Mediterranean|Solo|Beach|3|6|Yes
+C00377|Canada|44|3500|Alpine|Business|Beach|2|13|No
+C00378|Italy|55|1500|Any|Family|Adventure|4|9|Yes
+C00379|TUNISIA|24|3500|Tropical|Couple|Any|5|11|Yes
+C00380|United States|22|500|Any|Friends|Luxury|3|6|No
+C00381|Belgium|60|2500|Temperate|Family|Any|2|3|Yes
+C00382|Turkey|62|1000|Arid|Family|Culture|5|4|No
+C00383|Italy|75|500|Temperate|Couple|Culture|2|7|Yes
+C00384|Italy|74|1500|Temperate|Family|Culture|4|12|Yes
+C00385|Canada|68|1000|Mediterranean|Solo|Any|4|12|Yes
+C00386|Morocco|48|3500|Tropical|Family|Luxury|3|6|No
+C00387|Germany|40|1000|Tropical|Friends|Adventure|3|12|Yes
+C00388|Turkey|59|3500|Temperate|Friends|Any|5|5|Yes
+C00389|Morocco|27|500|Mediterranean|Solo|Luxury|4|5|Yes
+C00390|Canada|49|1500|Any|Solo|Beach|5|6|Yes
+C00391|United States|60|1200|Alpine|Friends|Beach|4|3|No
+C00392|Switzerland|70|1500|Tropical|Family|Culture|2|10|Yes
+C00393|Netherlands|47|3500|Mediterranean|Friends|Nature|4|3|No
+C00394|Netherlands|56|800|Any|Friends|Culture|4|11|Yes
+C00395|GERMANY|48|2500|Any|Friends|Nature|3|3|No
+C00396|United States|35|2000|Alpine|Solo|Luxury|5|11|Yes
+C00397|Germany|53|1200|Mediterranean|Family|Beach|3|10|Yes
+C00398|Turkey|19|1000|Tropical|Couple|Any|3|4|Yes
+C00399|Turkey|31|1200|Mediterranean|Friends|Nature|3|11|No
+C00400|France|30|2500|Mediterranean|Family|Luxury|4|8|Yes
+C00401|Morocco|46|1000|Any|Friends|Beach|4|5|No
+C00402|Netherlands|29|2500|Alpine|Family|Any|4|14|No
+C00403|Italy|56|1000|Temperate|Family|Nature|4|14|Yes
+C00404|Morocco|19|1200|Any|Family|Culture|5|7|Yes
+C00405|Spain|49|1000|Temperate|Family|Culture|3|5|Yes
+C00406|Turkey|30|1000|Temperate|Couple|Culture|2|11|Yes
+C00407|Belgium|63|800|Tropical|Family|Luxury|2|8|No
+C00408|United States|44|1500|Any|Business|Culture|3|2|No
+C00409|Tunisia|66|1500|Mediterranean|Solo|Adventure|4|4|Yes
+C00410|Germany|58|2000|Any|Family|Beach|4|14|Yes
+C00411|Turkey|34|2000|Any|Solo|Luxury|5|4|Yes
+C00412|Morocco|57|3500|Mediterranean|Friends|Any|3|2|Yes
+C00413|Belgium|48|3500|Temperate|Friends|Culture|4|7|No
+C00414|Morocco|51|3500|Any|Family|Beach|4|14|Yes
+C00415|Tunisia|41|800|Temperate|Friends|Nature|2|12|No
+C00416|Belgium|62|2000|Any|Friends|Culture|4|10|Yes
+C00417|Spain|52|2500|Any|Family|Beach|5|9|Yes
+C00418|Tunisia|65|3500|Tropical|Family|Adventure|4|12|Yes
+C00419|Canada|23|3500|Tropical|Solo|Nature|5|8|Yes
+C00420|United Kingdom|36|1200|Any|Family|Adventure|4|11|Yes
+C00421|Canada|47|500|Arid|Friends|Any|3|9|No
+C00422|Netherlands|24|2500|Mediterranean|Couple|Beach|4|7|No
+C00423|Morocco|27|3500|Mediterranean|Friends|Adventure|3|10|Yes
+C00424|Turkey|58|3500|Temperate|Solo|Any|2|4|Yes
+C00425|Turkey|49|3500|Any|Family|Beach|4|11|Yes
+C00426|Turkey|51|500|Any|Family|Beach|5|11|No
+C00427|United Kingdom|45|500|Arid|Solo|Adventure|4|10|Yes
+C00428|Canada|32|800|Mediterranean|Friends|Beach|4|5|No
+C00429|United Kingdom|47|2500|Mediterranean|Friends|Culture|5|8|Yes
+C00430|Switzerland|54|800|Any|Couple|Beach|5|14|Yes
+C00431|Morocco|46|1000|Mediterranean|Family|Luxury|4|10|No
+C00432|United Kingdom|39|500|Mediterranean|Family|Any|3|3|Yes
+C00433|Italy|21|1200||Solo|Beach|5|3|Yes
+C00434|Germany|37|2000|Arid|Family|Luxury|3|10|Yes
+C00435|Germany|49|1200|Any|Couple|Beach|4|13|Yes
+C00436|Italy|53|2000|Mediterranean|Solo|Beach|2|14|Yes
+C00437|Belgium|67|500|Temperate|Business|Adventure|4|4|No
+C00438|France|21|500|Arid|Couple|Culture|3|10|No
+C00439|Belgium|44|500|Any|Family|Any|4|14|Yes
+C00440|Tunisia|34|800|Mediterranean|Solo|Culture|4|6|No
+C00441|Tunisia|29|2500|Temperate|Solo|Nature|3|7|Yes
+C00442|United Kingdom|39|2000||Couple|Adventure|4|3|Yes
+C00443|Canada|34|2500|Any|Friends|Adventure|5|9|Yes
+C00444|Canada|27|800|Temperate|Friends|Culture|5|12|Yes
+C00445|Germany|71|800|Mediterranean|Family|Adventure|3|10|Yes
+C00446|United States|18|1500|Arid|Family|Culture|4|3|No
+C00447|Belgium|39|1200|Alpine|Couple|Adventure|4|7|Yes
+C00448|Switzerland|43|1200|Mediterranean|Friends|Beach|4|7|Yes
+C00449|Morocco|73|1000|Any|Family|Culture|2|9|Yes
+C00450|Netherlands|35|3500|Mediterranean|Solo|Culture|4|11|No
+C00451|Spain|67|800|Temperate|Solo|Luxury|5|13|No
+C00452|Canada|31|2000|Tropical|Family|Adventure|4|6|Yes
+C00453|Morocco|64|1500|Alpine|Solo|Adventure|4|10|Yes
+C00454|Spain|46|1500|Tropical|Business|Culture|4|2|Yes
+C00455|Morocco|29|3500|Any|Family|Beach|3|10|Yes
+C00456|United Kingdom|53|2500|Alpine|Couple|Beach|5|11|Yes
+C00457|Spain|52|3500|Arid|Couple|Any|4|8|Yes
+C00458|Netherlands|69|3500|Any|Friends|Beach|3|5|Yes
+C00459|Morocco|29|3500|Alpine|Business|Adventure|5|4|Yes
+C00460|Italy|24|1200|Mediterranean|Couple|Luxury|3|11|Yes
+C00461|Netherlands|46|800|Tropical|Friends|Culture|5|12|No
+C00462|Spain|28|1000|Any|Solo|Nature|4|7|No
+C00463|Netherlands|50|800|Mediterranean|Solo|Luxury|3|13|Yes
+C00464|Morocco|23|2500|Alpine|Couple|Nature|4|14|Yes
+C00465|France|64|500|Any|Family|Luxury|4|2|Yes
+C00466|Morocco|32|3500|Mediterranean|Couple|Beach|2|4|Yes
+C00467|MOROCCO|49|800|Arid|Solo|Adventure|4|3|No
+C00468|United Kingdom|68|2500|Temperate|Family|Nature|4|12|Yes
+C00469|Belgium|28|500|Temperate|Friends|Luxury|4|14|No
+C00470|ITALY|75|500|Mediterranean|Family|Adventure|2|10|No
+C00471|Switzerland|40|3500|Mediterranean|Family|Nature|4|4|Yes
+C00472|Canada|43|1000|Arid|Couple|Culture|2|14|Yes
+C00473|Tunisia|51|2000|Any|Friends|Luxury|4|3|Yes
+C00474|Belgium|63|1200|Any|Family|Culture|2|5|Yes
+C00475|Tunisia|51|800|Temperate|Couple|Beach|5|3|Yes
+C00476|United Kingdom|46|500|Mediterranean|Business|Culture|4|2|Yes
+C00477|Italy|21|800|Arid|Couple|Culture|4|7|No
+C00478|Turkey|34|2000|Mediterranean|Couple|Any|4|11|Yes
+C00479|Morocco|52|1200|Any|Friends|Luxury|3|9|Yes
+C00480|Turkey|30|2000|Any|Family|Beach|3|11|Yes
+C00481|Turkey|58|1200|Arid|Couple|Culture|5|11|No
+C00482|Germany|56|1500|Any|Couple|Adventure|5|3|Yes
+C00483|Turkey|32|1200|Mediterranean|Couple|Nature|2|10|No
+C00484|Canada|72|3500|Alpine|Couple|Culture|4|14|Yes
+C00485|France|46|1000|Tropical|Family|Beach|4|4|Yes
+C00486|GERMANY|46|2000|Any|Couple|Culture|4|9|Yes
+C00487|United Kingdom|28|500|Mediterranean|Family|Nature|3|13|Yes
+C00488|BELGIUM|69|3500|Alpine|Friends|Beach|3|9|No
+C00489|France|49|1500|Any|Couple|Luxury|3|4|Yes
+C00490|Netherlands|19|1000|Mediterranean|Couple|Beach|5|4|No
+C00491|Spain|64|800|Tropical|Friends|Luxury|4|13|Yes
+C00492|France|31|3500|Alpine|Solo|Beach|4|7|Yes
+C00493|Switzerland|37|2000|Tropical|Family|Nature|5|2|Yes
+C00494|Turkey|39|2500|Mediterranean|Business|Nature|4|5|Yes
+C00495|United Kingdom|28|2500|Mediterranean|Family|Beach|5|2|No
+C00496|United States|44|500|Mediterranean|Family|Culture|4|4|No
+C00497|Spain|20|1200|Any|Friends|Nature|3|10|Yes
+C00498|Tunisia|34|500|Temperate|Couple|Luxury|5|6|Yes
+C00499|Canada|61|2500|Mediterranean|Couple|Luxury|4|13|Yes
+C00500|Tunisia|73|800|Tropical|Family|Adventure|3|6|Yes
+C00501|France|45|1500|Tropical|Solo|Any|4|12|Yes
+C00502|Tunisia|46|1500|Mediterranean|Couple|Any|2|5|Yes
+C00503|Switzerland|38|2000|Tropical|Friends|Any|4|4|Yes
+C00504|United Kingdom|64|1500|Tropical|Family|Luxury|5|6|Yes
+C00505|Netherlands|33|2000|Tropical|Friends|Adventure|5|12|Yes
+C00506|Belgium|54|3500|Alpine|Solo|Any|5|5|Yes
+C00507|Canada|37|2000|Mediterranean|Friends|Any|3|9|Yes
+C00508|Switzerland|23|3500|Arid|Friends|Beach|4|5|Yes
+C00509|Switzerland|36|2000|Temperate|Solo|Beach|2|12|No
+C00510|Tunisia|74|2500|Temperate|Couple|Beach|5|13|Yes
+C00511|Turkey|22|2500|Arid|Family|Culture|4|9|Yes
+C00512|Tunisia|20|1200|Temperate|Family|Any|4|7|Yes
+C00513|France|18|3500|Any|Friends|Culture|4|13|Yes
+C00514|Belgium|75|1000|Arid|Friends|Adventure|4|12|No
+C00515|Germany|55|3500|Temperate|Couple|Luxury|4|6|Yes
+C00516|TUNISIA|32|2000|Any|Family|Any|5|5|No
+C00517|United Kingdom|51|2000|Temperate|Couple|Luxury|5|5|No
+C00518|United States|52|1000|Tropical|Solo|Beach|3|13|Yes
+C00519|Canada|66|500|Mediterranean|Couple|Any|4|5|Yes
+C00520|Morocco|42|2000|Mediterranean|Friends|Nature|5|12|No
+C00521|Tunisia|41|1200|Any|Business|Culture|2|14|Yes
+C00522|United Kingdom|29|1500|Alpine|Family|Culture|4|14|Yes
+C00523|United Kingdom|35|1500|Any|Couple|Any|3|10|Yes
+C00524|Canada|32|800|Temperate|Couple|Beach|4|5|Yes
+C00525|Germany|61|800|Temperate|Couple|Culture|2|13|Yes
+C00526|United Kingdom|33|1500|Mediterranean|Family|Beach|4|10|Yes
+C00527|United States|44|1500|Arid|Family|Adventure|3|14|No
+C00528|United Kingdom|25|2500|Temperate|Friends|Luxury|4|11|Yes
+C00529|United Kingdom|63|1200|Any|Couple|Nature|5|7|No
+C00530|United Kingdom|42|1000|Mediterranean|Couple|Luxury|5|11|Yes
+C00531|Netherlands|34|800|Temperate|Friends|Luxury|5|14|Yes
+C00532|Netherlands|46|2500|Arid|Friends|Adventure|4|8|Yes
+C00533|Germany|70|2500|Arid|Family|Culture|2|13|Yes
+C00534|Tunisia|25|1000|Temperate|Solo|Nature|3|11|Yes
+C00535|United Kingdom|32|2500|Alpine|Couple|Culture|5|4|Yes
+C00536|Belgium|44|3500|Mediterranean|Friends|Any|4|9|No
+C00537|Tunisia|63|1200|Alpine|Friends|Luxury|3|4|Yes
+C00538|Germany|67|1500|Temperate|Solo|Any|4|2|Yes
+C00539|Turkey|69|2000|Any|Couple|Beach|3|14|No
+C00540|Turkey|24|1000|Any|Friends|Luxury|3|14|No
+C00541|Italy|20|1500|Tropical|Family|Culture|5|11|Yes
+C00542|Tunisia|46|1500|Mediterranean|Family|Luxury|5|13|Yes
+C00543|Tunisia|61|500|Any|Couple|Beach|4|6|No
+C00544|Spain|70|3500|Temperate|Family|Adventure|5|3|Yes
+C00545|France|41|1000|Any|Family|Any|4|11|Yes
+C00546|Morocco|75|2500|Mediterranean|Friends|Any|4|7|Yes
+C00547|Spain|20|2000|Arid|Business|Culture|2|14|No
+C00548|United States|37|1000|Any|Couple|Luxury|3|11|Yes
+C00549|Netherlands|63|2500|Any|Couple|Culture|4|10|No
+C00550|Netherlands|32|1500|Tropical|Couple|Adventure|5|2|Yes
+C00551|France|42|2000||Couple|Luxury|4|14|No
+C00552|Canada|47|2500|Temperate|Family|Luxury|3|5|Yes
+C00553|Canada|31|1200|Mediterranean|Friends|Culture|3|2|Yes
+C00554|Germany|24|2500|Arid|Family|Culture|5|2|No
+C00555|Switzerland|34|500|Arid|Couple|Beach|3|9|Yes
+C00556|France|61|3500|Any|Family|Adventure|4|14|Yes
+C00557|Morocco|37|1500|Temperate|Friends|Beach|2|12|Yes
+C00558|Tunisia|53|2500|Mediterranean|Friends|Any|3|3|Yes
+C00559|CANADA|26|3500|Mediterranean|Business|Luxury|4|2|Yes
+C00560|Morocco|55|800|Tropical|Friends|Culture|4|12|No
+C00561|United Kingdom|65|800|Tropical|Couple|Luxury|4|9|Yes
+C00562|Switzerland|74|3500|Alpine|Family|Luxury|3|5|Yes
+C00563|Belgium|39|3500|Tropical|Solo|Nature|5|4|Yes
+C00564|Tunisia|71|500|Any|Couple|Any|3|14|Yes
+C00565|United States|70|1200|Any|Solo|Nature|4|13|No
+C00566|United Kingdom|70|1500|Temperate|Family|Luxury|5|5|Yes
+C00567|United Kingdom|19|1000|Any|Family|Culture|3|12|Yes
+C00568|France|41|500|Alpine|Solo|Luxury|5|6|No
+C00569|Switzerland|25|1200|Temperate|Solo|Any|3|2|Yes
+C00570|Germany|28|3500|Mediterranean|Friends|Nature|4|12|No
+C00571|United States|30|1000|Tropical|Family|Culture|4|2|No
+C00572|Canada|34|3500|Temperate|Couple|Luxury|5|4|No
+C00573|Morocco|25|3500|Any|Family|Adventure|3|7|Yes
+C00574|France|38|800|Temperate|Family|Any|4|2|No
+C00575|Canada|35|800|Any|Couple|Any|5|12|No
+C00576|France|47|1000|Arid|Family|Adventure|4|13|Yes
+C00577|France|35|500|Mediterranean|Family|Luxury|4|3|Yes
+C00578|France|63|800|Any|Couple|Any|3|13|Yes
+C00579|Switzerland|64|1500|Temperate|Couple|Culture|4|8|Yes
+C00580|Germany|48|3500|Tropical|Family|Luxury|2|2|Yes
+C00581|France|55|2000|Arid|Family|Luxury|2|14|Yes
+C00582|Italy|49|2500|Mediterranean|Family|Nature|4|8|Yes
+C00583|Belgium|28|1000|Arid|Family|Any|4|5|Yes
+C00584|Canada|62|1000|Temperate|Solo|Any|5|11|Yes
+C00585|Tunisia|42|800|Tropical|Couple|Adventure|5|7|Yes
+C00586|Spain|50|500|Any|Couple|Nature|4|9|No
+C00587|Morocco|55|3500|Temperate|Couple|Nature|5|10|Yes
+C00588|United States|58|1500|Mediterranean|Solo|Any|4|7|Yes
+C00589|Netherlands|25|500|Tropical|Friends|Luxury|3|13|Yes
+C00590|Germany|28|1200|Any|Friends|Nature|5|12|Yes
+C00591|Tunisia|39|1200|Mediterranean|Friends|Adventure|3|14|No
+C00592|United Kingdom|68|2000|Mediterranean|Couple|Nature|4|10|No
+C00593|Turkey|41|800|Mediterranean|Solo|Adventure|5|5|Yes
+C00594|Italy|58|800|Mediterranean|Solo|Nature|4|7|No
+C00595|Netherlands|34|800|Any|Family|Adventure|5|9|Yes
+C00596|Spain|29|2000|Alpine|Family|Nature|3|10|Yes
+C00597|Tunisia|74|1200|Tropical|Couple|Nature|4|4|Yes
+C00598|Netherlands|63|500|Arid|Friends|Culture|3|3|No
+C00599|Tunisia|49|2000|Tropical|Solo|Adventure|4|7|Yes
+C00600|Morocco|32|2000|Any|Friends|Adventure|5|5|No
+C00601|Italy|33|500|Any|Couple|Adventure|4|2|No
+C00602|Spain|71|800|Tropical|Couple|Beach|3|9|Yes
+C00603|United Kingdom|39|1500|Any|Family|Nature|2|10|Yes
+C00604|France|45|500|Alpine|Family|Adventure|3|10|No
+C00605|Canada|37|1200|Tropical|Friends|Any|4|3|Yes
+C00606|United Kingdom|50|1000|Mediterranean|Solo|Beach|5|10|Yes
+C00607|France|27|3500|Tropical|Couple|Culture|3|8|Yes
+C00608|Turkey|57|1000|Any|Friends|Adventure|4|6|Yes
+C00609|Switzerland|49|2500|Any|Family|Adventure|5|8|Yes
+C00610|Switzerland|67|2500|Alpine|Business|Beach|4|14|Yes
+C00611|Switzerland|50|2000||Couple|Nature|4|10|Yes
+C00612|Germany|19|3500|Temperate|Couple|Any|5|9|Yes
+C00613|Belgium|50|1000|Any|Couple|Culture|3|7|No
+C00614|UNITED STATES|50|1500|Any|Family|Adventure|3|14|No
+C00615|United States|58|800|Tropical|Family|Nature|2|5|Yes
+C00616|Switzerland|30|1200|Temperate|Solo|Any|5|14|Yes
+C00617|Canada|47|2500|Any|Friends|Any|5|2|No
+C00618|Spain|50|1500|Mediterranean|Friends|Culture|5|7|Yes
+C00619|Italy|30|1200|Any|Family|Luxury|2|4|Yes
+C00620|Spain|69|1200|Mediterranean|Solo|Any|4|7|No
+C00621|Italy|43|800|Temperate|Family|Luxury|3|7|No
+C00622|Spain|39|3500|Any|Family|Any|2|5|No
+C00623|Belgium|56|2000|Mediterranean|Solo|Culture|4|3|No
+C00624|Germany|19|1000|Mediterranean|Solo|Beach|5|10|Yes
+C00625|Germany|55|800|Tropical|Family|Culture|5|3|Yes
+C00626|Switzerland|56|1500|Any|Family|Culture|4|4|No
+C00627|Turkey|43|2000|Mediterranean|Business|Beach|3|11|Yes
+C00628|France|63|1500|Any|Family|Beach|3|2|Yes
+C00629|Turkey|75|2000|Mediterranean|Couple|Nature|4|8|No
+C00630|Netherlands|67|3500|Any|Couple|Any|5|2|No
+C00631|Germany|32|2500|Any|Family|Nature|5|12|Yes
+C00632|Germany|51|1500|Temperate|Family|Beach|4|10|No
+C00633|United Kingdom|59|800|Temperate|Couple|Luxury|4|12|No
+C00634|United Kingdom|72|2000|Temperate|Friends|Luxury|2|12|No
+C00635|France|61|2000|Arid|Couple|Culture|3|2|Yes
+C00636|Morocco|66|1200|Mediterranean|Solo|Adventure|4|6|Yes
+C00637|Netherlands|57|1200|Mediterranean|Business|Culture|3|8|Yes
+C00638|Turkey|28|500|Mediterranean|Friends|Culture|4|4|Yes
+C00639|Canada|20|1500|Tropical|Couple|Adventure|5|10|Yes
+C00640|United Kingdom|23|1200|Mediterranean|Couple|Any|4|9|Yes
+C00641|Canada|26|500|Temperate|Solo|Beach|2|14|Yes
+C00642|Tunisia|23|2500|Any|Solo|Luxury|3|4|No
+C00643|United Kingdom|26|2500|Tropical|Couple|Culture|4|6|Yes
+C00644|Belgium|56|1200|Temperate|Solo|Adventure|4|8|No
+C00645|Morocco|48|1500|Tropical|Family|Nature|4|13|No
+C00646|Netherlands|49|2000|Any|Couple|Culture|4|5|Yes
+C00647|France|58|1000|Any|Couple|Luxury|4|6|No
+C00648|Tunisia|67|3500|Any|Family|Beach|5|4|Yes
+C00649|Netherlands|29|1500|Any|Family|Culture|4|10|Yes
+C00650|Turkey|25|3500|Mediterranean|Solo|Culture|5|11|No
+C00651|Switzerland|25|800|Any|Couple|Any|4|10|Yes
+C00652|Belgium|67|2500|Alpine|Couple|Adventure|2|8|No
+C00653|Netherlands|45|1200|Mediterranean|Couple|Nature|4|11|Yes
+C00654|Belgium|37|1200|Any|Couple|Nature|4|3|No
+C00655|Belgium|64|3500|Mediterranean|Family|Beach|5|8|Yes
+C00656|Canada|24|2000|Arid|Solo|Luxury|4|8|Yes
+C00657|Spain|28|3500|Mediterranean|Friends|Beach|5|12|Yes
+C00658|Switzerland|37|800|Tropical|Friends|Culture|5|6|No
+C00659|Turkey|33|2000|Alpine|Solo|Culture|4|10|No
+C00660|Tunisia|21|800|Temperate|Couple|Nature|4|14|Yes
+C00661|Netherlands|23|1000|Tropical|Family|Luxury|4|13|Yes
+C00662|Italy|75|2500|Tropical|Couple|Adventure|5|12|Yes
+C00663|Tunisia|39|1200|Any|Family|Luxury|5|4|No
+C00664|Spain|43|1200|Mediterranean|Business|Culture|3|5|Yes
+C00665|Tunisia|20|1000|Tropical|Family|Adventure|5|2|No
+C00666|Germany|58|500|Any|Family|Luxury|3|7|No
+C00667|Turkey|59|2500|Any|Friends|Luxury|4|5|Yes
+C00668|Italy|31|2000|Tropical|Business|Adventure|3|2|Yes
+C00669|Spain|28|1000|Alpine|Friends|Culture|4|3|Yes
+C00670|Canada|35|2000||Family|Luxury|5|4|No
+C00671|Netherlands|71|3500|Any|Family|Adventure|3|10|Yes
+C00672|Morocco|29|1500||Couple|Any|3|14|Yes
+C00673|United States|40|1200|Mediterranean|Family|Any|3|9|No
+C00674|Spain|29|2000|Mediterranean|Family|Culture|4|8|Yes
+C00675|France|30|800|Tropical|Couple|Adventure|4|14|Yes
+C00676|Turkey|42|2000|Temperate|Business|Any|3|12|Yes
+C00677|Netherlands|62|1500|Mediterranean|Couple|Adventure|3|13|Yes
+C00678|Switzerland|68|2500|Arid|Solo|Luxury|4|5|No
+C00679|Spain|75|1200|Tropical|Solo|Culture|3|2|Yes
+C00680|Germany|36|3500|Tropical|Couple|Any|4|9|Yes
+C00681|United States|72|1000|Any|Solo|Luxury|2|5|No
+C00682|Germany|63|3500|Temperate|Family|Beach|4|4|Yes
+C00683|United States|53|1500|Mediterranean|Family|Beach|3|10|No
+C00684|Switzerland|62|1200|Any|Solo|Culture|4|11|No
+C00685|Morocco|25|2000|Mediterranean|Family|Any|3|5|Yes
+C00686|Turkey|46|2500|Alpine|Business|Any|4|5|Yes
+C00687|France|72|500|Alpine|Family|Any|5|10|No
+C00688|Netherlands|70|2500|Tropical|Solo|Adventure|5|14|Yes
+C00689|Canada|72|500|Any|Couple|Luxury|4|13|Yes
+C00690|Germany|49|800|Temperate|Family|Any|4|12|No
+C00691|Germany|68|2500|Temperate|Family|Luxury|5|13|Yes
+C00692|Belgium|61|1200|Mediterranean|Solo|Culture|4|3|No
+C00693|United States|35|500|Tropical|Friends|Any|3|13|Yes
+C00694|United Kingdom|23|1000|Any|Friends|Culture|5|6|Yes
+C00695|Morocco|35|1200|Tropical|Couple|Any|4|5|Yes
+C00696|Netherlands|36|1000|Temperate|Friends|Beach|3|10|No
+C00697|United States|39|2500|Temperate|Solo|Nature|3|13|No
+C00698|Belgium|54|1000|Temperate|Friends|Culture|3|6|No
+C00699|Tunisia|49|500|Mediterranean|Couple|Any|4|10|Yes
+C00700|United States|73|1200|Tropical|Solo|Nature|3|12|Yes
+C00701|Canada|58|2000|Alpine|Friends|Culture|3|10|Yes
+C00702|Netherlands|20|1500|Mediterranean|Couple|Adventure|3|3|Yes
+C00703|Morocco|45|500|Mediterranean|Friends|Any|4|10|Yes
+C00704|Belgium|27|500|Mediterranean|Solo|Adventure|4|4|Yes
+C00705|Tunisia|68|2000|Tropical|Family|Beach|4|5|Yes
+C00706|Turkey|52|1200|Any|Family|Any|2|2|No
+C00707|Italy|46|1200|Mediterranean|Couple|Beach|3|2|Yes
+C00708|Belgium|71|3500|Mediterranean|Solo|Nature|5|2|No
+C00709|Italy|32|2500|Tropical|Friends|Culture|4|10|Yes
+C00710|Netherlands|50|1000|Alpine|Family|Luxury|4|12|Yes
+C00711|Germany|24|2500|Arid|Friends|Beach|2|9|Yes
+C00712|Belgium|29|2000|Tropical|Friends|Luxury|4|6|Yes
+C00713|Turkey|66|2500|Alpine|Family|Luxury|4|6|Yes
+C00714|France|47|2000|Temperate|Friends|Culture|3|10|Yes
+C00715|Italy|38|1200|Any|Business|Nature|3|4|Yes
+C00716|Canada|48|1000|Any|Friends|Culture|4|4|No
+C00717|FRANCE|75|2500|Mediterranean|Friends|Any|5|8|No
+C00718|Spain|41|500|Mediterranean|Business|Beach|5|10|No
+C00719|Spain|37|800|Mediterranean|Solo|Luxury|4|7|Yes
+C00720|Tunisia|54|3500|Tropical|Couple|Culture|4|3|Yes
+C00721|MOROCCO|21|1500|Any|Friends|Culture|3|2|Yes
+C00722|Germany|45|500|Tropical|Solo|Culture|4|3|Yes
+C00723|Netherlands|61|1200|Mediterranean|Solo|Beach|4|2|Yes
+C00724|Belgium|37|1500|Alpine|Couple|Nature|3|11|Yes
+C00725|United Kingdom|41|800|Temperate|Friends|Culture|5|11|Yes
+C00726|Canada|67|800|Mediterranean|Family|Beach|3|10|Yes
+C00727|Italy|66|1000|Tropical|Friends|Luxury|4|11|Yes
+C00728|Netherlands|68|1500|Tropical|Couple|Any|4|13|No
+C00729|France|49|1000|Alpine|Family|Adventure|4|14|No
+C00730|Switzerland|58|500|Mediterranean|Couple|Beach|4|9|No
+C00731|Spain|53|2000|Mediterranean|Family|Adventure|3|8|No
+C00732|SWITZERLAND|75|2000|Temperate|Solo|Culture|5|4|Yes
+C00733|Turkey|70|2000|Mediterranean|Friends|Culture|4|9|No
+C00734|CANADA|51|1500|Temperate|Friends|Beach|4|3|No
+C00735|United Kingdom|53|2000|Temperate|Family|Adventure|5|3|Yes
+C00736|Belgium|19|500|Tropical|Family|Culture|4|12|Yes
+C00737|Tunisia|32|1000|Any|Friends|Luxury|3|11|No
+C00738|United Kingdom|51|1500|Arid|Friends|Nature|5|4|Yes
+C00739|Canada|53|1000|Mediterranean|Couple|Nature|3|8|No
+C00740|United Kingdom|23|1500|Temperate|Couple|Culture|2|2|Yes
+C00741|Canada|56|1000|Any|Couple|Adventure|4|9|Yes
+C00742|Canada|59|800|Arid|Friends|Any|5|13|Yes
+C00743|United States|68|1000|Mediterranean|Solo|Culture|3|8|Yes
+C00744|Italy|68|2000|Any|Couple|Any|4|5|No
+C00745|Switzerland|75|800|Tropical|Couple|Any|3|6|No
+C00746|Spain|71|1000|Mediterranean|Friends|Adventure|4|11|Yes
+C00747|United States|29|1500|Mediterranean|Family|Any|4|14|Yes
+C00748|Belgium|20|1500|Mediterranean|Couple|Luxury|4|2|No
+C00749|UNITED STATES|62|3500||Solo|Adventure|3|5|Yes
+C00750|Germany|35|1500|Mediterranean|Family|Culture|4|2|Yes
+C00751|Germany|57|1200|Mediterranean|Family|Luxury|5|2|Yes
+C00752|Spain|38|500|Any|Friends|Beach|4|11|No
+C00753|United Kingdom|32|1500|Tropical|Friends|Nature|4|2|No
+C00754|Italy|50|800|Mediterranean|Friends|Culture|5|8|Yes
+C00755|Spain|52|3500|Mediterranean|Friends|Culture|2|8|Yes
+C00756|Canada|43|1500|Mediterranean|Solo|Culture|4|5|No
+C00757|France|25|1200|Mediterranean|Friends|Luxury|5|14|No
+C00758|Italy|53|2000|Arid|Couple|Beach|2|13|Yes
+C00759|Morocco|65|800|Mediterranean|Solo|Adventure|4|3|Yes
+C00760|Switzerland|47|1200|Mediterranean|Business|Beach|3|13|No
+C00761|Italy|40|2000|Alpine|Family|Luxury|4|4|Yes
+C00762|Canada|59|2500|Arid|Couple|Culture|4|9|Yes
+C00763|Canada|61|2500|Tropical|Couple|Nature|4|14|Yes
+C00764|Tunisia|31|800|Temperate|Family|Culture|4|9|Yes
+C00765|Spain|31|1000|Tropical|Family|Adventure|3|12|Yes
+C00766|Canada|19|500|Temperate|Friends|Any|4|12|Yes
+C00767|Germany|72|3500|Temperate|Business|Nature|3|7|No
+C00768|Belgium|54|500|Tropical|Couple|Culture|5|11|Yes
+C00769|France|22|1200|Any|Family|Nature|2|10|Yes
+C00770|Switzerland|55|2000|Mediterranean|Family|Any|5|12|Yes
+C00771|Spain|62|500|Any|Friends|Beach|4|13|No
+C00772|Netherlands|58|2000|Mediterranean|Couple|Luxury|4|10|No
+C00773|Germany|71|2000|Any|Couple|Culture|4|5|Yes
+C00774|Turkey|64|1200|Temperate|Couple|Adventure|4|13|No
+C00775|Morocco|31|1200|Any|Couple|Beach|4|2|Yes
+C00776|United Kingdom|73|1200|Mediterranean|Couple|Culture|3|2|No
+C00777|Canada|56|500|Temperate|Friends|Beach|4|13|Yes
+C00778|Netherlands|42|2500|Temperate|Solo|Adventure|3|11|No
+C00779|Canada|37|1200|Arid|Solo|Culture|2|6|Yes
+C00780|Italy|19|3500|Temperate|Couple|Any|4|14|Yes
+C00781|Germany|56|500|Temperate|Friends|Any|3|3|No
+C00782|Italy|23|1200|Tropical|Solo|Adventure|3|7|Yes
+C00783|Tunisia|34|1500|Tropical|Family|Nature|3|8|Yes
+C00784|Italy|42|2000|Temperate|Solo|Adventure|3|2|Yes
+C00785|Tunisia|74|3500|Mediterranean|Couple|Nature|3|7|No
+C00786|Morocco|45|1200|Any|Friends|Culture|5|9|Yes
+C00787|Tunisia|19|800|Alpine|Couple|Nature|2|13|Yes
+C00788|Netherlands|52|2000|Any|Business|Culture|4|6|No
+C00789|Canada|54|2000|Mediterranean|Family|Culture|3|13|Yes
+C00790|United Kingdom|22|1200|Any|Friends|Luxury|5|8|Yes
+C00791|Switzerland|18|2500|Any|Solo|Culture|3|11|No
+C00792|Italy|57|1000|Arid|Friends|Nature|5|7|Yes
+C00793|TURKEY|29|2500|Temperate|Couple|Luxury|4|5|Yes
+C00794|Switzerland|73|1200|Tropical|Couple|Luxury|2|8|Yes
+C00795|Germany|53|2000|Any|Friends|Culture|5|11|No
+C00796|Tunisia|62|3500|Temperate|Family|Adventure|4|10|Yes
+C00797|Canada|40|800|Mediterranean|Family|Adventure|3|11|No
+C00798|France|64|3500|Tropical|Solo|Any|5|11|No
+C00799|Spain|48|3500|Any|Couple|Luxury|5|14|Yes
+C00800|Netherlands|28|2000|Any|Couple|Culture|4|8|No
+C00801|United Kingdom|27|2500|Any|Couple|Adventure|4|13|Yes
+C00802|United States|20|800|Temperate|Couple|Culture|5|6|Yes
+C00803|Netherlands|71|500|Mediterranean|Friends|Culture|4|8|No
+C00804|Morocco|31|1500|Mediterranean|Solo|Luxury|5|4|No
+C00805|France|33|2000|Mediterranean|Friends|Any|4|3|Yes
+C00806|Turkey|27|1200||Business|Luxury|3|12|Yes
+C00807|Spain|46|500|Tropical|Couple|Beach|5|6|Yes
+C00808|France|27|1500|Mediterranean|Family|Adventure|3|5|Yes
+C00809|Italy|29|1200|Tropical|Family|Adventure|3|6|Yes
+C00810|Tunisia|47|3500|Any|Couple|Adventure|4|9|Yes
+C00811|United Kingdom|58|1000|Tropical|Business|Nature|4|13|No
+C00812|Belgium|18|1200|Any|Couple|Culture|2|5|Yes
+C00813|Tunisia|22|800|Temperate|Couple|Luxury|5|10|Yes
+C00814|Belgium|37|800|Mediterranean|Couple|Adventure|4|8|No
+C00815|Switzerland|25|1000|Tropical|Solo|Beach|4|11|No
+C00816|Spain|60|500|Mediterranean|Solo|Adventure|5|14|Yes
+C00817|Canada|29|1500|Tropical|Family|Any|4|13|Yes
+C00818|United States|18|1200|Arid|Business|Culture|2|8|Yes
+C00819|Germany|74|800|Mediterranean|Solo|Culture|3|14|Yes
+C00820|Tunisia|71|500|Mediterranean|Family|Luxury|5|14|Yes
+C00821|United Kingdom|37|1000|Tropical|Friends|Nature|2|9|No
+C00822|Morocco|45|2500|Any|Family|Luxury|4|13|Yes
+C00823|Morocco|74|2000|Any|Friends|Adventure|4|7|Yes
+C00824|France|60|2500|Alpine|Business|Any|4|9|Yes
+C00825|United Kingdom|54|2500|Mediterranean|Solo|Beach|2|4|Yes
+C00826|Spain|64|800|Any|Friends|Luxury|4|11|Yes
+C00827|Switzerland|54|3500|Any|Couple|Nature|4|11|No
+C00828|Belgium|29|3500|Temperate|Business|Luxury|5|2|Yes
+C00829|France|54|1000|Any|Couple|Culture|3|7|Yes
+C00830|Morocco|66|1200|Tropical|Friends|Adventure|4|2|Yes
+C00831|Germany|66|3500|Any|Friends|Adventure|4|10|No
+C00832|Germany|73|2500|Any|Business|Adventure|4|3|Yes
+C00833|Tunisia|61|3500|Mediterranean|Friends|Adventure|4|12|Yes
+C00834|Spain|73|2500|Tropical|Couple|Adventure|3|3|No
+C00835|Canada|45|1500|Any|Business|Adventure|3|8|Yes
+C00836|Morocco|64|800|Mediterranean|Solo|Beach|4|3|Yes
+C00837|Turkey|32|800|Temperate|Business|Nature|4|11|Yes
+C00838|Spain|23|1200|Any|Solo|Adventure|4|9|Yes
+C00839|Switzerland|61|3500|Temperate|Couple|Nature|3|7|Yes
+C00840|Belgium|37|3500|Mediterranean|Couple|Any|3|8|No
+C00841|United Kingdom|67|2000|Temperate|Solo|Adventure|2|8|Yes
+C00842|Morocco|31|500|Mediterranean|Friends|Luxury|3|7|Yes
+C00843|Germany|19|1500|Temperate|Couple|Adventure|4|11|Yes
+C00844|United Kingdom|26|800|Mediterranean|Solo|Culture|5|12|Yes
+C00845|United Kingdom|54|1500|Temperate|Couple|Beach|3|10|Yes
+C00846|United Kingdom|37|800|Temperate|Friends|Luxury|4|14|No
+C00847|Germany|43|1500|Alpine|Couple|Luxury|3|10|Yes
+C00848|Switzerland|46|1000|Arid|Family|Culture|4|8|No
+C00849|Netherlands|18|2500|Temperate|Family|Adventure|2|10|Yes
+C00850|Italy|72|800|Arid|Family|Beach|5|14|Yes
+C00851|Belgium|52|1500|Mediterranean|Couple|Luxury|4|11|Yes
+C00852|Turkey|23|3500|Temperate|Family|Beach|5|4|Yes
+C00853|Netherlands|54|500|Mediterranean|Family|Luxury|5|4|Yes
+C00854|Belgium|70|1000|Any|Business|Adventure|4|2|Yes
+C00855|France|22|1000|Mediterranean|Friends|Any|4|6|No
+C00856|Spain|50|500|Tropical|Couple|Luxury|3|5|Yes
+C00857|Spain|66|1500|Arid|Business|Any|4|3|Yes
+C00858|United States|68|3500|Tropical|Family|Luxury|5|10|Yes
+C00859|Spain|31|1200|Mediterranean|Solo|Nature|2|4|Yes
+C00860|Germany|29|500|Temperate|Solo|Adventure|5|9|Yes
+C00861|Turkey|59|1500|Arid|Couple|Culture|4|7|Yes
+C00862|Canada|37|500|Arid|Couple|Any|5|14|Yes
+C00863|Tunisia|70|500|Tropical|Couple|Culture|5|6|No
+C00864|United States|67|800|Temperate|Couple|Adventure|4|2|No
+C00865|Tunisia|41|1500|Tropical|Friends|Culture|4|5|Yes
+C00866|Belgium|60|1200|Arid|Family|Adventure|4|4|Yes
+C00867|Tunisia|51|2500|Temperate|Family|Culture|5|2|No
+C00868|Tunisia|42|800|Temperate|Family|Any|5|13|Yes
+C00869|United States|67|500|Mediterranean|Couple|Nature|5|6|Yes
+C00870|France|46|2500|Mediterranean|Couple|Culture|4|7|Yes
+C00871|United Kingdom|74|2000|Mediterranean|Family|Any|4|3|Yes
+C00872|Spain|56|2500|Mediterranean|Friends|Luxury|5|4|Yes
+C00873|Spain|48|500|Tropical|Couple|Adventure|4|12|Yes
+C00874|GERMANY|73|500|Temperate|Family|Beach|5|7|Yes
+C00875|United States|64|3500|Mediterranean|Solo|Beach|4|5|Yes
+C00876|Germany|60|1500|Any|Family|Adventure|2|10|No
+C00877|Canada|67|1500|Mediterranean|Solo|Nature|4|6|Yes
+C00878|Canada|40|800|Alpine|Solo|Culture|4|5|Yes
+C00879|Germany|61|1200|Temperate|Family|Nature|3|3|Yes
+C00880|United States|55|800|Tropical|Family|Beach|3|7|No
+C00881|Germany|37|1000|Mediterranean|Couple|Any|4|11|No
+C00882|Spain|40|500|Temperate|Family|Adventure|3|3|Yes
+C00883|Netherlands|62|2500|Tropical|Family|Adventure|4|13|Yes
+C00884|Italy|69|2000|Any|Couple|Nature|4|14|No
+C00885|Turkey|33|500|Temperate|Couple|Any|5|8|No
+C00886|Tunisia|67|500|Any|Couple|Nature|4|4|Yes
+C00887|Italy|59|800|Mediterranean|Solo|Culture|5|10|Yes
+C00888|United States|72|2000|Alpine|Solo|Luxury|4|12|Yes
+C00889|Switzerland|25|2000|Temperate|Family|Any|3|6|No
+C00890|Italy|67|2000|Alpine|Family|Luxury|4|9|Yes
+C00891|Turkey|38|800|Mediterranean|Friends|Culture|4|12|Yes
+C00892|Canada|18|500|Arid|Solo|Luxury|4|7|No
+C00893|Belgium|72|800|Temperate|Friends|Beach|2|13|No
+C00894|TUNISIA|25|1500|Alpine|Couple|Luxury|4|11|No
+C00895|Turkey|46|1500|Tropical|Solo|Culture|2|9|No
+C00896|United Kingdom|49|800|Any|Couple|Luxury|4|14|Yes
+C00897|Switzerland|55|2000|Mediterranean|Couple|Adventure|3|14|Yes
+C00898|United States|22|3500|Any|Couple|Nature|4|12|Yes
+C00899|Tunisia|64|500|Any|Couple|Beach|4|13|No
+C00900|Italy|39|800|Any|Family|Adventure|2|4|Yes
+C00901|Canada|64|800|Temperate|Couple|Adventure|4|4|No
+C00902|France|51|800|Tropical|Friends|Culture|4|6|Yes
+C00903|Netherlands|18|3500|Any|Friends|Nature|5|12|No
+C00904|United Kingdom|72|3500|Mediterranean|Couple|Nature|5|11|Yes
+C00905|Switzerland|72|1000|Temperate|Couple|Any|4|4|Yes
+C00906|Netherlands|43|1500|Arid|Family|Beach|4|9|No
+C00907|Tunisia|60|2500|Arid|Solo|Culture|4|11|Yes
+C00908|Canada|27|2000|Mediterranean|Couple|Beach|4|14|No
+C00909|Canada|47|1200|Arid|Business|Any|3|13|Yes
+C00910|Turkey|67|3500|Any|Couple|Luxury|4|9|No
+C00911|Italy|35|2500|Mediterranean|Couple|Adventure|4|3|Yes
+C00912|Turkey|34|3500|Any|Solo|Beach|3|13|Yes
+C00913|Spain|43|2000|Mediterranean|Friends|Adventure|4|5|No
+C00914|Italy|25|1200|Tropical|Couple|Culture|4|11|Yes
+C00915|Spain|64|1000|Mediterranean|Couple|Luxury|4|14|Yes
+C00916|Turkey|57|800|Mediterranean|Business|Culture|2|2|Yes
+C00917|Spain|66|1000|Any|Family|Luxury|4|5|Yes
+C00918|United Kingdom|29|3500|Tropical|Friends|Luxury|4|13|Yes
+C00919|Turkey|44|1000|Tropical|Family|Adventure|4|14|No
+C00920|Italy|25|2500|Mediterranean|Friends|Culture|4|14|Yes
+C00921|Morocco|42|500|Temperate|Solo|Culture|4|12|Yes
+C00922|Turkey|63|3500|Temperate|Couple|Beach|5|14|Yes
+C00923|France|21|3500|Tropical|Friends|Culture|3|5|Yes
+C00924|Switzerland|50|2500|Tropical|Family|Beach|5|11|Yes
+C00925|Germany|18|1500|Any|Family|Nature|4|10|No
+C00926|Germany|36|1200|Tropical|Solo|Nature|3|4|No
+C00927|Italy|48|800|Temperate|Couple|Nature|4|3|Yes
+C00928|Italy|33|2500|Tropical|Solo|Any|3|10|Yes
+C00929|Netherlands|31|1200|Any|Family|Culture|3|10|No
+C00930|Switzerland|70|2000|Tropical|Family|Any|4|2|Yes
+C00931|Switzerland|65|1200|Temperate|Family|Culture|5|7|Yes
+C00932|United Kingdom|22|2000|Mediterranean|Family|Beach|5|11|Yes
+C00933|Italy|58|2500|Any|Couple|Any|4|9|Yes
+C00934|Switzerland|43|3500|Tropical|Friends|Any|3|4|No
+C00935|Netherlands|45|3500|Alpine|Friends|Any|4|12|No
+C00936|Spain|19|1500|Tropical|Friends|Luxury|4|10|Yes
+C00937|Canada|67|2500|Mediterranean|Family|Beach|5|3|Yes
+C00938|Canada|23|2000|Any|Couple|Nature|5|7|No
+C00939|Spain|26|1200|Tropical|Family|Beach|5|2|No
+C00940|United States|50|1200|Any|Couple|Luxury|4|14|Yes
+C00941|NETHERLANDS|58|2000|Any|Couple|Culture|4|8|Yes
+C00942|Switzerland|42|1000||Family|Beach|3|4|Yes
+C00943|Morocco|65|1500|Mediterranean|Family|Any|5|8|No
+C00944|Netherlands|30|500|Any|Business|Nature|3|5|No
+C00945|Turkey|26|3500|Tropical|Couple|Nature|2|10|Yes
+C00946|Spain|70|800|Any|Couple|Culture|3|6|No
+C00947|France|30|1200|Arid|Family|Beach|5|4|Yes
+C00948|Belgium|48|800|Any|Family|Luxury|4|9|Yes
+C00949|Tunisia|58|500|Temperate|Friends|Culture|4|7|Yes
+C00950|Spain|28|2500|Temperate|Family|Beach|5|3|Yes
+C00951|Morocco|21|800|Mediterranean|Couple|Adventure|5|4|Yes
+C00952|Switzerland|51|500|Any|Family|Nature|4|9|Yes
+C00953|Morocco|55|3500|Tropical|Couple|Luxury|3|11|Yes
+C00954|Morocco|63|2000|Temperate|Family|Any|5|8|Yes
+C00955|Italy|21|1000|Any|Friends|Luxury|5|11|Yes
+C00956|Italy|55|3500|Temperate|Friends|Any|4|7|Yes
+C00957|United Kingdom|36|1200|Mediterranean|Friends|Luxury|4|2|Yes
+C00958|Spain|23|500|Temperate|Couple|Nature|3|10|Yes
+C00959|UNITED KINGDOM|51|800|Tropical|Friends|Any|5|4|Yes
+C00960|Spain|35|1200|Temperate|Solo|Beach|4|6|No
+C00961|Netherlands|30|1000|Mediterranean|Couple|Any|4|8|No
+C00962|Tunisia|58|2000|Mediterranean|Solo|Culture|2|8|No
+C00963|Morocco|40|2500|Tropical|Family|Beach|5|4|Yes
+C00964|Netherlands|36|1200|Alpine|Family|Culture|4|5|Yes
+C00965|Belgium|62|2500|Mediterranean|Friends|Luxury|3|11|No
+C00966|Canada|28|500|Tropical|Family|Beach|4|8|Yes
+C00967|Germany|18|1000|Any|Solo|Luxury|4|9|Yes
+C00968|Turkey|41|800|Mediterranean|Couple|Adventure|4|3|Yes
+C00969|Spain|71|1000|Temperate|Friends|Luxury|4|10|No
+C00970|Belgium|24|1000|Any|Business|Luxury|4|8|Yes
+C00971|Canada|42|1500|Any|Friends|Culture|5|14|No
+C00972|Switzerland|38|1000|Alpine|Couple|Any|2|9|No
+C00973|United States|32|1000|Alpine|Family|Adventure|3|7|Yes
+C00974|Tunisia|18|3500|Any|Couple|Luxury|3|7|No
+C00975|United Kingdom|29|1200|Tropical|Family|Luxury|4|10|Yes
+C00976|United Kingdom|75|800|Any|Family|Adventure|4|5|No
+C00977|Netherlands|24|3500|Mediterranean|Solo|Adventure|5|12|Yes
+C00978|Italy|32|3500|Any|Couple|Beach|4|12|No
+C00979|Canada|38|1200|Tropical|Business|Culture|4|6|Yes
+C00980|United States|36|1200|Temperate|Family|Adventure|5|10|No
+C00981|Belgium|46|500|Mediterranean|Couple|Adventure|3|2|Yes
+C00982|Tunisia|42|1200|Alpine|Family|Nature|5|5|Yes
+C00983|Canada|50|1500|Mediterranean|Friends|Any|4|8|No
+C00984|United States|66|1500|Any|Friends|Adventure|4|12|No
+C00985|Germany|49|3500|Any|Friends|Culture|4|10|Yes
+C00986|SPAIN|66|2500|Mediterranean|Friends|Any|4|14|Yes
+C00987|United Kingdom|52|500|Any|Couple|Any|3|12|Yes
+C00988|Belgium|61|2500|Any|Couple|Luxury|4|13|No
+C00989|United Kingdom|55|2500|Arid|Couple|Luxury|4|14|No
+C00990|Belgium|43|3500|Tropical|Solo|Luxury|5|11|No
+C00991|Netherlands|28|2000|Mediterranean|Couple|Luxury|4|7|Yes
+C00992|Italy|52|3500|Mediterranean|Couple|Nature|5|13|Yes
+C00993|Belgium|25|800|Tropical|Business|Adventure|4|9|Yes
+C00994|United Kingdom|63|800|Any|Business|Luxury|4|14|No
+C00995|Netherlands|31|1200|Mediterranean|Friends|Beach|5|10|Yes
+C00996|Belgium|27|1200|Any|Friends|Luxury|4|11|No
+C00997|Germany|19|2000|Tropical|Solo|Adventure|5|5|Yes
+C00998|Italy|63|1200||Family|Luxury|4|2|Yes
+C00999|Belgium|26|800|Any|Family|Nature|4|9|Yes
+C01000|Netherlands|20|2500|Any|Solo|Culture|2|3|Yes
+C01001|Switzerland|38|3500|Tropical|Friends|Culture|4|12|Yes
+C01002|Canada|43|1000|Temperate|Family|Adventure|3|2|Yes
+C01003|France|25|1500|Tropical|Friends|Culture|4|14|Yes
+C01004|United States|65|1000|Mediterranean|Family|Culture|3|8|No
+C01005|France|19|1000|Tropical|Couple|Beach|3|13|Yes
+C01006|Switzerland|23|800|Tropical|Solo|Adventure|3|11|Yes
+C01007|FRANCE|45|1000|Tropical|Family|Adventure|3|10|Yes
+C01008|Switzerland|70|3500|Alpine|Family|Culture|4|12|Yes
+C01009|Tunisia|46|2000|Tropical|Couple|Culture|5|13|No
+C01010|Switzerland|43|500|Temperate|Friends|Culture|5|13|Yes
+C01011|SWITZERLAND|42|1200|Tropical|Couple|Any|4|10|No
+C01012|Morocco|29|500|Alpine|Solo|Nature|5|4|Yes
+C01013|Switzerland|22|2500|Any|Solo|Luxury|3|7|Yes
+C01014|Germany|51|3500|Temperate|Family|Nature|5|8|Yes
+C01015|Canada|65|3500|Any|Business|Adventure|3|11|Yes
+C01016|Spain|54|1500|Tropical|Family|Beach|4|10|Yes
+C01017|Belgium|32|3500|Temperate|Business|Luxury|4|3|No
+C01018|United States|61|1200|Tropical|Solo|Beach|3|9|Yes
+C01019|Italy|53|3500|Tropical|Business|Any|4|8|Yes
+C01020|Canada|32|1000|Alpine|Family|Adventure|4|5|Yes
+C01021|United Kingdom|60|1500|Any|Couple|Any|5|3|Yes
+C01022|Spain|65|1200|Mediterranean|Family|Adventure|4|9|Yes
+C01023|Tunisia|40|2000|Arid|Family|Beach|3|12|Yes
+C01024|Tunisia|23|2000|Temperate|Solo|Beach|4|6|Yes
+C01025|Turkey|63|2000|Mediterranean|Family|Beach|3|7|Yes
+C01026|Switzerland|67|2000|Mediterranean|Solo|Adventure|4|12|No
+C01027|Canada|61|1000|Tropical|Family|Culture|2|8|No
+C01028|Netherlands|60|3500|Mediterranean|Couple|Beach|4|11|Yes
+C01029|Morocco|62|500|Mediterranean|Friends|Any|4|2|Yes
+C01030|France|38|1200|Mediterranean|Couple|Luxury|4|9|No
+C01031|United Kingdom|40|1000|Tropical|Solo|Adventure|5|5|Yes
+C01032|TUNISIA|60|2000|Alpine|Solo|Any|5|14|Yes
+C01033|United States|72|2500|Temperate|Friends|Nature|4|10|Yes
+C01034|Tunisia|33|3500|Any|Couple|Nature|4|2|Yes
+C01035|Italy|64|500|Tropical|Solo|Luxury|3|12|Yes
+C01036|Belgium|70|2500|Alpine|Business|Culture|4|3|No
+C01037|Tunisia|32|1500|Any|Friends|Beach|3|7|No
+C01038|Italy|42|2500|Arid|Couple|Adventure|3|12|No
+C01039|Canada|53|1500|Tropical|Solo|Any|5|11|No
+C01040|Canada|28|1500|Alpine|Friends|Beach|4|12|Yes
+C01041|Morocco|68|2000|Mediterranean|Solo|Any|4|2|Yes
+C01042|Turkey|32|1500|Tropical|Family|Adventure|3|5|No
+C01043|Spain|21|800|Temperate|Family|Nature|4|9|No
+C01044|Tunisia|38|1200|Temperate|Friends|Beach|2|11|Yes
+C01045|United States|30|1200|Mediterranean|Couple|Luxury|3|6|No
+C01046|Tunisia|39|2000|Any|Friends|Culture|2|14|Yes
+C01047|Turkey|36|800|Arid|Couple|Luxury|4|10|Yes
+C01048|United States|51|2500|Temperate|Couple|Culture|4|12|Yes
+C01049|Germany|31|1000|Any|Family|Any|2|12|Yes
+C01050|Switzerland|21|2500|Tropical|Family|Beach|4|7|Yes
+C01051|Spain|65|3500|Any|Business|Beach|3|2|Yes
+C01052|Germany|70|1000|Temperate|Friends|Culture|4|7|Yes
+C01053|Turkey|69|1500|Mediterranean|Solo|Nature|5|7|Yes
+C01054|Tunisia|63|500|Alpine|Couple|Adventure|4|14|Yes
+C01055|Turkey|44|1000|Arid|Solo|Luxury|5|7|No
+C01056|Turkey|46|500|Alpine|Solo|Any|5|9|Yes
+C01057|Spain|64|1200|Any|Solo|Luxury|4|7|Yes
+C01058|Germany|45|500|Alpine|Family|Luxury|4|6|Yes
+C01059|France|52|1200|Temperate|Solo|Any|5|12|Yes
+C01060|Tunisia|25|800|Any|Friends|Any|4|3|No
+C01061|Germany|33|800|Arid|Business|Beach|3|5|Yes
+C01062|France|59|2000|Tropical|Family|Luxury|5|11|No
+C01063|France|53|2000|Any|Friends|Adventure|4|6|Yes
+C01064|Canada|47|1500|Mediterranean|Solo|Adventure|3|11|Yes
+C01065|Morocco|35|1000|Alpine|Couple|Culture|4|5|Yes
+C01066|Tunisia|19|1500|Any|Family|Any|5|3|Yes
+C01067|France|66|1200|Alpine|Couple|Beach|4|8|Yes
+C01068|Canada|30|1500|Arid|Couple|Adventure|4|11|Yes
+C01069|Germany|21|500|Alpine|Couple|Nature|5|11|Yes
+C01070|Italy|43|1200|Temperate|Friends|Beach|4|3|Yes
+C01071|Tunisia|42|2000|Any|Solo|Beach|4|2|No
+C01072|Spain|47|800|Mediterranean|Solo|Adventure|4|6|Yes
+C01073|Turkey|28|2000|Mediterranean|Business|Nature|4|13|Yes
+C01074|United States|24|1000|Tropical|Couple|Culture|4|14|Yes
+C01075|United States|48|1200|Temperate|Family|Adventure|4|2|Yes
+C01076|Germany|61|1200|Temperate|Solo|Nature|4|2|Yes
+C01077|Netherlands|27|500|Any|Family|Beach|5|2|No
+C01078|Netherlands|56|1000|Tropical|Couple|Nature|3|7|No
+C01079|Germany|30|800|Temperate|Family|Beach|3|10|Yes
+C01080|France|48|2500|Mediterranean|Family|Adventure|4|11|Yes
+C01081|Morocco|24|1200|Tropical|Friends|Any|5|14|Yes
+C01082|Tunisia|73|1200|Arid|Couple|Adventure|3|12|Yes
+C01083|United States|66|500|Mediterranean|Couple|Luxury|3|13|Yes
+C01084|United States|59|1500|Tropical|Family|Luxury|2|2|Yes
+C01085|Morocco|59|3500|Mediterranean|Solo|Luxury|4|6|Yes
+C01086|France|73|800|Mediterranean|Couple|Adventure|3|10|No
+C01087|United States|53|2000|Temperate|Friends|Culture|4|10|Yes
+C01088|Turkey|37|1000|Mediterranean|Couple|Adventure|4|2|Yes
+C01089|Spain|21|1200|Alpine|Family|Any|5|9|No
+C01090|Tunisia|71|1200|Any|Couple|Nature|4|2|Yes
+C01091|Belgium|24|2000|Temperate|Family|Adventure|3|9|No
+C01092|United States|71|800|Any|Couple|Adventure|4|2|Yes
+C01093|Germany|18|3500|Tropical|Couple|Beach|5|13|No
+C01094|Spain|61|1500|Temperate|Friends|Beach|4|6|No
+C01095|United States|73|1200|Any|Family|Beach|5|9|Yes
+C01096|Switzerland|62|3500|Mediterranean|Solo|Adventure|5|7|No
+C01097|Turkey|59|800|Any|Family|Culture|2|10|Yes
+C01098|Spain|64|2000|Mediterranean|Couple|Nature|4|2|No
+C01099|Canada|30|500|Tropical|Couple|Nature|3|10|Yes
+C01100|Belgium|72|1500|Mediterranean|Friends|Any|4|2|Yes
+C01101|United Kingdom|39|1000|Alpine|Family|Culture|3|11|Yes
+C01102|Germany|71|1200|Temperate|Family|Culture|4|11|No
+C01103|Germany|38|800|Arid|Couple|Nature|5|4|Yes
+C01104|TUNISIA|39|500|Tropical|Family|Luxury|3|2|No
+C01105|Morocco|45|1000|Tropical|Family|Beach|5|4|No
+C01106|Spain|26|2500|Mediterranean|Solo|Beach|2|13|Yes
+C01107|France|43|800|Tropical|Family|Nature|3|12|No
+C01108|Germany|26|800|Any|Family|Culture|5|14|No
+C01109|Spain|32|1000|Tropical|Friends|Any|4|3|Yes
+C01110|Spain|27|500|Any|Couple|Luxury|4|3|Yes
+C01111|Switzerland|41|2500|Any|Family|Nature|3|10|Yes
+C01112|Italy|75|3500|Tropical|Couple|Beach|4|9|Yes
+C01113|Italy|74|3500|Arid|Solo|Adventure|4|2|Yes
+C01114|United Kingdom|59|2000|Mediterranean|Couple|Culture|4|13|Yes
+C01115|Canada|25|500|Mediterranean|Couple|Adventure|4|5|Yes
+C01116|United Kingdom|41|1500|Mediterranean|Family|Any|5|14|Yes
+C01117|UNITED STATES|33|1200|Temperate|Solo|Nature|4|2|Yes
+C01118|France|66|1000|Tropical|Couple|Beach|5|2|No
+C01119|United States|43|2000|Temperate|Solo|Luxury|4|13|No
+C01120|Netherlands|44|2500|Temperate|Friends|Adventure|4|13|Yes
+C01121|United States|54|1000|Tropical|Solo|Luxury|3|5|No
+C01122|Tunisia|21|1000|Arid|Couple|Any|4|3|No
+C01123|United States|67|500|Alpine|Couple|Beach|5|4|No
+C01124|United Kingdom|41|1200|Mediterranean|Couple|Adventure|3|12|Yes
+C01125|Germany|36|1500|Mediterranean|Family|Any|3|10|Yes
+C01126|Turkey|53|3500|Alpine|Family|Luxury|4|3|No
+C01127|Germany|56|800|Tropical|Friends|Luxury|3|5|No
+C01128|Italy|27|800|Arid|Couple|Adventure|5|2|No
+C01129|Turkey|42|1000|Tropical|Couple|Beach|5|3|No
+C01130|Morocco|35|3500|Tropical|Solo|Luxury|4|6|Yes
+C01131|France|36|3500|Mediterranean|Solo|Nature|2|11|Yes
+C01132|France|53|1200|Mediterranean|Family|Any|4|2|Yes
+C01133|Tunisia|27|2500|Temperate|Friends|Adventure|4|12|Yes
+C01134|United Kingdom|50|2500|Tropical|Family|Culture|5|8|No
+C01135|Italy|72|2000|Alpine|Friends|Culture|4|5|Yes
+C01136|Switzerland|67|500|Any|Friends|Beach|4|7|Yes
+C01137|Netherlands|22|1200|Temperate|Friends|Nature|4|9|No
+C01138|France|64|1200|Alpine|Solo|Luxury|5|14|Yes
+C01139|Germany|66|500|Tropical|Family|Culture|4|7|No
+C01140|United States|52|3500|Tropical|Couple|Beach|4|3|No
+C01141|United States|61|2500|Alpine|Solo|Any|3|2|Yes
+C01142|Morocco|51|2500|Tropical|Couple|Nature|4|9|Yes
+C01143|Italy|50|3500|Temperate|Friends|Nature|5|9|Yes
+C01144|UNITED KINGDOM|72|2500|Mediterranean|Couple|Beach|4|10|Yes
+C01145|United Kingdom|38|1000|Temperate|Couple|Beach|4|7|Yes
+C01146|Canada|34|1200|Any|Couple|Luxury|3|13|Yes
+C01147|Belgium|39|800|Any|Couple|Beach|3|2|No
+C01148|France|65|500|Alpine|Solo|Luxury|2|10|Yes
+C01149|UNITED KINGDOM|54|2500|Alpine|Solo|Luxury|3|13|No
+C01150|Morocco|32|2000|Temperate|Solo|Adventure|4|14|Yes
+C01151|Germany|52|2500|Temperate|Friends|Nature|2|4|Yes
+C01152|Italy|45|2500|Mediterranean|Friends|Any|3|12|No
+C01153|Netherlands|24|1500|Tropical|Friends|Nature|5|7|Yes
+C01154|Canada|49|1000|Tropical|Family|Nature|4|11|Yes
+C01155|Morocco|28|500|Any|Friends|Adventure|4|14|No
+C01156|Spain|27|1500|Tropical|Family|Luxury|4|11|No
+C01157|Tunisia|26|1500|Temperate|Family|Luxury|4|12|No
+C01158|Netherlands|31|2000|Temperate|Solo|Beach|3|13|Yes
+C01159|Spain|30|1200|Arid|Couple|Adventure|5|10|Yes
+C01160|Switzerland|74|2000|Alpine|Family|Beach|3|12|No
+C01161|UNITED STATES|42|1200|Mediterranean|Family|Adventure|4|14|No
+C01162|Tunisia|19|1200|Temperate|Family|Beach|4|4|Yes
+C01163|France|52|500|Any|Friends|Culture|4|6|No
+C01164|Germany|24|2500|Temperate|Family|Nature|4|14|Yes
+C01165|Tunisia|38|500|Mediterranean|Family|Nature|4|6|Yes
+C01166|Belgium|35|1000|Arid|Couple|Any|3|11|Yes
+C01167|Spain|20|1200|Any|Couple|Luxury|4|8|Yes
+C01168|France|59|1500|Mediterranean|Friends|Any|5|5|Yes
+C01169|Turkey|71|2500|Alpine|Family|Culture|5|12|Yes
+C01170|Belgium|56|800|Any|Couple|Any|2|5|Yes
+C01171|United States|58|1000|Temperate|Solo|Nature|4|8|No
+C01172|Belgium|66|500|Any|Business|Luxury|5|10|No
+C01173|Canada|28|2000|Any|Solo|Culture|4|12|Yes
+C01174|CANADA|56|1000|Alpine|Friends|Nature|4|5|No
+C01175|Switzerland|41|1000|Alpine|Family|Beach|5|5|Yes
+C01176|Italy|63|2500|Mediterranean|Couple|Adventure|5|7|Yes
+C01177|Netherlands|36|1000|Mediterranean|Couple|Culture|4|7|No
+C01178|Netherlands|21|1000|Temperate|Friends|Luxury|4|8|Yes
+C01179|Turkey|43|800|Mediterranean|Family|Any|4|2|Yes
+C01180|Turkey|55|3500|Tropical|Family|Any|4|14|Yes
+C01181|France|59|2000|Any|Couple|Culture|3|12|No
+C01182|United States|49|2000|Any|Family|Luxury|3|4|Yes
+C01183|United Kingdom|56|2000|Arid|Family|Culture|4|10|No
+C01184|Switzerland|62|1200|Any|Business|Luxury|3|7|Yes
+C01185|Canada|63|1500|Any|Couple|Any|4|7|No
+C01186|France|53|3500|Tropical|Solo|Nature|4|6|No
+C01187|United Kingdom|57|2000|Mediterranean|Friends|Beach|4|12|No
+C01188|Netherlands|54|1000|Temperate|Couple|Nature|4|4|Yes
+C01189|Italy|50|1000|Alpine|Family|Beach|5|12|Yes
+C01190|Belgium|53|2000||Family|Any|2|6|No
+C01191|Canada|20|2500|Arid|Couple|Nature|5|2|Yes
+C01192|France|26|2000|Mediterranean|Solo|Nature|5|4|Yes
+C01193|Tunisia|25|1000|Alpine|Couple|Culture|4|5|Yes
+C01194|United Kingdom|50|1200||Family|Adventure|4|6|No
+C01195|Belgium|23|500|Arid|Couple|Any|5|11|Yes
+C01196|Canada|58|500|Any|Friends|Luxury|3|10|Yes
+C01197|Netherlands|56|3500|Any|Friends|Any|4|5|Yes
+C01198|Morocco|21|3500|Any|Friends|Luxury|4|4|Yes
+C01199|United States|30|2000|Any|Friends|Luxury|3|11|No
+C01200|United Kingdom|66|800|Any|Couple|Beach|5|2|Yes

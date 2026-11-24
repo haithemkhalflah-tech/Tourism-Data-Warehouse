@@ -1,0 +1,4187 @@
+{
+  "source": "Synthetic partner API export",
+  "exported_at": "2026-11-20T10:00:00Z",
+  "items": [
+    {
+      "activityId": "ACT00001",
+      "provider": {
+        "providerCode": "PRV021",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 24
+      },
+      "pricing": {
+        "amount": 18.2,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00002",
+      "provider": {
+        "providerCode": "PRV025",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 8
+      },
+      "pricing": {
+        "amount": 51.78,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00003",
+      "provider": {
+        "providerCode": "PRV005",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 24.89,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00004",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 51.03,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00005",
+      "provider": {
+        "providerCode": "PRV007",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 8
+      },
+      "pricing": {
+        "amount": 35.1,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00006",
+      "provider": {
+        "providerCode": "PRV005",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 0
+      },
+      "pricing": {
+        "amount": 29.51,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00007",
+      "provider": {
+        "providerCode": "PRV001",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 20.85,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00008",
+      "provider": {
+        "providerCode": "PRV022",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 0
+      },
+      "pricing": {
+        "amount": 76.39,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "accessible",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00009",
+      "provider": {
+        "providerCode": "PRV026",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 7
+      },
+      "pricing": {
+        "amount": 27.65,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00010",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 90.68,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00011",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 21.42,
+        "currency": "USD"
+      },
+      "tags": [
+        "culture",
+        "accessible",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00012",
+      "provider": {
+        "providerCode": "PRV025",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 86.48,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00013",
+      "provider": {
+        "providerCode": "PRV023",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 20
+      },
+      "pricing": {
+        "amount": 36.81,
+        "currency": "USD"
+      },
+      "tags": [
+        "culture",
+        "accessible",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00014",
+      "provider": {
+        "providerCode": "PRV013",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 18
+      },
+      "pricing": {
+        "amount": 58.66,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00015",
+      "provider": {
+        "providerCode": "PRV035",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 16.04,
+        "currency": "USD"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00016",
+      "provider": {
+        "providerCode": "PRV022",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 15.99,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00017",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 40.86,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00018",
+      "provider": {
+        "providerCode": "PRV010",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 19.05,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00019",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 77.69,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00020",
+      "provider": {
+        "providerCode": "PRV012",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 43.54,
+        "currency": "EUR"
+      },
+      "tags": [
+        "premium",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00021",
+      "provider": {
+        "providerCode": "PRV005",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 15
+      },
+      "pricing": {
+        "amount": 23.78,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "family",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00022",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 20.15,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00023",
+      "provider": {
+        "providerCode": "PRV035",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 29.44,
+        "currency": "EUR"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00024",
+      "provider": {
+        "providerCode": "PRV012",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 24.89,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00025",
+      "provider": {
+        "providerCode": "PRV011",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 47.11,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00026",
+      "provider": {
+        "providerCode": "PRV003",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 33.42,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00027",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 0
+      },
+      "pricing": {
+        "amount": 70.55,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00028",
+      "provider": {
+        "providerCode": "PRV019",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 51.15,
+        "currency": "USD"
+      },
+      "tags": [
+        "culture",
+        "accessible",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00029",
+      "provider": {
+        "providerCode": "PRV018",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 7
+      },
+      "pricing": {
+        "amount": 20.8,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "family",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00030",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 27.11,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00031",
+      "provider": {
+        "providerCode": "PRV016",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 16
+      },
+      "pricing": {
+        "amount": 20.84,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "premium",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00032",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 20.85,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00033",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 11.92,
+        "currency": "TND"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00034",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 13
+      },
+      "pricing": {
+        "amount": 61.57,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00035",
+      "provider": {
+        "providerCode": "PRV003",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 76.0,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00036",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 19.35,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00037",
+      "provider": {
+        "providerCode": "PRV029",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 18.22,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00038",
+      "provider": {
+        "providerCode": "PRV021",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 7
+      },
+      "pricing": {
+        "amount": 49.0,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00039",
+      "provider": {
+        "providerCode": "PRV015",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 18
+      },
+      "pricing": {
+        "amount": 21.41,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00040",
+      "provider": {
+        "providerCode": "PRV010",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 75.17,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00041",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 11
+      },
+      "pricing": {
+        "amount": 22.77,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00042",
+      "provider": {
+        "providerCode": "PRV009",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 18
+      },
+      "pricing": {
+        "amount": 9.7,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00043",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 32.37,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00044",
+      "provider": {
+        "providerCode": "PRV011",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 24.53,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00045",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 18
+      },
+      "pricing": {
+        "amount": 38.23,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00046",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 10
+      },
+      "pricing": {
+        "amount": 28.39,
+        "currency": "USD"
+      },
+      "tags": [
+        "culture",
+        "premium",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00047",
+      "provider": {
+        "providerCode": "PRV001",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 49.47,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "family",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00048",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 45.12,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00049",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 42.55,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00050",
+      "provider": {
+        "providerCode": "PRV009",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 7
+      },
+      "pricing": {
+        "amount": 39.24,
+        "currency": "TND"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00051",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 34.99,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible",
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00052",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 15.13,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00053",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 44.21,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00054",
+      "provider": {
+        "providerCode": "PRV019",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 54.3,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium",
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00055",
+      "provider": {
+        "providerCode": "PRV022",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 43.15,
+        "currency": "USD"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00056",
+      "provider": {
+        "providerCode": "PRV025",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 31.01,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00057",
+      "provider": {
+        "providerCode": "PRV005",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 10
+      },
+      "pricing": {
+        "amount": 49.88,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00058",
+      "provider": {
+        "providerCode": "PRV015",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 8
+      },
+      "pricing": {
+        "amount": 40.34,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "outdoor",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00059",
+      "provider": {
+        "providerCode": "PRV005",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 53.59,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "family",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00060",
+      "provider": {
+        "providerCode": "PRV035",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 33.21,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible",
+        "family",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00061",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 14.86,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00062",
+      "provider": {
+        "providerCode": "PRV011",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 31.44,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00063",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 13
+      },
+      "pricing": {
+        "amount": 19.81,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00064",
+      "provider": {
+        "providerCode": "PRV027",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 20
+      },
+      "pricing": {
+        "amount": 26.5,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00065",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 20
+      },
+      "pricing": {
+        "amount": 36.87,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00066",
+      "provider": {
+        "providerCode": "PRV021",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 63.39,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium",
+        "food",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00067",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 52.19,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00068",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 4
+      },
+      "pricing": {
+        "amount": 39.67,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00069",
+      "provider": {
+        "providerCode": "PRV011",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 74.01,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "culture",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00070",
+      "provider": {
+        "providerCode": "PRV016",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 10
+      },
+      "pricing": {
+        "amount": 36.01,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00071",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 39.52,
+        "currency": "TND"
+      },
+      "tags": [
+        "family",
+        "outdoor",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00072",
+      "provider": {
+        "providerCode": "PRV010",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 27.88,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "family",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00073",
+      "provider": {
+        "providerCode": "PRV026",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 18.42,
+        "currency": "USD"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00074",
+      "provider": {
+        "providerCode": "PRV035",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 48.89,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00075",
+      "provider": {
+        "providerCode": "PRV010",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 13.66,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "family",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00076",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 20.02,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00077",
+      "provider": {
+        "providerCode": "PRV023",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 38.93,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "premium",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00078",
+      "provider": {
+        "providerCode": "PRV018",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 21.03,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00079",
+      "provider": {
+        "providerCode": "PRV033",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 15
+      },
+      "pricing": {
+        "amount": 35.38,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "accessible",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00080",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 38.24,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00081",
+      "provider": {
+        "providerCode": "PRV001",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 11
+      },
+      "pricing": {
+        "amount": 25.01,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00082",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 13
+      },
+      "pricing": {
+        "amount": 36.18,
+        "currency": "USD"
+      },
+      "tags": [
+        "culture",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00083",
+      "provider": {
+        "providerCode": "PRV027",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 35.89,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00084",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 10
+      },
+      "pricing": {
+        "amount": 17.65,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "family",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00085",
+      "provider": {
+        "providerCode": "PRV027",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 48.58,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00086",
+      "provider": {
+        "providerCode": "PRV009",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 10.35,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "family",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00087",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 108.03,
+        "currency": "USD"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00088",
+      "provider": {
+        "providerCode": "PRV001",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 9
+      },
+      "pricing": {
+        "amount": 48.22,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "family",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00089",
+      "provider": {
+        "providerCode": "PRV027",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 64.59,
+        "currency": "TND"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00090",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 52.06,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "premium",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00091",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 34.11,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00092",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 22.03,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00093",
+      "provider": {
+        "providerCode": "PRV023",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 8
+      },
+      "pricing": {
+        "amount": 34.49,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00094",
+      "provider": {
+        "providerCode": "PRV004",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 16
+      },
+      "pricing": {
+        "amount": 57.8,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00095",
+      "provider": {
+        "providerCode": "PRV013",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 21.36,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "accessible",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00096",
+      "provider": {
+        "providerCode": "PRV018",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 38.46,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00097",
+      "provider": {
+        "providerCode": "PRV009",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 24
+      },
+      "pricing": {
+        "amount": 11.81,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00098",
+      "provider": {
+        "providerCode": "PRV007",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 16
+      },
+      "pricing": {
+        "amount": 21.55,
+        "currency": "EUR"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00099",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 20.91,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00100",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 9
+      },
+      "pricing": {
+        "amount": 95.92,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00101",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 15.69,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00102",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 44.46,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00103",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 13
+      },
+      "pricing": {
+        "amount": 91.11,
+        "currency": "TND"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00104",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 63.98,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00105",
+      "provider": {
+        "providerCode": "PRV033",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 87.2,
+        "currency": "USD"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00106",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 95.33,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture",
+        "premium",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00107",
+      "provider": {
+        "providerCode": "PRV012",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 36.2,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "premium",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00108",
+      "provider": {
+        "providerCode": "PRV023",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 24
+      },
+      "pricing": {
+        "amount": 46.54,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00109",
+      "provider": {
+        "providerCode": "PRV007",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 39.34,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00110",
+      "provider": {
+        "providerCode": "PRV011",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 46.7,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00111",
+      "provider": {
+        "providerCode": "PRV012",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 45.08,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00112",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 98.08,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00113",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 24
+      },
+      "pricing": {
+        "amount": 41.7,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00114",
+      "provider": {
+        "providerCode": "PRV006",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 19.75,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00115",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 50.04,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00116",
+      "provider": {
+        "providerCode": "PRV005",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 11
+      },
+      "pricing": {
+        "amount": 54.26,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00117",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 21.37,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "family",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00118",
+      "provider": {
+        "providerCode": "PRV010",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 20.86,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00119",
+      "provider": {
+        "providerCode": "PRV011",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 61.92,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00120",
+      "provider": {
+        "providerCode": "PRV026",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 13
+      },
+      "pricing": {
+        "amount": 25.42,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00121",
+      "provider": {
+        "providerCode": "PRV018",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 15
+      },
+      "pricing": {
+        "amount": 27.31,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "accessible",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00122",
+      "provider": {
+        "providerCode": "PRV010",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 26.54,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00123",
+      "provider": {
+        "providerCode": "PRV009",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 40.55,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00124",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 67.85,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00125",
+      "provider": {
+        "providerCode": "PRV007",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 24
+      },
+      "pricing": {
+        "amount": 52.28,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00126",
+      "provider": {
+        "providerCode": "PRV019",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 16
+      },
+      "pricing": {
+        "amount": 26.52,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00127",
+      "provider": {
+        "providerCode": "PRV003",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 78.12,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00128",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 58.97,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "culture",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00129",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 63.49,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00130",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 62.26,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00131",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 25.7,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00132",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 11
+      },
+      "pricing": {
+        "amount": 20.15,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "family",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00133",
+      "provider": {
+        "providerCode": "PRV025",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 11
+      },
+      "pricing": {
+        "amount": 28.57,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00134",
+      "provider": {
+        "providerCode": "PRV016",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 20
+      },
+      "pricing": {
+        "amount": 63.42,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "accessible",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00135",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 0
+      },
+      "pricing": {
+        "amount": 17.24,
+        "currency": "TND"
+      },
+      "tags": [
+        "family",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00136",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 0
+      },
+      "pricing": {
+        "amount": 15.9,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00137",
+      "provider": {
+        "providerCode": "PRV021",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 11.79,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "food",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00138",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 16
+      },
+      "pricing": {
+        "amount": 16.47,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00139",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 21.8,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "premium",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00140",
+      "provider": {
+        "providerCode": "PRV019",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 9
+      },
+      "pricing": {
+        "amount": 37.71,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00141",
+      "provider": {
+        "providerCode": "PRV006",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 10
+      },
+      "pricing": {
+        "amount": 17.54,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00142",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 52.07,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00143",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 35.96,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00144",
+      "provider": {
+        "providerCode": "PRV026",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 16
+      },
+      "pricing": {
+        "amount": 10.27,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00145",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 15
+      },
+      "pricing": {
+        "amount": 34.61,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00146",
+      "provider": {
+        "providerCode": "PRV035",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 38.1,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00147",
+      "provider": {
+        "providerCode": "PRV013",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 4
+      },
+      "pricing": {
+        "amount": 110.53,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00148",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 10
+      },
+      "pricing": {
+        "amount": 40.47,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture",
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00149",
+      "provider": {
+        "providerCode": "PRV019",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 12.11,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00150",
+      "provider": {
+        "providerCode": "PRV016",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 40.17,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00151",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 13
+      },
+      "pricing": {
+        "amount": 38.86,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "culture",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00152",
+      "provider": {
+        "providerCode": "PRV018",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 8
+      },
+      "pricing": {
+        "amount": 50.31,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00153",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 170.29,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "family",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00154",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 25.37,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00155",
+      "provider": {
+        "providerCode": "PRV033",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 23.66,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "food",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00156",
+      "provider": {
+        "providerCode": "PRV016",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 10
+      },
+      "pricing": {
+        "amount": 46.38,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "culture",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00157",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 104.66,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00158",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 52.35,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00159",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 28.5,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00160",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 63.2,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "family",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00161",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 20
+      },
+      "pricing": {
+        "amount": 102.68,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00162",
+      "provider": {
+        "providerCode": "PRV035",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 22.07,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00163",
+      "provider": {
+        "providerCode": "PRV006",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 6
+      },
+      "pricing": {
+        "amount": 19.2,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00164",
+      "provider": {
+        "providerCode": "PRV027",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 36.19,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00165",
+      "provider": {
+        "providerCode": "PRV022",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 41.93,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00166",
+      "provider": {
+        "providerCode": "PRV023",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 80.3,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "food",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00167",
+      "provider": {
+        "providerCode": "PRV004",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 26.42,
+        "currency": "TND"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00168",
+      "provider": {
+        "providerCode": "PRV026",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 9
+      },
+      "pricing": {
+        "amount": 44.54,
+        "currency": "USD"
+      },
+      "tags": [
+        "family",
+        "accessible",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00169",
+      "provider": {
+        "providerCode": "PRV016",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 89.08,
+        "currency": "USD"
+      },
+      "tags": [
+        "food",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00170",
+      "provider": {
+        "providerCode": "PRV009",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 40.03,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00171",
+      "provider": {
+        "providerCode": "PRV006",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 27.61,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00172",
+      "provider": {
+        "providerCode": "PRV002",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 20
+      },
+      "pricing": {
+        "amount": 49.28,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "family",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00173",
+      "provider": {
+        "providerCode": "PRV013",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 28.71,
+        "currency": "EUR"
+      },
+      "tags": [
+        "premium",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00174",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 11
+      },
+      "pricing": {
+        "amount": 42.86,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00175",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 7
+      },
+      "pricing": {
+        "amount": 31.3,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00176",
+      "provider": {
+        "providerCode": "PRV018",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 15
+      },
+      "pricing": {
+        "amount": 32.1,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00177",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 27.48,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00178",
+      "provider": {
+        "providerCode": "PRV012",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 0
+      },
+      "pricing": {
+        "amount": 24.81,
+        "currency": "USD"
+      },
+      "tags": [
+        "culture",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00179",
+      "provider": {
+        "providerCode": "PRV029",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 18
+      },
+      "pricing": {
+        "amount": 63.54,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "family",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00180",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 39.23,
+        "currency": "USD"
+      },
+      "tags": [
+        "culture",
+        "food",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00181",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 75.16,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00182",
+      "provider": {
+        "providerCode": "PRV016",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 9.07,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "family",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00183",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 25.62,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00184",
+      "provider": {
+        "providerCode": "PRV003",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 22.44,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00185",
+      "provider": {
+        "providerCode": "PRV009",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 30.05,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00186",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 4
+      },
+      "pricing": {
+        "amount": 18.84,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00187",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 13.34,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00188",
+      "provider": {
+        "providerCode": "PRV021",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 17
+      },
+      "pricing": {
+        "amount": 52.39,
+        "currency": "TND"
+      },
+      "tags": [
+        "food",
+        "family",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00189",
+      "provider": {
+        "providerCode": "PRV010",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 24.52,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00190",
+      "provider": {
+        "providerCode": "PRV030",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 15
+      },
+      "pricing": {
+        "amount": 48.85,
+        "currency": "EUR"
+      },
+      "tags": [
+        "outdoor",
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00191",
+      "provider": {
+        "providerCode": "PRV032",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 3
+      },
+      "pricing": {
+        "amount": 17.26,
+        "currency": "TND"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00192",
+      "provider": {
+        "providerCode": "PRV023",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 9
+      },
+      "pricing": {
+        "amount": 13.11,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00193",
+      "provider": {
+        "providerCode": "PRV033",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 40.45,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00194",
+      "provider": {
+        "providerCode": "PRV001",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 51.16,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00195",
+      "provider": {
+        "providerCode": "PRV022",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 24.19,
+        "currency": "TND"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00196",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 4
+      },
+      "pricing": {
+        "amount": 19.01,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00197",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 8
+      },
+      "pricing": {
+        "amount": 74.06,
+        "currency": "TND"
+      },
+      "tags": [
+        "family",
+        "outdoor",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00198",
+      "provider": {
+        "providerCode": "PRV029",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 33.82,
+        "currency": "TND"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00199",
+      "provider": {
+        "providerCode": "PRV004",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 19.23,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "premium",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00200",
+      "provider": {
+        "providerCode": "PRV006",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 5
+      },
+      "pricing": {
+        "amount": 14.25,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00201",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 24
+      },
+      "pricing": {
+        "amount": 23.16,
+        "currency": "USD"
+      },
+      "tags": [
+        "accessible",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00202",
+      "provider": {
+        "providerCode": "PRV008",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 25
+      },
+      "pricing": {
+        "amount": 27.63,
+        "currency": "USD"
+      },
+      "tags": [
+        "outdoor",
+        "premium",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00203",
+      "provider": {
+        "providerCode": "PRV023",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 16
+      },
+      "pricing": {
+        "amount": 55.32,
+        "currency": "EUR"
+      },
+      "tags": [
+        "food",
+        "accessible"
+      ]
+    },
+    {
+      "activityId": "ACT00204",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 19
+      },
+      "pricing": {
+        "amount": 34.65,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00205",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 20
+      },
+      "pricing": {
+        "amount": 32.27,
+        "currency": "USD"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00206",
+      "provider": {
+        "providerCode": "PRV033",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 20.21,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "culture",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00207",
+      "provider": {
+        "providerCode": "PRV034",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 80.14,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00208",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 21
+      },
+      "pricing": {
+        "amount": 62.88,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium"
+      ]
+    },
+    {
+      "activityId": "ACT00209",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 59.94,
+        "currency": "TND"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00210",
+      "provider": {
+        "providerCode": "PRV033",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 13
+      },
+      "pricing": {
+        "amount": 33.75,
+        "currency": "USD"
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00211",
+      "provider": {
+        "providerCode": "PRV017",
+        "providerName": "Blue Horizon Travel"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 18
+      },
+      "pricing": {
+        "amount": 44.52,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family",
+        "accessible",
+        "food"
+      ]
+    },
+    {
+      "activityId": "ACT00212",
+      "provider": {
+        "providerCode": "PRV012",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 1
+      },
+      "pricing": {
+        "amount": 7.47,
+        "currency": "EUR"
+      },
+      "tags": [
+        "accessible",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00213",
+      "provider": {
+        "providerCode": "PRV021",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 14
+      },
+      "pricing": {
+        "amount": 39.52,
+        "currency": "TND"
+      },
+      "tags": [
+        "outdoor",
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00214",
+      "provider": {
+        "providerCode": "PRV014",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 23
+      },
+      "pricing": {
+        "amount": 110.95,
+        "currency": "TND"
+      },
+      "tags": [
+        "accessible",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00215",
+      "provider": {
+        "providerCode": "PRV028",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 24.71,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00216",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 12
+      },
+      "pricing": {
+        "amount": 19.38,
+        "currency": "TND"
+      },
+      "tags": [
+        "premium",
+        "food",
+        "outdoor"
+      ]
+    },
+    {
+      "activityId": "ACT00217",
+      "provider": {
+        "providerCode": "PRV024",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-07-10",
+        "slots": 2
+      },
+      "pricing": {
+        "amount": 32.13,
+        "currency": "EUR"
+      },
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00218",
+      "provider": {
+        "providerCode": "PRV013",
+        "providerName": "Local Experiences Co"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 22
+      },
+      "pricing": {
+        "amount": 20.87,
+        "currency": "EUR"
+      },
+      "tags": [
+        "culture"
+      ]
+    },
+    {
+      "activityId": "ACT00219",
+      "provider": {
+        "providerCode": "PRV031",
+        "providerName": "Atlas Tours"
+      },
+      "availability": {
+        "date": "2026-09-02",
+        "slots": 7
+      },
+      "pricing": {
+        "amount": 20.1,
+        "currency": "USD"
+      },
+      "tags": [
+        "premium",
+        "culture",
+        "family"
+      ]
+    },
+    {
+      "activityId": "ACT00220",
+      "provider": {
+        "providerCode": "PRV020",
+        "providerName": "CityWalk Partners"
+      },
+      "availability": {
+        "date": "2026-06-15",
+        "slots": 15
+      },
+      "pricing": {
+        "amount": 41.03,
+        "currency": "USD"
+      },
+      "tags": [
+        "family"
+      ]
+    }
+  ]
+}

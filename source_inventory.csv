@@ -1,0 +1,17 @@
+File,Format,Structure,ETL_Practice
+destinations.csv,CSV,comma,Destination reference; standardize fields
+hotels.csv,CSV,semicolon,"Mixed currency text, missing values, duplicates"
+flights.csv,CSV,comma,"Text currency values, negative prices, missing values"
+customers.csv,CSV,pipe |,Case normalization and missing preferences
+airlines.csv,CSV,comma,Airline reference lookup
+activities.xlsx,Excel,multiple sheets: one,Activity catalog
+destination_planning.xlsx,Excel,"multiple sheets: Seasonality, BudgetGuide",Join sheets by Destination_ID
+offers.csv,CSV,comma,Package offers and foreign keys
+bookings.csv,CSV,comma,Transactions; duplicates and invalid traveler counts
+reviews.csv,CSV,comma,Rating validation and text feedback
+hotel_price_history.csv,CSV,comma,Time-series hotel prices
+currency_rates.csv,CSV,comma,Currency reference / conversion
+activities_api.json,JSON,nested objects/arrays,Flatten nested JSON; parse pricing and provider
+airport_directory.xml,XML,element/attribute mix,Parse XML; map DestinationID
+supplier_partner_extract.sql,SQL script,CREATE/INSERT statements,Extract supplier tables from SQL source
+partner_review_feed.txt,TXT,semi-structured lines,"Parse dates, hotel IDs, ratings, language, comments"

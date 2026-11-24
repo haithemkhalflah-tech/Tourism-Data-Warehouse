@@ -1,0 +1,12 @@
+File,Rows_including_intentional_quality_issues
+activities.xlsx,1100
+airlines.csv,20
+bookings.csv,9025
+currency_rates.csv,6
+customers.csv,1200
+destinations.csv,81
+flights.csv,1800
+hotel_price_history.csv,7000
+hotels.csv,758
+offers.csv,900
+reviews.csv,6000

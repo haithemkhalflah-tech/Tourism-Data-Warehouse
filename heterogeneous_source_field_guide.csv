@@ -1,0 +1,20 @@
+File,Column_or_Field,Description
+activities_api.json,activityId,Activity business key; matches activities.xlsx Activity_ID
+activities_api.json,provider.providerCode,Nested provider identifier
+activities_api.json,provider.providerName,Nested provider name
+activities_api.json,availability.date,Nested availability date
+activities_api.json,availability.slots,Nested availability count
+activities_api.json,pricing.amount,Nested price amount
+activities_api.json,pricing.currency,Currency code
+activities_api.json,tags[],Array of activity tags
+airport_directory.xml,AirportCode,Airport/transport code attribute
+airport_directory.xml,DestinationID,Destination key attribute; matches destinations.csv
+airport_directory.xml,City,City element
+airport_directory.xml,Country,Country element
+supplier_partner_extract.sql,Supplier_ID,Supplier key in SQL INSERT records
+supplier_partner_extract.sql,Supplier_Activity_ID,Supplier-activity relationship key
+partner_review_feed.txt,hotel,Hotel business key embedded in text
+partner_review_feed.txt,rating,Rating embedded in text
+partner_review_feed.txt,comment,Unstructured review text
+destination_planning.xlsx,Seasonality,Seasonality sheet
+destination_planning.xlsx,BudgetGuide,BudgetGuide sheet

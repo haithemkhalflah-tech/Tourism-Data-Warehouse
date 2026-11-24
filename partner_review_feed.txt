@@ -1,0 +1,450 @@
+[2025-07-27] hotel=H00440 | rating=2 | lang=it | comment: Great location and friendly staff
+[2024-03-03] hotel=H00490 | rating=3 | lang=es | comment: Average facilities
+[2024-02-24] hotel=H00353 | rating=5 | lang=fr | comment: Service could be improved
+[2026-04-12] hotel=H00105 | rating=5 | lang=de | comment: Too noisy at night
+[2025-03-05] hotel=H00311 | rating=3 | lang=es | comment: Beautiful view, would return
+[2025-06-11] hotel=H00604 | rating=4 | lang=de | comment: Service could be improved
+[2024-01-19] hotel=H00451 | rating=3 | lang=fr | comment: Too noisy at night
+[2023-04-04] hotel=H00024 | rating=1 | lang=de | comment: Beautiful view, would return
+[2023-07-21] hotel=H00015 | rating=4 | lang=en | comment: Too noisy at night
+[2024-03-16] hotel=H00192 | rating=3 | lang=de | comment: Average facilities
+[2026-09-02] hotel=H00455 | rating=5 | lang=de | comment: Comfortable stay
+[2023-06-13] hotel=H00203 | rating=4 | lang=de | comment: Clean room, good value
+[2025-04-01] hotel=H00400 | rating=4 | lang=ar | comment: Amazing experience
+[2024-09-09] hotel=H00363 | rating=4 | lang=it | comment: Beautiful view, would return
+[2023-07-02] hotel=H00682 | rating=4 | lang=en | comment: Amazing experience
+[2025-01-23] hotel=H00284 | rating=5 | lang=ar | comment: Service could be improved
+[2023-06-09] hotel=H00721 | rating=4 | lang=fr | comment: Great location and friendly staff
+[2026-01-03] hotel=H00475 | rating=4 | lang=fr | comment: Comfortable stay
+[2024-12-14] hotel=H00060 | rating=4 | lang=de | comment: Clean room, good value
+[2024-01-18] hotel=H00493 | rating=5 | lang=it | comment: Service could be improved
+[2023-09-20] hotel=H00547 | rating=4 | lang=es | comment: Amazing experience
+[2024-07-15] hotel=H00669 | rating=5 | lang=en | comment: Average facilities
+[2024-03-28] hotel=H00223 | rating=5 | lang=it | comment: Too noisy at night
+[2026-03-19] hotel=H00624 | rating=3 | lang=it | comment: Great location and friendly staff
+[2023-03-04] hotel=H00439 | rating=3 | lang=de | comment: Clean room, good value
+[2025-03-12] hotel=H00598 | rating=1 | lang=es | comment: Great location and friendly staff
+[2026-09-11] hotel=H00139 | rating=3 | lang=ar | comment: Clean room, good value
+[2023-04-28] hotel=H00540 | rating=3 | lang=es | comment: Amazing experience
+[2024-07-08] hotel=H00734 | rating=5 | lang=fr | comment: Service could be improved
+[2026-02-08] hotel=H00621 | rating=3 | lang=en | comment: Not worth the price
+[2026-07-23] hotel=H00545 | rating=5 | lang=fr | comment: Comfortable stay
+[2025-01-19] hotel=H00123 | rating=5 | lang=it | comment: Clean room, good value
+[2026-08-08] hotel=H00184 | rating=5 | lang=en | comment: Great location and friendly staff
+[2024-03-23] hotel=H00042 | rating=2 | lang=de | comment: Clean room, good value
+[2025-04-17] hotel=H00322 | rating=4 | lang=es | comment: Average facilities
+[2024-08-23] hotel=H00049 | rating=3 | lang=es | comment: Not worth the price
+[2023-04-08] hotel=H00450 | rating=3 | lang=ar | comment: Great location and friendly staff
+[2024-02-22] hotel=H00370 | rating=5 | lang=fr | comment: Great location and friendly staff
+[2026-09-17] hotel=H00140 | rating=4 | lang=fr | comment: Average facilities
+[2024-08-19] hotel=H00347 | rating=5 | lang=ar | comment: Amazing experience
+[2023-08-14] hotel=H00301 | rating=4 | lang=de | comment: Amazing experience
+[2026-04-10] hotel=H00604 | rating=4 | lang=fr | comment: Too noisy at night
+[2025-10-14] hotel=H00703 | rating=5 | lang=ar | comment: Service could be improved
+[2025-11-08] hotel=H00246 | rating=4 | lang=en | comment: Service could be improved
+[2025-08-10] hotel=H00714 | rating=4 | lang=fr | comment: Beautiful view, would return
+[2024-06-26] hotel=H00079 | rating=3 | lang=en | comment: Great location and friendly staff
+[2023-07-25] hotel=H00376 | rating=4 | lang=de | comment: Clean room, good value
+[2025-01-26] hotel=H00396 | rating=3 | lang=de | comment: Clean room, good value
+[2026-07-22] hotel=H00663 | rating=5 | lang=es | comment: Not worth the price
+[2024-10-02] hotel=H00280 | rating=5 | lang=fr | comment: Amazing experience
+[2023-01-18] hotel=H00229 | rating=5 | lang=de | comment: Comfortable stay
+[2023-11-05] hotel=H00505 | rating=4 | lang=en | comment: Excellent breakfast
+[2023-02-22] hotel=H00706 | rating=4 | lang=fr | comment: Amazing experience
+[2024-09-08] hotel=H00692 | rating=5 | lang=en | comment: Beautiful view, would return
+[2023-03-21] hotel=H00658 | rating=5 | lang=fr | comment: Average facilities
+[2026-03-16] hotel=H00649 | rating=2 | lang=en | comment: Beautiful view, would return
+[2023-05-28] hotel=H00244 | rating=5 | lang=de | comment: Average facilities
+[2026-02-07] hotel=H00602 | rating=4 | lang=it | comment: Beautiful view, would return
+[2023-01-07] hotel=H00575 | rating=3 | lang=it | comment: Average facilities
+[2026-08-06] hotel=H00674 | rating=5 | lang=de | comment: Clean room, good value
+[2024-02-14] hotel=H00156 | rating=5 | lang=ar | comment: Not worth the price
+[2026-02-16] hotel=H00139 | rating=4 | lang=es | comment: Excellent breakfast
+[2025-03-11] hotel=H00499 | rating=5 | lang=ar | comment: Great location and friendly staff
+[2026-02-03] hotel=H00137 | rating=4 | lang=en | comment: Excellent breakfast
+[2023-06-27] hotel=H00439 | rating=1 | lang=es | comment: Too noisy at night
+[2025-10-10] hotel=H00432 | rating=4 | lang=fr | comment: Too noisy at night
+[2024-07-05] hotel=H00739 | rating=4 | lang=it | comment: Too noisy at night
+[2023-11-13] hotel=H00326 | rating=2 | lang=it | comment: Amazing experience
+[2026-02-20] hotel=H00077 | rating=3 | lang=es | comment: Average facilities
+[2024-04-01] hotel=H00517 | rating=3 | lang=ar | comment: Comfortable stay
+[2024-08-26] hotel=H00173 | rating=5 | lang=it | comment: Comfortable stay
+[2024-01-04] hotel=H00712 | rating=4 | lang=ar | comment: Great location and friendly staff
+[2024-06-28] hotel=H00396 | rating=3 | lang=es | comment: Service could be improved
+[2025-09-22] hotel=H00662 | rating=4 | lang=it | comment: Great location and friendly staff
+[2025-06-13] hotel=H00618 | rating=5 | lang=ar | comment: Excellent breakfast
+[2026-01-06] hotel=H00009 | rating=4 | lang=fr | comment: Beautiful view, would return
+[2023-07-25] hotel=H00173 | rating=5 | lang=it | comment: Service could be improved
+[2026-07-01] hotel=H00703 | rating=4 | lang=fr | comment: Not worth the price
+[2023-01-14] hotel=H00471 | rating=4 | lang=de | comment: Great location and friendly staff
+[2025-07-04] hotel=H00449 | rating=3 | lang=de | comment: Average facilities
+[2024-02-18] hotel=H00321 | rating=4 | lang=es | comment: Great location and friendly staff
+[2025-01-12] hotel=H00611 | rating=3 | lang=fr | comment: Not worth the price
+[2023-09-24] hotel=H00015 | rating=4 | lang=ar | comment: Too noisy at night
+[2024-04-13] hotel=H00575 | rating=3 | lang=it | comment: Amazing experience
+[2025-01-22] hotel=H00719 | rating=4 | lang=it | comment: Service could be improved
+[2025-01-26] hotel=H00277 | rating=4 | lang=en | comment: Excellent breakfast
+[2023-01-08] hotel=H00472 | rating=4 | lang=es | comment: Amazing experience
+[2024-12-16] hotel=H00042 | rating=4 | lang=de | comment: Excellent breakfast
+[2024-05-25] hotel=H00030 | rating=3 | lang=it | comment: Beautiful view, would return
+[2026-01-03] hotel=H00575 | rating=1 | lang=fr | comment: Amazing experience
+[2025-02-14] hotel=H00075 | rating=4 | lang=en | comment: Service could be improved
+[2024-09-20] hotel=H00573 | rating=4 | lang=fr | comment: Beautiful view, would return
+[2025-02-25] hotel=H00315 | rating=5 | lang=fr | comment: Amazing experience
+[2026-05-20] hotel=H00285 | rating=4 | lang=de | comment: Clean room, good value
+[2023-03-19] hotel=H00150 | rating=5 | lang=ar | comment: Average facilities
+[2025-04-21] hotel=H00690 | rating=3 | lang=de | comment: Beautiful view, would return
+[2023-04-02] hotel=H00535 | rating=4 | lang=it | comment: Clean room, good value
+[2023-07-25] hotel=H00621 | rating=5 | lang=it | comment: Excellent breakfast
+[2026-05-16] hotel=H00166 | rating=2 | lang=it | comment: Comfortable stay
+[2023-03-13] hotel=H00285 | rating=4 | lang=ar | comment: Excellent breakfast
+[2026-06-09] hotel=H00502 | rating=5 | lang=ar | comment: Amazing experience
+[2025-11-20] hotel=H00397 | rating=4 | lang=de | comment: Clean room, good value
+[2026-05-02] hotel=H00326 | rating=5 | lang=es | comment: Too noisy at night
+[2023-12-22] hotel=H00476 | rating=3 | lang=it | comment: Average facilities
+[2023-09-27] hotel=H00451 | rating=5 | lang=es | comment: Comfortable stay
+[2024-08-19] hotel=H00143 | rating=4 | lang=fr | comment: Beautiful view, would return
+[2023-09-17] hotel=H00670 | rating=4 | lang=it | comment: Great location and friendly staff
+[2025-08-25] hotel=H00156 | rating=4 | lang=ar | comment: Excellent breakfast
+[2026-05-23] hotel=H00410 | rating=4 | lang=de | comment: Amazing experience
+[2026-07-01] hotel=H00402 | rating=4 | lang=it | comment: Not worth the price
+[2023-05-22] hotel=H00112 | rating=1 | lang=es | comment: Great location and friendly staff
+[2025-07-21] hotel=H00704 | rating=5 | lang=fr | comment: Average facilities
+[2025-10-08] hotel=H00166 | rating=3 | lang=fr | comment: Service could be improved
+[2025-05-04] hotel=H00586 | rating=4 | lang=de | comment: Not worth the price
+[2025-02-06] hotel=H00047 | rating=4 | lang=fr | comment: Service could be improved
+[2023-08-28] hotel=H00247 | rating=3 | lang=fr | comment: Great location and friendly staff
+[2026-01-07] hotel=H00386 | rating=4 | lang=es | comment: Average facilities
+[2025-07-26] hotel=H00300 | rating=4 | lang=ar | comment: Service could be improved
+[2026-08-21] hotel=H00247 | rating=4 | lang=es | comment: Great location and friendly staff
+[2025-05-02] hotel=H00243 | rating=5 | lang=ar | comment: Service could be improved
+[2025-08-30] hotel=H00612 | rating=4 | lang=en | comment: Beautiful view, would return
+[2025-07-12] hotel=H00748 | rating=5 | lang=it | comment: Not worth the price
+[2024-10-29] hotel=H00654 | rating=2 | lang=it | comment: Comfortable stay
+[2025-12-14] hotel=H00315 | rating=5 | lang=ar | comment: Service could be improved
+[2024-06-17] hotel=H00383 | rating=3 | lang=de | comment: Clean room, good value
+[2024-07-18] hotel=H00531 | rating=4 | lang=en | comment: Great location and friendly staff
+[2023-07-03] hotel=H00613 | rating=2 | lang=en | comment: Amazing experience
+[2023-10-31] hotel=H00347 | rating=4 | lang=en | comment: Clean room, good value
+[2024-02-27] hotel=H00297 | rating=3 | lang=ar | comment: Great location and friendly staff
+[2026-09-07] hotel=H00259 | rating=5 | lang=fr | comment: Too noisy at night
+[2023-02-18] hotel=H00399 | rating=5 | lang=fr | comment: Comfortable stay
+[2024-12-26] hotel=H00280 | rating=5 | lang=de | comment: Not worth the price
+[2025-07-13] hotel=H00749 | rating=5 | lang=ar | comment: Service could be improved
+[2025-10-25] hotel=H00010 | rating=5 | lang=it | comment: Not worth the price
+[2023-10-03] hotel=H00671 | rating=4 | lang=en | comment: Excellent breakfast
+[2026-03-28] hotel=H00562 | rating=5 | lang=en | comment: Service could be improved
+[2025-02-19] hotel=H00301 | rating=4 | lang=fr | comment: Beautiful view, would return
+[2025-04-03] hotel=H00635 | rating=4 | lang=en | comment: Service could be improved
+[2024-09-20] hotel=H00614 | rating=4 | lang=it | comment: Clean room, good value
+[2025-02-21] hotel=H00726 | rating=4 | lang=en | comment: Average facilities
+[2025-10-09] hotel=H00703 | rating=4 | lang=fr | comment: Amazing experience
+[2026-09-07] hotel=H00339 | rating=4 | lang=de | comment: Service could be improved
+[2025-05-21] hotel=H00304 | rating=5 | lang=ar | comment: Too noisy at night
+[2024-07-08] hotel=H00196 | rating=5 | lang=fr | comment: Comfortable stay
+[2025-07-03] hotel=H00735 | rating=3 | lang=it | comment: Service could be improved
+[2025-12-06] hotel=H00454 | rating=5 | lang=ar | comment: Beautiful view, would return
+[2025-05-20] hotel=H00526 | rating=4 | lang=ar | comment: Beautiful view, would return
+[2026-09-20] hotel=H00468 | rating=3 | lang=de | comment: Too noisy at night
+[2023-11-25] hotel=H00202 | rating=3 | lang=ar | comment: Service could be improved
+[2023-01-16] hotel=H00475 | rating=5 | lang=ar | comment: Too noisy at night
+[2026-07-22] hotel=H00415 | rating=5 | lang=es | comment: Comfortable stay
+[2023-01-12] hotel=H00091 | rating=4 | lang=it | comment: Beautiful view, would return
+[2026-01-31] hotel=H00197 | rating=5 | lang=de | comment: Clean room, good value
+[2026-07-28] hotel=H00239 | rating=5 | lang=es | comment: Excellent breakfast
+[2026-03-08] hotel=H00597 | rating=5 | lang=en | comment: Excellent breakfast
+[2026-06-14] hotel=H00406 | rating=3 | lang=es | comment: Average facilities
+[2025-03-11] hotel=H00701 | rating=5 | lang=fr | comment: Clean room, good value
+[2025-12-17] hotel=H00584 | rating=4 | lang=de | comment: Average facilities
+[2026-06-30] hotel=H00617 | rating=3 | lang=it | comment: Service could be improved
+[2024-06-27] hotel=H00306 | rating=4 | lang=en | comment: Clean room, good value
+[2026-04-24] hotel=H00416 | rating=3 | lang=ar | comment: Excellent breakfast
+[2024-09-18] hotel=H00529 | rating=4 | lang=en | comment: Clean room, good value
+[2023-02-13] hotel=H00584 | rating=3 | lang=de | comment: Comfortable stay
+[2023-06-16] hotel=H00108 | rating=4 | lang=ar | comment: Not worth the price
+[2024-03-01] hotel=H00459 | rating=3 | lang=de | comment: Excellent breakfast
+[2024-11-08] hotel=H00047 | rating=5 | lang=fr | comment: Too noisy at night
+[2026-08-26] hotel=H00074 | rating=5 | lang=fr | comment: Excellent breakfast
+[2026-05-27] hotel=H00442 | rating=5 | lang=de | comment: Great location and friendly staff
+[2026-07-06] hotel=H00020 | rating=5 | lang=en | comment: Beautiful view, would return
+[2026-06-22] hotel=H00697 | rating=5 | lang=es | comment: Service could be improved
+[2023-04-09] hotel=H00642 | rating=5 | lang=de | comment: Beautiful view, would return
+[2026-02-12] hotel=H00031 | rating=4 | lang=it | comment: Comfortable stay
+[2023-11-24] hotel=H00678 | rating=4 | lang=ar | comment: Comfortable stay
+[2024-03-07] hotel=H00698 | rating=5 | lang=fr | comment: Comfortable stay
+[2023-07-20] hotel=H00593 | rating=5 | lang=fr | comment: Service could be improved
+[2023-09-14] hotel=H00308 | rating=4 | lang=ar | comment: Not worth the price
+[2025-05-05] hotel=H00709 | rating=5 | lang=es | comment: Amazing experience
+[2024-10-30] hotel=H00447 | rating=4 | lang=fr | comment: Not worth the price
+[2025-04-21] hotel=H00010 | rating=4 | lang=fr | comment: Average facilities
+[2024-05-27] hotel=H00094 | rating=4 | lang=fr | comment: Not worth the price
+[2025-07-06] hotel=H00265 | rating=5 | lang=en | comment: Too noisy at night
+[2025-03-29] hotel=H00277 | rating=5 | lang=en | comment: Beautiful view, would return
+[2023-09-16] hotel=H00447 | rating=1 | lang=de | comment: Excellent breakfast
+[2024-06-25] hotel=H00151 | rating=5 | lang=es | comment: Comfortable stay
+[2026-07-02] hotel=H00367 | rating=4 | lang=en | comment: Too noisy at night
+[2024-03-19] hotel=H00249 | rating=5 | lang=ar | comment: Not worth the price
+[2023-01-18] hotel=H00113 | rating=3 | lang=fr | comment: Too noisy at night
+[2025-09-11] hotel=H00207 | rating=4 | lang=en | comment: Clean room, good value
+[2026-04-17] hotel=H00506 | rating=2 | lang=it | comment: Clean room, good value
+[2025-09-30] hotel=H00695 | rating=5 | lang=de | comment: Not worth the price
+[2024-06-25] hotel=H00468 | rating=5 | lang=it | comment: Excellent breakfast
+[2026-09-14] hotel=H00103 | rating=4 | lang=it | comment: Beautiful view, would return
+[2024-04-10] hotel=H00703 | rating=3 | lang=es | comment: Too noisy at night
+[2026-10-24] hotel=H00577 | rating=3 | lang=ar | comment: Average facilities
+[2024-02-15] hotel=H00727 | rating=3 | lang=it | comment: Average facilities
+[2026-04-14] hotel=H00288 | rating=4 | lang=en | comment: Service could be improved
+[2023-09-17] hotel=H00746 | rating=5 | lang=ar | comment: Average facilities
+[2026-08-13] hotel=H00326 | rating=4 | lang=en | comment: Clean room, good value
+[2024-11-01] hotel=H00328 | rating=4 | lang=it | comment: Excellent breakfast
+[2023-06-14] hotel=H00660 | rating=4 | lang=en | comment: Excellent breakfast
+[2024-01-13] hotel=H00691 | rating=4 | lang=ar | comment: Great location and friendly staff
+[2023-11-06] hotel=H00403 | rating=4 | lang=it | comment: Excellent breakfast
+[2024-01-30] hotel=H00606 | rating=4 | lang=en | comment: Service could be improved
+[2026-09-12] hotel=H00480 | rating=2 | lang=es | comment: Too noisy at night
+[2024-02-04] hotel=H00740 | rating=3 | lang=fr | comment: Excellent breakfast
+[2024-10-10] hotel=H00422 | rating=3 | lang=ar | comment: Great location and friendly staff
+[2024-10-16] hotel=H00232 | rating=3 | lang=ar | comment: Too noisy at night
+[2025-04-23] hotel=H00462 | rating=5 | lang=ar | comment: Amazing experience
+[2026-07-27] hotel=H00355 | rating=3 | lang=en | comment: Great location and friendly staff
+[2025-01-14] hotel=H00732 | rating=4 | lang=it | comment: Excellent breakfast
+[2026-05-10] hotel=H00370 | rating=4 | lang=fr | comment: Excellent breakfast
+[2026-09-05] hotel=H00221 | rating=4 | lang=ar | comment: Not worth the price
+[2025-06-21] hotel=H00160 | rating=4 | lang=en | comment: Comfortable stay
+[2023-07-20] hotel=H00187 | rating=2 | lang=fr | comment: Beautiful view, would return
+[2025-01-23] hotel=H00410 | rating=3 | lang=fr | comment: Excellent breakfast
+[2023-04-28] hotel=H00748 | rating=5 | lang=ar | comment: Average facilities
+[2025-05-04] hotel=H00228 | rating=4 | lang=en | comment: Comfortable stay
+[2023-03-30] hotel=H00254 | rating=3 | lang=fr | comment: Excellent breakfast
+[2026-05-21] hotel=H00636 | rating=5 | lang=ar | comment: Too noisy at night
+[2023-12-04] hotel=H00420 | rating=5 | lang=ar | comment: Excellent breakfast
+[2026-06-13] hotel=H00260 | rating=4 | lang=de | comment: Great location and friendly staff
+[2025-01-18] hotel=H00216 | rating=4 | lang=en | comment: Not worth the price
+[2026-06-29] hotel=H00504 | rating=3 | lang=de | comment: Amazing experience
+[2023-02-15] hotel=H00675 | rating=4 | lang=ar | comment: Great location and friendly staff
+[2023-04-04] hotel=H00550 | rating=3 | lang=en | comment: Great location and friendly staff
+[2023-09-22] hotel=H00669 | rating=5 | lang=fr | comment: Not worth the price
+[2023-09-21] hotel=H00195 | rating=5 | lang=en | comment: Comfortable stay
+[2026-01-11] hotel=H00601 | rating=5 | lang=ar | comment: Service could be improved
+[2023-05-08] hotel=H00438 | rating=2 | lang=ar | comment: Excellent breakfast
+[2023-12-04] hotel=H00307 | rating=4 | lang=it | comment: Clean room, good value
+[2025-03-12] hotel=H00718 | rating=4 | lang=fr | comment: Comfortable stay
+[2026-03-20] hotel=H00114 | rating=4 | lang=en | comment: Comfortable stay
+[2023-04-09] hotel=H00063 | rating=4 | lang=es | comment: Average facilities
+[2024-10-31] hotel=H00382 | rating=4 | lang=it | comment: Service could be improved
+[2024-11-02] hotel=H00441 | rating=3 | lang=es | comment: Excellent breakfast
+[2023-01-09] hotel=H00373 | rating=5 | lang=de | comment: Beautiful view, would return
+[2024-12-05] hotel=H00644 | rating=4 | lang=en | comment: Average facilities
+[2023-04-25] hotel=H00427 | rating=4 | lang=ar | comment: Too noisy at night
+[2026-01-29] hotel=H00037 | rating=4 | lang=it | comment: Too noisy at night
+[2025-12-30] hotel=H00172 | rating=4 | lang=ar | comment: Clean room, good value
+[2026-09-12] hotel=H00287 | rating=1 | lang=en | comment: Amazing experience
+[2024-05-18] hotel=H00471 | rating=3 | lang=fr | comment: Excellent breakfast
+[2024-05-17] hotel=H00524 | rating=4 | lang=fr | comment: Amazing experience
+[2023-11-12] hotel=H00346 | rating=4 | lang=es | comment: Amazing experience
+[2024-06-04] hotel=H00309 | rating=4 | lang=ar | comment: Comfortable stay
+[2024-02-01] hotel=H00570 | rating=4 | lang=en | comment: Great location and friendly staff
+[2024-06-23] hotel=H00614 | rating=2 | lang=fr | comment: Amazing experience
+[2025-01-16] hotel=H00299 | rating=1 | lang=en | comment: Not worth the price
+[2026-08-17] hotel=H00165 | rating=3 | lang=es | comment: Beautiful view, would return
+[2024-06-16] hotel=H00634 | rating=5 | lang=ar | comment: Excellent breakfast
+[2023-04-07] hotel=H00166 | rating=4 | lang=en | comment: Clean room, good value
+[2024-06-06] hotel=H00591 | rating=4 | lang=de | comment: Amazing experience
+[2023-03-12] hotel=H00631 | rating=3 | lang=ar | comment: Not worth the price
+[2026-08-11] hotel=H00345 | rating=4 | lang=fr | comment: Service could be improved
+[2025-07-06] hotel=H00690 | rating=2 | lang=ar | comment: Excellent breakfast
+[2025-06-18] hotel=H00520 | rating=5 | lang=en | comment: Great location and friendly staff
+[2025-08-05] hotel=H00696 | rating=5 | lang=es | comment: Clean room, good value
+[2026-02-25] hotel=H00696 | rating=1 | lang=fr | comment: Great location and friendly staff
+[2024-09-18] hotel=H00439 | rating=4 | lang=es | comment: Excellent breakfast
+[2023-04-08] hotel=H00286 | rating=5 | lang=en | comment: Beautiful view, would return
+[2026-02-03] hotel=H00227 | rating=4 | lang=en | comment: Beautiful view, would return
+[2023-10-14] hotel=H00475 | rating=5 | lang=en | comment: Service could be improved
+[2024-07-21] hotel=H00252 | rating=5 | lang=es | comment: Great location and friendly staff
+[2024-11-11] hotel=H00327 | rating=5 | lang=de | comment: Average facilities
+[2026-09-19] hotel=H00590 | rating=1 | lang=de | comment: Excellent breakfast
+[2025-02-21] hotel=H00136 | rating=5 | lang=it | comment: Beautiful view, would return
+[2024-10-29] hotel=H00577 | rating=5 | lang=ar | comment: Excellent breakfast
+[2024-05-06] hotel=H00048 | rating=4 | lang=en | comment: Not worth the price
+[2024-08-03] hotel=H00368 | rating=4 | lang=fr | comment: Not worth the price
+[2025-07-01] hotel=H00715 | rating=3 | lang=fr | comment: Not worth the price
+[2024-02-03] hotel=H00386 | rating=4 | lang=fr | comment: Service could be improved
+[2025-12-03] hotel=H00168 | rating=3 | lang=it | comment: Clean room, good value
+[2024-08-03] hotel=H00062 | rating=1 | lang=fr | comment: Average facilities
+[2025-02-26] hotel=H00406 | rating=4 | lang=fr | comment: Service could be improved
+[2025-03-03] hotel=H00027 | rating=3 | lang=en | comment: Service could be improved
+[2026-10-25] hotel=H00365 | rating=3 | lang=it | comment: Comfortable stay
+[2023-05-21] hotel=H00635 | rating=4 | lang=it | comment: Clean room, good value
+[2026-06-19] hotel=H00633 | rating=5 | lang=it | comment: Comfortable stay
+[2023-05-14] hotel=H00433 | rating=4 | lang=fr | comment: Clean room, good value
+[2023-02-17] hotel=H00314 | rating=5 | lang=it | comment: Service could be improved
+[2023-04-01] hotel=H00697 | rating=4 | lang=es | comment: Service could be improved
+[2025-08-29] hotel=H00520 | rating=5 | lang=de | comment: Beautiful view, would return
+[2025-09-12] hotel=H00721 | rating=2 | lang=fr | comment: Not worth the price
+[2026-07-20] hotel=H00695 | rating=5 | lang=es | comment: Excellent breakfast
+[2024-11-22] hotel=H00003 | rating=1 | lang=en | comment: Average facilities
+[2025-05-20] hotel=H00104 | rating=3 | lang=es | comment: Too noisy at night
+[2025-07-06] hotel=H00403 | rating=4 | lang=en | comment: Service could be improved
+[2024-06-14] hotel=H00476 | rating=4 | lang=fr | comment: Comfortable stay
+[2024-07-29] hotel=H00095 | rating=4 | lang=fr | comment: Amazing experience
+[2024-10-10] hotel=H00647 | rating=3 | lang=ar | comment: Too noisy at night
+[2023-04-21] hotel=H00163 | rating=4 | lang=en | comment: Too noisy at night
+[2025-05-13] hotel=H00455 | rating=5 | lang=en | comment: Amazing experience
+[2025-10-17] hotel=H00323 | rating=4 | lang=fr | comment: Average facilities
+[2024-12-18] hotel=H00401 | rating=5 | lang=en | comment: Comfortable stay
+[2023-04-23] hotel=H00642 | rating=5 | lang=es | comment: Not worth the price
+[2026-05-25] hotel=H00130 | rating=3 | lang=de | comment: Service could be improved
+[2024-08-02] hotel=H00409 | rating=4 | lang=fr | comment: Service could be improved
+[2023-07-02] hotel=H00222 | rating=3 | lang=fr | comment: Great location and friendly staff
+[2026-07-12] hotel=H00626 | rating=5 | lang=de | comment: Amazing experience
+[2023-03-25] hotel=H00671 | rating=5 | lang=fr | comment: Beautiful view, would return
+[2025-06-04] hotel=H00345 | rating=4 | lang=fr | comment: Great location and friendly staff
+[2026-09-25] hotel=H00297 | rating=4 | lang=en | comment: Excellent breakfast
+[2024-02-20] hotel=H00438 | rating=5 | lang=fr | comment: Too noisy at night
+[2026-01-28] hotel=H00179 | rating=4 | lang=fr | comment: Clean room, good value
+[2026-04-16] hotel=H00293 | rating=5 | lang=de | comment: Great location and friendly staff
+[2024-02-26] hotel=H00257 | rating=4 | lang=it | comment: Comfortable stay
+[2025-04-13] hotel=H00448 | rating=4 | lang=en | comment: Great location and friendly staff
+[2023-01-15] hotel=H00173 | rating=2 | lang=it | comment: Great location and friendly staff
+[2023-11-24] hotel=H00547 | rating=5 | lang=fr | comment: Too noisy at night
+[2023-03-13] hotel=H00443 | rating=5 | lang=en | comment: Not worth the price
+[2026-06-27] hotel=H00344 | rating=3 | lang=en | comment: Average facilities
+[2025-02-03] hotel=H00157 | rating=3 | lang=ar | comment: Great location and friendly staff
+[2024-07-31] hotel=H00508 | rating=3 | lang=ar | comment: Not worth the price
+[2024-06-22] hotel=H00502 | rating=5 | lang=ar | comment: Service could be improved
+[2023-06-18] hotel=H00241 | rating=5 | lang=it | comment: Great location and friendly staff
+[2026-05-26] hotel=H00357 | rating=5 | lang=de | comment: Service could be improved
+[2026-01-20] hotel=H00652 | rating=5 | lang=it | comment: Too noisy at night
+[2023-11-23] hotel=H00742 | rating=4 | lang=it | comment: Service could be improved
+[2026-05-07] hotel=H00261 | rating=3 | lang=ar | comment: Average facilities
+[2025-08-10] hotel=H00543 | rating=3 | lang=es | comment: Comfortable stay
+[2024-11-06] hotel=H00593 | rating=2 | lang=es | comment: Beautiful view, would return
+[2023-04-15] hotel=H00257 | rating=3 | lang=es | comment: Average facilities
+[2024-10-29] hotel=H00585 | rating=5 | lang=de | comment: Not worth the price
+[2023-08-30] hotel=H00173 | rating=5 | lang=de | comment: Not worth the price
+[2026-05-28] hotel=H00730 | rating=4 | lang=fr | comment: Excellent breakfast
+[2024-03-21] hotel=H00586 | rating=5 | lang=it | comment: Comfortable stay
+[2025-03-27] hotel=H00654 | rating=5 | lang=es | comment: Service could be improved
+[2024-11-21] hotel=H00158 | rating=3 | lang=es | comment: Too noisy at night
+[2023-04-16] hotel=H00553 | rating=2 | lang=de | comment: Clean room, good value
+[2024-06-08] hotel=H00510 | rating=1 | lang=es | comment: Service could be improved
+[2025-10-06] hotel=H00160 | rating=4 | lang=es | comment: Service could be improved
+[2024-02-21] hotel=H00201 | rating=5 | lang=ar | comment: Excellent breakfast
+[2026-10-28] hotel=H00662 | rating=4 | lang=de | comment: Not worth the price
+[2025-08-19] hotel=H00193 | rating=4 | lang=de | comment: Too noisy at night
+[2024-04-22] hotel=H00142 | rating=3 | lang=en | comment: Great location and friendly staff
+[2025-10-04] hotel=H00107 | rating=4 | lang=it | comment: Too noisy at night
+[2024-03-28] hotel=H00093 | rating=3 | lang=es | comment: Not worth the price
+[2026-09-21] hotel=H00274 | rating=5 | lang=en | comment: Too noisy at night
+[2025-02-21] hotel=H00134 | rating=4 | lang=en | comment: Great location and friendly staff
+[2025-09-02] hotel=H00411 | rating=4 | lang=es | comment: Average facilities
+[2024-05-08] hotel=H00401 | rating=3 | lang=de | comment: Clean room, good value
+[2023-01-17] hotel=H00630 | rating=5 | lang=de | comment: Great location and friendly staff
+[2024-07-12] hotel=H00146 | rating=4 | lang=fr | comment: Excellent breakfast
+[2025-11-01] hotel=H00366 | rating=5 | lang=it | comment: Not worth the price
+[2024-01-01] hotel=H00145 | rating=5 | lang=ar | comment: Excellent breakfast
+[2024-07-26] hotel=H00212 | rating=2 | lang=de | comment: Too noisy at night
+[2025-07-20] hotel=H00739 | rating=2 | lang=de | comment: Service could be improved
+[2026-04-28] hotel=H00716 | rating=4 | lang=it | comment: Service could be improved
+[2023-04-06] hotel=H00465 | rating=1 | lang=en | comment: Amazing experience
+[2026-10-15] hotel=H00453 | rating=3 | lang=de | comment: Beautiful view, would return
+[2024-11-01] hotel=H00745 | rating=3 | lang=it | comment: Service could be improved
+[2026-03-28] hotel=H00358 | rating=5 | lang=de | comment: Too noisy at night
+[2023-07-09] hotel=H00296 | rating=1 | lang=fr | comment: Beautiful view, would return
+[2023-10-28] hotel=H00520 | rating=5 | lang=ar | comment: Comfortable stay
+[2026-10-28] hotel=H00124 | rating=3 | lang=en | comment: Clean room, good value
+[2023-01-08] hotel=H00459 | rating=5 | lang=en | comment: Beautiful view, would return
+[2023-11-30] hotel=H00284 | rating=5 | lang=fr | comment: Service could be improved
+[2024-01-19] hotel=H00271 | rating=3 | lang=es | comment: Too noisy at night
+[2023-04-01] hotel=H00169 | rating=5 | lang=es | comment: Service could be improved
+[2026-06-06] hotel=H00424 | rating=4 | lang=de | comment: Beautiful view, would return
+[2025-02-12] hotel=H00638 | rating=4 | lang=de | comment: Clean room, good value
+[2024-07-04] hotel=H00504 | rating=5 | lang=it | comment: Excellent breakfast
+[2024-09-24] hotel=H00086 | rating=4 | lang=fr | comment: Amazing experience
+[2026-10-29] hotel=H00609 | rating=5 | lang=de | comment: Not worth the price
+[2024-02-01] hotel=H00300 | rating=3 | lang=it | comment: Excellent breakfast
+[2023-04-05] hotel=H00735 | rating=5 | lang=en | comment: Too noisy at night
+[2025-02-21] hotel=H00633 | rating=3 | lang=ar | comment: Great location and friendly staff
+[2024-05-06] hotel=H00306 | rating=3 | lang=ar | comment: Not worth the price
+[2025-03-08] hotel=H00267 | rating=3 | lang=en | comment: Too noisy at night
+[2023-07-14] hotel=H00426 | rating=3 | lang=en | comment: Comfortable stay
+[2025-11-07] hotel=H00581 | rating=4 | lang=de | comment: Comfortable stay
+[2023-08-11] hotel=H00676 | rating=5 | lang=fr | comment: Not worth the price
+[2023-06-01] hotel=H00093 | rating=5 | lang=en | comment: Average facilities
+[2024-09-30] hotel=H00695 | rating=4 | lang=it | comment: Service could be improved
+[2024-01-25] hotel=H00663 | rating=5 | lang=it | comment: Excellent breakfast
+[2023-02-25] hotel=H00191 | rating=5 | lang=ar | comment: Too noisy at night
+[2024-10-22] hotel=H00697 | rating=5 | lang=ar | comment: Average facilities
+[2025-11-16] hotel=H00649 | rating=3 | lang=de | comment: Service could be improved
+[2026-03-28] hotel=H00116 | rating=1 | lang=it | comment: Service could be improved
+[2024-08-23] hotel=H00310 | rating=5 | lang=en | comment: Great location and friendly staff
+[2026-04-27] hotel=H00026 | rating=3 | lang=it | comment: Excellent breakfast
+[2025-06-13] hotel=H00187 | rating=5 | lang=en | comment: Great location and friendly staff
+[2026-03-22] hotel=H00601 | rating=3 | lang=ar | comment: Service could be improved
+[2026-06-14] hotel=H00058 | rating=4 | lang=de | comment: Excellent breakfast
+[2023-04-18] hotel=H00200 | rating=3 | lang=de | comment: Clean room, good value
+[2025-01-01] hotel=H00648 | rating=3 | lang=ar | comment: Comfortable stay
+[2024-02-29] hotel=H00213 | rating=4 | lang=ar | comment: Average facilities
+[2023-04-23] hotel=H00177 | rating=3 | lang=it | comment: Too noisy at night
+[2026-08-30] hotel=H00025 | rating=4 | lang=ar | comment: Not worth the price
+[2025-12-17] hotel=H00688 | rating=3 | lang=en | comment: Too noisy at night
+[2024-03-25] hotel=H00464 | rating=5 | lang=en | comment: Average facilities
+[2024-09-19] hotel=H00070 | rating=3 | lang=it | comment: Service could be improved
+[2026-10-24] hotel=H00062 | rating=5 | lang=fr | comment: Beautiful view, would return
+[2023-02-03] hotel=H00434 | rating=5 | lang=es | comment: Average facilities
+[2024-07-11] hotel=H00128 | rating=5 | lang=fr | comment: Average facilities
+[2025-12-10] hotel=H00409 | rating=2 | lang=it | comment: Too noisy at night
+[2024-08-19] hotel=H00126 | rating=5 | lang=en | comment: Great location and friendly staff
+[2025-11-24] hotel=H00268 | rating=5 | lang=es | comment: Amazing experience
+[2026-03-08] hotel=H00497 | rating=5 | lang=en | comment: Great location and friendly staff
+[2024-04-09] hotel=H00442 | rating=1 | lang=it | comment: Excellent breakfast
+[2026-10-12] hotel=H00677 | rating=5 | lang=es | comment: Clean room, good value
+[2023-09-06] hotel=H00246 | rating=4 | lang=de | comment: Comfortable stay
+[2025-02-28] hotel=H00531 | rating=3 | lang=es | comment: Service could be improved
+[2026-10-18] hotel=H00016 | rating=4 | lang=fr | comment: Beautiful view, would return
+[2026-05-10] hotel=H00219 | rating=3 | lang=fr | comment: Excellent breakfast
+[2025-10-16] hotel=H00391 | rating=4 | lang=ar | comment: Too noisy at night
+[2023-01-26] hotel=H00316 | rating=2 | lang=es | comment: Comfortable stay
+[2026-09-16] hotel=H00242 | rating=5 | lang=en | comment: Service could be improved
+[2025-11-29] hotel=H00702 | rating=5 | lang=ar | comment: Excellent breakfast
+[2024-09-30] hotel=H00450 | rating=4 | lang=fr | comment: Amazing experience
+[2026-09-07] hotel=H00716 | rating=3 | lang=es | comment: Too noisy at night
+[2024-11-25] hotel=H00205 | rating=3 | lang=it | comment: Not worth the price
+[2025-06-05] hotel=H00287 | rating=2 | lang=de | comment: Comfortable stay
+[2023-02-27] hotel=H00021 | rating=4 | lang=ar | comment: Average facilities
+[2024-03-23] hotel=H00231 | rating=5 | lang=de | comment: Excellent breakfast
+[2025-01-01] hotel=H00149 | rating=5 | lang=de | comment: Average facilities
+[2026-09-23] hotel=H00338 | rating=4 | lang=fr | comment: Excellent breakfast
+[2023-09-27] hotel=H00262 | rating=3 | lang=it | comment: Clean room, good value
+[2024-06-10] hotel=H00471 | rating=4 | lang=it | comment: Amazing experience
+[2024-11-09] hotel=H00257 | rating=2 | lang=fr | comment: Beautiful view, would return
+[2025-06-30] hotel=H00492 | rating=2 | lang=de | comment: Too noisy at night
+[2025-12-23] hotel=H00062 | rating=4 | lang=es | comment: Beautiful view, would return
+[2024-02-13] hotel=H00220 | rating=5 | lang=en | comment: Not worth the price
+[2024-07-31] hotel=H00154 | rating=4 | lang=ar | comment: Amazing experience
+[2024-10-24] hotel=H00148 | rating=4 | lang=fr | comment: Comfortable stay
+[2023-10-25] hotel=H00691 | rating=4 | lang=fr | comment: Service could be improved
+[2026-09-05] hotel=H00190 | rating=4 | lang=ar | comment: Amazing experience
+[2025-09-05] hotel=H00185 | rating=5 | lang=de | comment: Average facilities
+[2025-12-22] hotel=H00660 | rating=5 | lang=en | comment: Average facilities
+[2026-04-12] hotel=H00209 | rating=3 | lang=ar | comment: Excellent breakfast
+[2024-08-06] hotel=H00396 | rating=3 | lang=fr | comment: Too noisy at night
+[2024-02-29] hotel=H00416 | rating=5 | lang=fr | comment: Comfortable stay
+[2023-01-17] hotel=H00333 | rating=4 | lang=ar | comment: Great location and friendly staff
+[2024-04-10] hotel=H00204 | rating=3 | lang=ar | comment: Clean room, good value
+[2023-10-14] hotel=H00525 | rating=4 | lang=en | comment: Amazing experience
+[2025-01-15] hotel=H00323 | rating=4 | lang=es | comment: Clean room, good value
+[2023-04-13] hotel=H00643 | rating=4 | lang=es | comment: Not worth the price
+[2023-09-09] hotel=H00656 | rating=3 | lang=it | comment: Service could be improved
+[2026-06-04] hotel=H00339 | rating=4 | lang=en | comment: Amazing experience
+[2023-08-14] hotel=H00312 | rating=5 | lang=de | comment: Too noisy at night
+[2025-08-12] hotel=H00291 | rating=3 | lang=de | comment: Clean room, good value
+[2026-10-20] hotel=H00536 | rating=5 | lang=ar | comment: Too noisy at night
+[2026-07-26] hotel=H00655 | rating=5 | lang=de | comment: Excellent breakfast
+[2024-03-30] hotel=H00280 | rating=4 | lang=de | comment: Beautiful view, would return
+[2023-12-14] hotel=H00713 | rating=3 | lang=ar | comment: Beautiful view, would return
+[2023-07-08] hotel=H00367 | rating=4 | lang=it | comment: Clean room, good value
+[2026-07-31] hotel=H00590 | rating=2 | lang=it | comment: Comfortable stay
+[2026-03-01] hotel=H00390 | rating=3 | lang=en | comment: Clean room, good value
+[2023-01-23] hotel=H00056 | rating=4 | lang=de | comment: Beautiful view, would return
+[2025-12-30] hotel=H00590 | rating=3 | lang=it | comment: Not worth the price

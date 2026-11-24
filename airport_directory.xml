@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AirportDirectory source="Synthetic airport partner XML" version="1.0">
+  <Airport AirportCode="APT0017" DestinationID="D017" Type="International">
+    <City>Berlin</City>
+    <Country>Germany</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0079" DestinationID="D079" Type="International">
+    <City>Zanzibar</City>
+    <Country>Tanzania</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0050" DestinationID="D050" Type="Domestic">
+    <City>Stockholm</City>
+    <Country>Sweden</Country>
+    <TerminalCount>1</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0068" DestinationID="D068" Type="Domestic">
+    <City>Hong Kong</City>
+    <Country>China</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0009" DestinationID="D009" Type="Regional">
+    <City>Rome</City>
+    <Country>Italy</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0054" DestinationID="D054" Type="Regional">
+    <City>Munich</City>
+    <Country>Germany</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0028" DestinationID="D028" Type="Regional">
+    <City>Miami</City>
+    <Country>United States</Country>
+    <TerminalCount>1</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0046" DestinationID="D046" Type="International">
+    <City>Florence</City>
+    <Country>Italy</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0006" DestinationID="D006" Type="Regional">
+    <City>Istanbul</City>
+    <Country>Turkey</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0069" DestinationID="D069" Type="Domestic">
+    <City>Beijing</City>
+    <Country>China</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0014" DestinationID="D014" Type="International">
+    <City>Amsterdam</City>
+    <Country>Netherlands</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0031" DestinationID="D031" Type="International">
+    <City>Vancouver</City>
+    <Country>Canada</Country>
+    <TerminalCount>1</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0039" DestinationID="D039" Type="Regional">
+    <City>Melbourne</City>
+    <Country>Australia</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0035" DestinationID="D035" Type="Domestic">
+    <City>Buenos Aires</City>
+    <Country>Argentina</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0056" DestinationID="D056" Type="Regional">
+    <City>Gran Canaria</City>
+    <Country>Spain</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0024" DestinationID="D024" Type="International">
+    <City>Tokyo</City>
+    <Country>Japan</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0074" DestinationID="D074" Type="Regional">
+    <City>Santiago</City>
+    <Country>Chile</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0066" DestinationID="D066" Type="International">
+    <City>Kuala Lumpur</City>
+    <Country>Malaysia</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0003" DestinationID="D003" Type="International">
+    <City>Djerba</City>
+    <Country>Tunisia</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0049" DestinationID="D049" Type="Domestic">
+    <City>Reykjavik</City>
+    <Country>Iceland</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0059" DestinationID="D059" Type="Domestic">
+    <City>Muscat</City>
+    <Country>Oman</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0075" DestinationID="D075" Type="Regional">
+    <City>Lima</City>
+    <Country>Peru</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0053" DestinationID="D053" Type="Regional">
+    <City>Brussels</City>
+    <Country>Belgium</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0008" DestinationID="D008" Type="Regional">
+    <City>Athens</City>
+    <Country>Greece</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0047" DestinationID="D047" Type="Domestic">
+    <City>Budapest</City>
+    <Country>Hungary</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0067" DestinationID="D067" Type="Domestic">
+    <City>Manila</City>
+    <Country>Philippines</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0077" DestinationID="D077" Type="Domestic">
+    <City>Phnom Penh</City>
+    <Country>Cambodia</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0080" DestinationID="D080" Type="Domestic">
+    <City>Mauritius</City>
+    <Country>Mauritius</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0010" DestinationID="D010" Type="Domestic">
+    <City>Paris</City>
+    <Country>France</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0076" DestinationID="D076" Type="Regional">
+    <City>Cusco</City>
+    <Country>Peru</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0013" DestinationID="D013" Type="International">
+    <City>London</City>
+    <Country>United Kingdom</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0051" DestinationID="D051" Type="Regional">
+    <City>Copenhagen</City>
+    <Country>Denmark</Country>
+    <TerminalCount>1</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0044" DestinationID="D044" Type="Regional">
+    <City>Granada</City>
+    <Country>Spain</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0062" DestinationID="D062" Type="Regional">
+    <City>Delhi</City>
+    <Country>India</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0027" DestinationID="D027" Type="Domestic">
+    <City>New York</City>
+    <Country>United States</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0015" DestinationID="D015" Type="Domestic">
+    <City>Prague</City>
+    <Country>Czechia</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0023" DestinationID="D023" Type="Domestic">
+    <City>Bali</City>
+    <Country>Indonesia</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0022" DestinationID="D022" Type="Domestic">
+    <City>Phuket</City>
+    <Country>Thailand</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0071" DestinationID="D071" Type="Domestic">
+    <City>Fukuoka</City>
+    <Country>Japan</Country>
+    <TerminalCount>1</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0019" DestinationID="D019" Type="Regional">
+    <City>Dubai</City>
+    <Country>United Arab Emirates</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0004" DestinationID="D004" Type="International">
+    <City>Marrakech</City>
+    <Country>Morocco</Country>
+    <TerminalCount>4</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0064" DestinationID="D064" Type="Domestic">
+    <City>Hanoi</City>
+    <Country>Vietnam</Country>
+    <TerminalCount>3</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0061" DestinationID="D061" Type="International">
+    <City>Tel Aviv</City>
+    <Country>Israel</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0026" DestinationID="D026" Type="Domestic">
+    <City>Singapore</City>
+    <Country>Singapore</Country>
+    <TerminalCount>2</TerminalCount>
+  </Airport>
+  <Airport AirportCode="APT0072" DestinationID="D072" Type="International">
+    <City>Perth</City>
+    <Country>Australia</Country>
+    <TerminalCount>1</TerminalCount>
+  </Airport>
+</AirportDirectory>

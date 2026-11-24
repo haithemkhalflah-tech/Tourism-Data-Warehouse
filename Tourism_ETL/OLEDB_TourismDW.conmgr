@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OLEDB_TourismDW"
+  DTS:DTSID="{17C283B3-0699-46ED-A4A3-71A8C1326C18}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=TourismDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Tourism_ETL-{17C283B3-0699-46ED-A4A3-71A8C1326C18}localhost.TourismDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
