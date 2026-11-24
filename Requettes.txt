@@ -1,0 +1,216 @@
+CREATE DATABASE TourismDW;
+GO
+USE TourismDW;
+GO
+CREATE SCHEMA stg;
+GO
+
+______________
+USE TourismDW;
+GO
+CREATE SCHEMA rej;
+GO
+CREATE TABLE dbo.ETL_Audit (
+    Package_Name NVARCHAR(100),
+    Table_Name   NVARCHAR(100),
+    Rows_Loaded  INT,
+    Run_Date     DATETIME DEFAULT GETDATE()
+);
+GO
+
+
+
+USE TourismDW;
+GO
+__________
+
+-- 1. bookings
+CREATE TABLE stg.bookings (
+    Booking_ID        NVARCHAR(255),
+    Customer_ID       NVARCHAR(255),
+    Hotel_ID          NVARCHAR(255),
+    Flight_ID         NVARCHAR(255),
+    Offer_ID          NVARCHAR(255),
+    Booking_Date      NVARCHAR(255),
+    Travel_Start_Date NVARCHAR(255),
+    Travel_End_Date   NVARCHAR(255),
+    Travelers_Count   NVARCHAR(255),
+    Hotel_Nights      NVARCHAR(255),
+    Booking_Status    NVARCHAR(255),
+    Payment_Method    NVARCHAR(255),
+    Total_Amount_EUR  NVARCHAR(255),
+    Discount_EUR      NVARCHAR(255),
+    Channel           NVARCHAR(255),
+    Source_File       NVARCHAR(100) NULL,
+    Load_Date         DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 2. hotels
+CREATE TABLE stg.hotels (
+    Hotel_ID            NVARCHAR(255),
+    Hotel_Name          NVARCHAR(255),
+    Destination_ID      NVARCHAR(255),
+    Destination_Name    NVARCHAR(255),
+    Country             NVARCHAR(255),
+    Hotel_Type          NVARCHAR(255),
+    Stars               NVARCHAR(255),
+    Price_Per_Night_EUR NVARCHAR(255),
+    Guest_Rating        NVARCHAR(255),
+    Review_Count        NVARCHAR(255),
+    Breakfast_Included  NVARCHAR(255),
+    Pool                NVARCHAR(255),
+    Free_Cancellation   NVARCHAR(255),
+    Capacity            NVARCHAR(255),
+    City                NVARCHAR(255),
+    Source_File         NVARCHAR(100) NULL,
+    Load_Date           DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 3. destinations
+CREATE TABLE stg.destinations (
+    Destination_ID       NVARCHAR(255),
+    Destination_Name     NVARCHAR(255),
+    Country              NVARCHAR(255),
+    Continent            NVARCHAR(255),
+    Climate              NVARCHAR(255),
+    Travel_Style         NVARCHAR(255),
+    Latitude             NVARCHAR(255),
+    Longitude            NVARCHAR(255),
+    Best_Season          NVARCHAR(255),
+    Avg_Daily_Budget_EUR NVARCHAR(255),
+    Safety_Index         NVARCHAR(255),
+    Popularity_Index     NVARCHAR(255),
+    Source_File          NVARCHAR(100) NULL,
+    Load_Date            DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 4. offers
+CREATE TABLE stg.offers (
+    Offer_ID            NVARCHAR(255),
+    Offer_Name          NVARCHAR(255),
+    Destination_ID      NVARCHAR(255),
+    Hotel_ID            NVARCHAR(255),
+    Flight_ID           NVARCHAR(255),
+    Duration_Days       NVARCHAR(255),
+    Included_Activities NVARCHAR(255),
+    Package_Price_EUR   NVARCHAR(255),
+    Discount_Percent    NVARCHAR(255),
+    Valid_From          NVARCHAR(255),
+    Valid_To            NVARCHAR(255),
+    Source_File         NVARCHAR(100) NULL,
+    Load_Date           DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 5. airlines
+CREATE TABLE stg.airlines (
+    Airline_ID                   NVARCHAR(255),
+    Airline_Name                 NVARCHAR(255),
+    Alliance                     NVARCHAR(255),
+    Service_Rating               NVARCHAR(255),
+    Checked_Baggage_Allowance_KG NVARCHAR(255),
+    Source_File                  NVARCHAR(100) NULL,
+    Load_Date                    DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 6. flights
+CREATE TABLE stg.flights (
+    Flight_ID             NVARCHAR(255),
+    Airline_ID            NVARCHAR(255),
+    Airline_Name          NVARCHAR(255),
+    Origin_Destination_ID NVARCHAR(255),
+    Origin_City           NVARCHAR(255),
+    Origin_Country        NVARCHAR(255),
+    Destination_ID        NVARCHAR(255),
+    Destination_City      NVARCHAR(255),
+    Destination_Country   NVARCHAR(255),
+    Departure_Date        NVARCHAR(255),
+    Return_Date           NVARCHAR(255),
+    Duration_Minutes      NVARCHAR(255),
+    Stops                 NVARCHAR(255),
+    Price_EUR             NVARCHAR(255),
+    Cabin_Class           NVARCHAR(255),
+    Seats_Available       NVARCHAR(255),
+    Source_File           NVARCHAR(100) NULL,
+    Load_Date             DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 7. activities
+CREATE TABLE stg.activities (
+    Activity_ID           NVARCHAR(255),
+    Activity_Name         NVARCHAR(255),
+    Destination_ID        NVARCHAR(255),
+    Destination_Name      NVARCHAR(255),
+    Activity_Type         NVARCHAR(255),
+    Duration_hours        NVARCHAR(255),
+    Price_Per_Person_EUR  NVARCHAR(255),
+    Suitable_For_Family   NVARCHAR(255),
+    Seasonality           NVARCHAR(255),
+    Source_File           NVARCHAR(100) NULL,
+    Load_Date             DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 8. customers
+CREATE TABLE stg.customers (
+    customer_ID           NVARCHAR(255),
+    Country               NVARCHAR(255),
+    Age                   NVARCHAR(255),
+    Travel_Budget_EUR     NVARCHAR(255),
+    Preferred_Climate     NVARCHAR(255),
+    Travel_Type           NVARCHAR(255),
+    Preferred_Style       NVARCHAR(255),
+    Preferred_Star_Rating NVARCHAR(255),
+    Trip_Duration_Days    NVARCHAR(255),
+    Newsletter_Opt_In     NVARCHAR(255),
+    Source_File           NVARCHAR(100) NULL,
+    Load_Date             DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 9. hotel_price_history
+CREATE TABLE stg.hotel_price_history (
+    Price_Record_ID     NVARCHAR(255),
+    Hotel_ID            NVARCHAR(255),
+    Observation_Date    NVARCHAR(255),
+    Price_Per_Night_EUR NVARCHAR(255),
+    Room_Type           NVARCHAR(255),
+    Availability        NVARCHAR(255),
+    Source_File         NVARCHAR(100) NULL,
+    Load_Date           DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 10. reviews
+CREATE TABLE stg.reviews (
+    Review_ID     NVARCHAR(255),
+    Customer_ID   NVARCHAR(255),
+    Hotel_ID      NVARCHAR(255),
+    Review_Date   NVARCHAR(255),
+    Rating        NVARCHAR(255),
+    Review_Text   NVARCHAR(255),
+    Language      NVARCHAR(255),
+    Verified_Stay NVARCHAR(255),
+    Source_File   NVARCHAR(100) NULL,
+    Load_Date     DATETIME NULL DEFAULT GETDATE()
+);
+GO
+
+-- 11. destination_planning
+CREATE TABLE stg.destination_planning (
+    Destination_ID      NVARCHAR(255),
+    Destination_Name    NVARCHAR(255),
+    Country             NVARCHAR(255),
+    Climate             NVARCHAR(255),
+    Best_Season         NVARCHAR(255),
+    Peak_Months         NVARCHAR(255),
+    Partner_Recommended NVARCHAR(255),
+    Source_File         NVARCHAR(100) NULL,
+    Load_Date           DATETIME NULL DEFAULT GETDATE()
+);
+GO
